@@ -1,12 +1,15 @@
 const passport = require('passport');
-const { Strategy: LocalStrategy } = require('passport-local');
-const { User } = require('../models/user');
-const { localAuth } = require('./local');
 
-passport.use(new LocalStrategy({
-  usernameField: 'email',
-  passwordField: 'password',
-}, localAuth(User)));
+const { Strategy: GoogleTokenStrategy } = require('passport-google-token');
+const { User } = require('../models/user');
+const { googleAuth } = require('./googleAuth');
+const { config } = require('../../config');
+
+passport.use(new GoogleTokenStrategy({
+  clientID: config.google.clientSecret,
+  clientSecret: config.google.clientSecret,
+}, googleAuth(User)));
+
 
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());

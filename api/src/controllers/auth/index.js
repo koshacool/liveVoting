@@ -56,23 +56,14 @@ const restorePassword = require('./restore-password');
 module.exports = (models, { config, socketIO }) => {
   const api = router();
 
-  api.get('/my', authenticate, my(models));
-  api.patch('/my', authenticate, update(models));
 
   api.post('/sign-in',
-    passport.authenticate('local', { session: false, scope: [] }),
-    generateAccessToken,
-    signIn(models));
-
-  api.post('/sign-up', signUp(models, { config }),
-    passport.authenticate('local', { session: false, scope: [] }),
+    passport.authenticate('google-token', { session: false }),
     generateAccessToken,
     signIn(models));
 
   api.post('/sign-out', authenticate, signOut(models, { socketIO }));
 
-  api.put('/change-password', authenticate, changePassword(models));
-  api.post('/restore-password', restorePassword(models));
 
   return api;
 };
