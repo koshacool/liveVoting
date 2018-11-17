@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        meta(http-equiv = 'Content-Type', content = 'text/html; charset=UTF-8')
+        title= subject
+    body
+        p
+            | Hej #{otherProperty.firstName} #{otherProperty.lastName}  Du er nu blevet oprette som bruger hos #[a(href='#{otherProperty.hostUrl}') Kantara RCYN] og kan nu logge ind i appen og ændre dit midlertidige kodeord
+        p
+            | Kodeord: #{otherProperty.password}

@@ -1,0 +1,49 @@
+[{
+  "email": "admin@rcyn.com",
+  "password": "password12345",
+  "profile": {
+    "firstName":"admin",
+    "lastName": "super",
+    "patronymic": "generated",
+    "address": "Heimdalsgade 12, 2. Tv 2200 Nørrebro",
+    "display_name": "admin rcyn",
+    "phone": "26 85 87 78",
+    "facebookUrl": "https://www.facebook.com"
+  },
+  "isAgreeGDPR": true,
+  "approved": true,
+  "roles": ["super-admin"]
+},{
+  "email": "rcyntest@gmail.com",
+  "password": "password12345",
+  "profile": {
+    "firstName":"admin",
+    "lastName": "RCYN",
+    "display_name": "admin RCYN",
+    "patronymic": "generated"
+  },
+  "approved": true,
+  "roles": ["admin"]
+},{
+  "email": "volunteer@rcyn.com",
+  "password": "password12345",
+  "profile": {
+    "firstName":"volunteer",
+    "lastName": "RCYN",
+    "display_name": "volunteer RCYN",
+    "patronymic": "generated"
+  },
+  "approved": true,
+  "roles": ["volunteer"]
+},{
+  "email": "user@rcyn.com",
+  "password": "password12345",
+  "profile": {
+    "firstName":"user",
+    "lastName": "RCYN",
+    "display_name": "user RCYN",
+    "patronymic": "generated"
+  },
+  "approved": true,
+  "roles": ["user"]
+}]

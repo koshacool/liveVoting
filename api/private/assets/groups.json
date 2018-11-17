@@ -1,0 +1,4002 @@
+[
+  {
+    "title": "Group of %activity_name%",
+    "description": "RkDsLNKrJ0tEioRHQwCyHYPlD4wAJlFJIkUbxzDdlEu876wCNCCq2jUqdi2Nw0kapcQ99L4KuigUwqIqe1YfwAkxtH1Bb6Lr7LrUmFMXIcyV0MNW03Lxkef7Yvrqr",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff3f",
+        "startAt": "2018-04-12T14:00:19.448Z",
+        "endAt": "2018-04-12T15:00:19.450Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff40",
+        "startAt": "2018-04-12T00:00:19.450Z",
+        "endAt": "2018-04-12T01:00:19.450Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "4Nc5ABgEDjmULeUWzzPXw32hQFPvoeFcWDTLJLQqjbASFXmdS97PrId2gic3r16QTNGey1zHL5vcwTg4yUPOnYHvrepy3Okelocg7E7wj6c7NRyp5JmQtGd3Fsftj",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff41",
+        "startAt": "2018-04-12T15:00:19.450Z",
+        "endAt": "2018-04-12T16:00:19.450Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff42",
+        "startAt": "2018-04-12T05:00:19.450Z",
+        "endAt": "2018-04-12T06:00:19.450Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "rYaZsWUx2Wg7VIzT5uvNoIuYrue4w2VugCEzVvHoWVetgclVnMsgpN2PetnydSAYgH9Ni6zbhSUsbfA6qfgtqEuG0N1C1o1IwFwdyAe7bvanRYx5gZ0hONnPdlVmX",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff43",
+        "startAt": "2018-04-12T15:00:19.451Z",
+        "endAt": "2018-04-12T16:00:19.451Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff44",
+        "startAt": "2018-04-12T02:00:19.451Z",
+        "endAt": "2018-04-12T03:00:19.451Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "uHjo1O5i57RfisrDM4OrlipeMMkaXAM3HqV2uMwAUFXgHwzv9E3zYGnHog8omIeGRYoGsEV8PqrjufWefq04BtwMFPfXfpd0pLRpPk2UGk4Dza4iulQ9TgRsyG8lU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff45",
+        "startAt": "2018-04-12T12:00:19.451Z",
+        "endAt": "2018-04-12T13:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff46",
+        "startAt": "2018-04-11T23:00:19.451Z",
+        "endAt": "2018-04-12T00:00:19.451Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "7wMNaKL2yNbDUd5fcmG3AzlzFVU5fraQSO40VzPwIFtQ2sLvn6SJqtAs0w6zjE7z9vwzLjrFHhfMpEGy8QwQqSp93hnfPjDGyPt4TbnfYUoKuOaPBhYpctqObbXF8",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff47",
+        "startAt": "2018-04-12T14:00:19.451Z",
+        "endAt": "2018-04-12T15:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff48",
+        "startAt": "2018-04-12T00:00:19.451Z",
+        "endAt": "2018-04-12T01:00:19.451Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "VwotgWwctPU2oLyNNwmEugNLlUyr8SA8XDNZnzIt3OKsmNjhXe9x6DT7Yt2lA4yK3DnF3uOERdCj1W26ZtdKkbY4ab8in7pxRgvnl1iSCaSzXvTOOoVVYbklV5KKQ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff49",
+        "startAt": "2018-04-12T11:00:19.451Z",
+        "endAt": "2018-04-12T12:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff4a",
+        "startAt": "2018-04-12T06:00:19.451Z",
+        "endAt": "2018-04-12T07:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "8FrdMBg6uJEAHnJZSZfJ6rDY9rAmmUsgQ1PYELpRmyCYFAxokSk3R3aTOWAEvb7voNp4SqOTFb9NTeTJbQewJkT78PSCbHW05BSeVDYn9Z1wls7brSlSZmxhzPHE3",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff4b",
+        "startAt": "2018-04-12T08:00:19.451Z",
+        "endAt": "2018-04-12T09:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff4c",
+        "startAt": "2018-04-12T01:00:19.451Z",
+        "endAt": "2018-04-12T02:00:19.451Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "YOdJW2fL5u4b2pfxR0jcyaIsDOGF3FYdYaJr8bN77Gbsej1fsveU8vEqoVoQbieKoOpgPlx1u9umYe3MNGHENp5qMT5Js33duor5w1o5A8hvYpaY39eQTmsBtGDCy",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff4d",
+        "startAt": "2018-04-12T12:00:19.451Z",
+        "endAt": "2018-04-12T13:00:19.451Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff4e",
+        "startAt": "2018-04-12T00:00:19.451Z",
+        "endAt": "2018-04-12T01:00:19.451Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Wb0Eq2IwXODBwzNfhCDZ4fiAZ85vwgwjcdiGs0Ofhhgu2raQOxN6BETgiH3dH8ibTv0qSxiY1gHOjaBlH04jkdKXmMxr8E9JstAfsA15u60WzKpCfOa5Cw4getlZD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff4f",
+        "startAt": "2018-04-12T12:00:19.451Z",
+        "endAt": "2018-04-12T13:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff50",
+        "startAt": "2018-04-11T23:00:19.451Z",
+        "endAt": "2018-04-12T00:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "VoIMxrNLbyZxfsG88NUURKQRK13zy5tWNA9NuRxO5kM291Q9enQgce8WFYIkvJX9GNDuoTnVd5uehekeOGi6SNIjvbhqsMk8g00yqhZadJqY26jY7RrzQgcGdOa8Y",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff51",
+        "startAt": "2018-04-12T11:00:19.451Z",
+        "endAt": "2018-04-12T12:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff52",
+        "startAt": "2018-04-11T23:00:19.451Z",
+        "endAt": "2018-04-12T00:00:19.451Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Bav8UafggNmJ5wjQBL4YmA6qao3Sc774vQiQRyLTEbZrjjnp8TpRAHwAjbrcm4LbvS2gSiSjaLgO5lJwPg8jg1qZgUa4e0aVOysJHK2KwK0nNieCnd6YeccmjLlxZ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff53",
+        "startAt": "2018-04-12T11:00:19.451Z",
+        "endAt": "2018-04-12T12:00:19.451Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff54",
+        "startAt": "2018-04-12T00:00:19.451Z",
+        "endAt": "2018-04-12T01:00:19.451Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "jDGXrWehmi2q9xgru4zLdAsTWEu9Qajmk8ODzquCcOoG84psISv2KFKCpodwjaoRsRFzenkKLDdL3QIcKRRQVHLcq4qi9RMMAqkkLPAEXn0vA2gfR8Q2fo9l1Lpef",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff55",
+        "startAt": "2018-04-12T10:00:19.451Z",
+        "endAt": "2018-04-12T11:00:19.451Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff56",
+        "startAt": "2018-04-12T03:00:19.452Z",
+        "endAt": "2018-04-12T04:00:19.452Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "UwuZoUcgjtQe5X3eNi894d8tZdoezkq9kWGMNMvHkZQtD3SjP1h6a6vqejZkgjjjzfLtIHfB7zT7u3f2zHL1m0JeitAELWpJkv6nNSamUpLSUk6FjsU3PLzliYuMS",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff57",
+        "startAt": "2018-04-12T12:00:19.452Z",
+        "endAt": "2018-04-12T13:00:19.452Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff58",
+        "startAt": "2018-04-12T04:00:19.452Z",
+        "endAt": "2018-04-12T05:00:19.452Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "mC9D7kMkXTdz1nvv4xGUTVb78Nc56gtTrH8hZjECxKhjZHlmMz2zYGYmixR6ZQdD6huO5XO6GoplfCWKbKN6v45hwhaqed9BCf4sQGKd1mVGERlIjGBCk8aDFJLRY",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff59",
+        "startAt": "2018-04-12T15:00:19.452Z",
+        "endAt": "2018-04-12T16:00:19.452Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff5a",
+        "startAt": "2018-04-12T05:00:19.452Z",
+        "endAt": "2018-04-12T06:00:19.452Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ezGkKMpQ8CrEvoVYMt5WdwtkXYJsRubb8beC5WyapG5zmSFmTFnBaQlnghFiLxCvq4svsutoGaiWoAENy1nHAxGfC05gbRmTgcK8lItyEyv1Yx6LirEYfAp1ttHE8",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff5b",
+        "startAt": "2018-04-12T09:00:19.452Z",
+        "endAt": "2018-04-12T10:00:19.452Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff5c",
+        "startAt": "2018-04-12T06:00:19.452Z",
+        "endAt": "2018-04-12T07:00:19.452Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "8D30RygObFOnFxJwGvpgxTEdTtfWJOIi9rWfm5W5MHQLPdEmw6gpfY3z6D6Zx2DtiTtqDuezmxng03u9JuHYBAqQmjPXWc2kSRDGn1WjxZHy8kPS1RytVrsMPDa2y",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff5d",
+        "startAt": "2018-04-12T08:00:19.452Z",
+        "endAt": "2018-04-12T09:00:19.452Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff5e",
+        "startAt": "2018-04-12T03:00:19.452Z",
+        "endAt": "2018-04-12T04:00:19.452Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "oYJhA8rPb4ESOpMZXERAUfqOJqsqEBfFO7sHGzFAnGwE62QlBUAp2e9ceKZA8Bt6JK5Fc1xbupqoyAciqrRtK0QcwOrzhDuEJ76CSx0zxr6DylcaFqsDsfaxrFqp7",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff5f",
+        "startAt": "2018-04-12T10:00:19.452Z",
+        "endAt": "2018-04-12T11:00:19.452Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff60",
+        "startAt": "2018-04-12T02:00:19.452Z",
+        "endAt": "2018-04-12T03:00:19.452Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "F1O43oeeqAooFcWzZQdd3SlASz9mvaeAH8hFTjY54nSnS3zrOfmW4hJUHWWJirZqCppMjIajIc3iG1rWHfaOqYOAiHNHdiV0lA7QCs1l8oP8VkKDxPTPlyKwBepEh",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff61",
+        "startAt": "2018-04-12T11:00:19.452Z",
+        "endAt": "2018-04-12T12:00:19.452Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff62",
+        "startAt": "2018-04-12T00:00:19.452Z",
+        "endAt": "2018-04-12T01:00:19.452Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "x34iRiAgLnKLiw2EIaTq6nbJIba410D8l2SIFhpl2cOAcdLKUT0nojtwhXxoB6O09FC4x167IXE0vGnscb8YahFiHezq5dBkaeGBn2qrlN9SmpqPQye6HvPG7tMzP",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff63",
+        "startAt": "2018-04-12T09:00:19.452Z",
+        "endAt": "2018-04-12T10:00:19.452Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff64",
+        "startAt": "2018-04-11T23:00:19.452Z",
+        "endAt": "2018-04-12T00:00:19.452Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "XGGtkkYh3wvDL8rC15x0PCfBOMrYYCcztxr08fgIWhMzIlTp2zdhHdxFOIPMm8DmqdEtoyreLLQN4DFmCLWP3XdaKw0jqx4r08ticteOH79xVGGiOlBxVNxjop0t0",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff65",
+        "startAt": "2018-04-12T14:00:19.452Z",
+        "endAt": "2018-04-12T15:00:19.452Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff66",
+        "startAt": "2018-04-12T00:00:19.452Z",
+        "endAt": "2018-04-12T01:00:19.452Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "JLNHaI4ZavR80nFGdXL3aOH54EMjKjiWX8ERHn0IeTH0OEBxwsTaFxxHFCpyTj1k9kZlfFzIidMRW53vtwTNqVQKmYKB6oqGlWLReC9rz06XeAQEyxIiGbCFB8dEn",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff67",
+        "startAt": "2018-04-12T12:00:19.452Z",
+        "endAt": "2018-04-12T13:00:19.452Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff68",
+        "startAt": "2018-04-12T05:00:19.452Z",
+        "endAt": "2018-04-12T06:00:19.452Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "2yrTYMhQxtEP75RQwvc49v4fM358fidqmegKyMcWprOKEY5XrvDrstu3i7qcBfJRerDUOSOZJ5uSisI7NGjdRHIqtqYQT4KTNyYw2pWmnk2F7BU3lQzLUNyh6VqyA",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff69",
+        "startAt": "2018-04-12T11:00:19.453Z",
+        "endAt": "2018-04-12T12:00:19.453Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff6a",
+        "startAt": "2018-04-11T23:00:19.453Z",
+        "endAt": "2018-04-12T00:00:19.453Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "sbw8akmeWp54GM2zBwhFT8uuZzNpFZK8ErVBpvN6vUQACES3pCNxI2l6RBH4NN0JqVQBr9si68Nwv7BLFraVevtJeOzbeueIDP5W3sZrgmSjIDdNAJwkFsBXEdGZy",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff6b",
+        "startAt": "2018-04-12T09:00:19.453Z",
+        "endAt": "2018-04-12T10:00:19.453Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff6c",
+        "startAt": "2018-04-12T00:00:19.453Z",
+        "endAt": "2018-04-12T01:00:19.453Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "dVDWZwelDynrC7pdjnv8rJ8xmltHflXIi0POexfMtuzVnq7BtOREOYtQDqj18GwFtjT1UNt6BPbK5WenE6ZfMbe7jbveZ1POGHmyh48iENFhY67DzepHlq2nPgxsM",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff6d",
+        "startAt": "2018-04-12T12:00:19.453Z",
+        "endAt": "2018-04-12T13:00:19.453Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff6e",
+        "startAt": "2018-04-12T06:00:19.453Z",
+        "endAt": "2018-04-12T07:00:19.453Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "I0zMA5A0MzY7nMQaOf2CyiyUeuVTGrLznH4PW0PbvC3TRlrF21aZN9nk4hKGti8GiSGvcvCLN2PSsQlPkFCswpgtrkkPXDESvIOTz0CtXAPWZOvZT4J5Xoj8Vfdur",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff6f",
+        "startAt": "2018-04-12T11:00:19.453Z",
+        "endAt": "2018-04-12T12:00:19.453Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff70",
+        "startAt": "2018-04-12T01:00:19.453Z",
+        "endAt": "2018-04-12T02:00:19.453Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "vpa3PwL9L5ZFBH4Mr0u0b6peLdFhNfFmRMaip2ViDYBeBJkTUcj8k4wr6uG51r5eZ69F8ue5nMncD7errzb9ZXPYAgQKrNaQwPzAERXXeInc2DgjQ5qE54g8IvD6j",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff71",
+        "startAt": "2018-04-12T12:00:19.453Z",
+        "endAt": "2018-04-12T13:00:19.453Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff72",
+        "startAt": "2018-04-12T05:00:19.453Z",
+        "endAt": "2018-04-12T06:00:19.453Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "I9LDMgYJAtZGkH56Cxg34Gy029vzqTZHtC8t2T5ZnyhYwl0HPXwJcw75Fd7SShpGjZm9ulKLpLf02W93CUl8hmYevGlad6PCq0C3Z6ScavCzEVxXwzYxa0xYgthYG",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff73",
+        "startAt": "2018-04-12T07:00:19.453Z",
+        "endAt": "2018-04-12T08:00:19.453Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff74",
+        "startAt": "2018-04-12T02:00:19.453Z",
+        "endAt": "2018-04-12T03:00:19.453Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "HzBfHwhj2JAPE25dJ6gtejPjM9QHwTjaj9ISNgJVJkrUrH4bCl7rcfSoWeSZCrOOpzkHlmLdPFV30RY2yfvOXUh7YdoOj0ghUM2FCIc50fT76hPwxfJxtaEEqJTBe",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff75",
+        "startAt": "2018-04-12T11:00:19.453Z",
+        "endAt": "2018-04-12T12:00:19.453Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff76",
+        "startAt": "2018-04-11T23:00:19.453Z",
+        "endAt": "2018-04-12T00:00:19.453Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "i86dNagZqon2nwEtdCyyOXugkoFTCBNPjFj0kmNfUTi2dukIfwfm2zaC2DqNi04OTISInt8v5XXFRROGzmU6TMzUNIqcm0ipRhihDGMvGrdyeCNFaHwEUGaGVAYZV",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff77",
+        "startAt": "2018-04-12T13:00:19.453Z",
+        "endAt": "2018-04-12T14:00:19.453Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff78",
+        "startAt": "2018-04-12T01:00:19.453Z",
+        "endAt": "2018-04-12T02:00:19.454Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "AYgGqayhUcpfj9jCyGuM7RKufqYqGUrrbgDBZOro1dCxQo9mtK9ZuHi0VVNTX23mpuWGdCi4bMmiWSHIc0GNggJOTItL04Z3rtf7tpnZdMrHpEiO8lCoHUASuOuhY",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff79",
+        "startAt": "2018-04-12T13:00:19.454Z",
+        "endAt": "2018-04-12T14:00:19.454Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff7a",
+        "startAt": "2018-04-12T01:00:19.454Z",
+        "endAt": "2018-04-12T02:00:19.454Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "AgPfM2BchM2l0sWRSNUFeEmxr2Us0ClBxBMVA1mP1VqsD69oOqXmwVPSNxjd7cihyoH4JpSlz1q4jpUuS4JDhG8XKcBisxklit0FbY2H3tEEz402CpKdGEoTYslzi",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff7b",
+        "startAt": "2018-04-12T08:00:19.454Z",
+        "endAt": "2018-04-12T09:00:19.454Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff7c",
+        "startAt": "2018-04-12T06:00:19.454Z",
+        "endAt": "2018-04-12T07:00:19.454Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "mU7h2rGoyAo0cWooeMKwKUWWHueE9ooD4dJZj2Tf0ZMFysbEPWwy2mNaPTxLSIrBgv73SrMDE5wmWuhXnJysEaiAzXlTIA5tlb90jWkqcjFaerBY5TzHVDNGZPfNi",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff7d",
+        "startAt": "2018-04-12T09:00:19.456Z",
+        "endAt": "2018-04-12T10:00:19.456Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff7e",
+        "startAt": "2018-04-12T02:00:19.456Z",
+        "endAt": "2018-04-12T03:00:19.456Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ttQHneLkyHhJjAyCZo0Y58N6YNjC75tNyOcnMx5JZaspTGOqJCOyr7SeSw5hcgNiceo7LLkVGMQ6xudjZ3b8eLGLm4UuGSp2rCuAeoZ9KQ3iKHiTAkTD7JHr6IcYo",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff7f",
+        "startAt": "2018-04-12T08:00:19.457Z",
+        "endAt": "2018-04-12T09:00:19.457Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff80",
+        "startAt": "2018-04-12T03:00:19.457Z",
+        "endAt": "2018-04-12T04:00:19.457Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "pjHf7g6CXR0mzcO0wy4XB5Edflhwn9mw319fixiGMPYjOCpm5LCbw5A03xUDMYFBybHZsGyWraa3dl2BhOi2SQHHFfA1UjX1kvQOvdBwLsUnEzBzdFM3JLUHbiRKE",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff81",
+        "startAt": "2018-04-12T12:00:19.458Z",
+        "endAt": "2018-04-12T13:00:19.458Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff82",
+        "startAt": "2018-04-12T03:00:19.458Z",
+        "endAt": "2018-04-12T04:00:19.458Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "MjD51d0fe07EwvJug8VnWW6Pm9dxA06YBdFRPFPJKNUbF1gqCjH45QqcEdy5yUJMB0sgJzZUNphmu4cJgBACuzkBK4yWxM1bfSdQvv9AeBaNq5Ak0AJuIUrG8BBDv",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff83",
+        "startAt": "2018-04-12T09:00:19.458Z",
+        "endAt": "2018-04-12T10:00:19.458Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff84",
+        "startAt": "2018-04-12T05:00:19.458Z",
+        "endAt": "2018-04-12T06:00:19.458Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "LULX8qSGyimmBPLhSvcrXOm262NprQtdGEQXGK0rl84IzFM5656zXanoXBJVJyUIVCtm4WlOLOv9oYxCyy0rD5FHSkeVBvwVe9Sz3rCoS74zPGJQ9aUzemDJeae2R",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff85",
+        "startAt": "2018-04-12T09:00:19.458Z",
+        "endAt": "2018-04-12T10:00:19.458Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff86",
+        "startAt": "2018-04-12T04:00:19.458Z",
+        "endAt": "2018-04-12T05:00:19.458Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "iTitly24aN9sKr80GjPrZowlT1hxlLbSvevfKMr9cNOfCUMJykHfstOav1UZ3OQhs4ZiQvvjyCPsFsVDnqnZYLYGQzeLFERxqyVpqgQ1Ys63LnTEbduTQWBQBOR0c",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff87",
+        "startAt": "2018-04-12T15:00:19.459Z",
+        "endAt": "2018-04-12T16:00:19.459Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff88",
+        "startAt": "2018-04-12T00:00:19.459Z",
+        "endAt": "2018-04-12T01:00:19.459Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "3evn93nPGqj7esff02DoMW9rUZFhKuDkcHUypANB0Sama47xfusx3P4pI0ic4RCcRyuHfNO1khJL3s0pTAMb9XXAkwW3YoXR5wRLqnumnOxwY0tam0VF71Y9WKVtc",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff89",
+        "startAt": "2018-04-12T10:00:19.459Z",
+        "endAt": "2018-04-12T11:00:19.459Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff8a",
+        "startAt": "2018-04-12T05:00:19.459Z",
+        "endAt": "2018-04-12T06:00:19.459Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "2ZlAF58vpHRF3IAzrvSdqDc3JtgsauKR2UOYaMtHSOxjSZgDrcorvlFcptC6HKHHfESZAthEqKO8EcSQdjWBFfayJwSI6Jr3EVWcXo2CmPtf95WcT2OUPeebtNpsM",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff8b",
+        "startAt": "2018-04-12T09:00:19.459Z",
+        "endAt": "2018-04-12T10:00:19.459Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff8c",
+        "startAt": "2018-04-12T04:00:19.459Z",
+        "endAt": "2018-04-12T05:00:19.459Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "sqbbPAZmMNJHc8OhiF1CGKggQ0tjM5ynR6glbR9YYfCpvXH476GWukbMSBnJWAwbMrv70GqWbEGbpArdV79ks0JpNl2uZrK0uXBMiItbxlLOmrbfwqPn5eQsVRq2U",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff8d",
+        "startAt": "2018-04-12T14:00:19.459Z",
+        "endAt": "2018-04-12T15:00:19.459Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff8e",
+        "startAt": "2018-04-12T04:00:19.459Z",
+        "endAt": "2018-04-12T05:00:19.459Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "tN6Cc3UBg5qPSIzaz3DDRS2cU6wW079hi5lky5hDXsUVff2YIli0rm6idliXdiHjyI7korJM7hNyXeTeaScXY8jh7NQYtMrblOr9d8gQLjEm2nzApqhK27RZKW6hL",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff8f",
+        "startAt": "2018-04-12T12:00:19.459Z",
+        "endAt": "2018-04-12T13:00:19.459Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff90",
+        "startAt": "2018-04-12T00:00:19.459Z",
+        "endAt": "2018-04-12T01:00:19.459Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Bk81kymwBtMgXWZQINNeLUMGcvQop5flysaEscyMrABBWamqpp6V0nblIbwehl7vkRalUk9U4nqCVybCqE8qgoLOVIy0bVDGVInH9d35DTFbZsENKzXL6cZk5Gndu",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff91",
+        "startAt": "2018-04-12T12:00:19.459Z",
+        "endAt": "2018-04-12T13:00:19.459Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff92",
+        "startAt": "2018-04-12T04:00:19.459Z",
+        "endAt": "2018-04-12T05:00:19.459Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "tAnpp4ld8Bs2Gcfflf0xaF57fLpBUI4NZNGqMnk9xlD34xfBPAVj3FydU1KhEYfgqN3UHCZWqF2e0z9uoetvNtY12auhD2ilZQLrImXuumP6w9Du711cDd9gO2lZq",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff93",
+        "startAt": "2018-04-12T07:00:19.459Z",
+        "endAt": "2018-04-12T08:00:19.459Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff94",
+        "startAt": "2018-04-12T02:00:19.459Z",
+        "endAt": "2018-04-12T03:00:19.459Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "L4pv0MHbNhBxDa52bevvmch9NfmwWedOsr90ATswIgzsyQwH7tCVIKq4iVnxRbkrWcHbufcvsslmBlYgDsityfqXWGn8jdOjIggOwfmKLBbnJREgzLQmMO5wgiNaM",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff95",
+        "startAt": "2018-04-12T08:00:19.459Z",
+        "endAt": "2018-04-12T09:00:19.459Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff96",
+        "startAt": "2018-04-12T04:00:19.459Z",
+        "endAt": "2018-04-12T05:00:19.459Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "II6InRMwjL9c2kyAGcZhfo2Ai3wNKdbFcMhckKx8Fn2qQnqrEKjUrXWb2gCoJok525gvzN2c47c8fu8H88bwO0RKjuSNyA7xYVXlOlhngEJryt04SHV5ydK28aq4W",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff97",
+        "startAt": "2018-04-12T08:00:19.459Z",
+        "endAt": "2018-04-12T09:00:19.460Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff98",
+        "startAt": "2018-04-12T01:00:19.460Z",
+        "endAt": "2018-04-12T02:00:19.460Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "NP1xdFBQ9ewAbSvzgFKxvcNg6ODqIsb21s7p2AbjJgulvAEMEWEK8Ym1IZ9kdn2Zzxt9dWGieYoYj6Sqoqtm2HbjzysTzJOMNdKKMSp3c6EHBgFHKsHgAQdJyKaxM",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff99",
+        "startAt": "2018-04-12T12:00:19.460Z",
+        "endAt": "2018-04-12T13:00:19.460Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff9a",
+        "startAt": "2018-04-12T02:00:19.460Z",
+        "endAt": "2018-04-12T03:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "3iBP30BPxSVfkRR4TnnbIgNugkS6ihHMrvB3HdYEiXR13lWQpjqWR6N7l01NAIPtkA4t1gSPGqHgUUvAV8kdTz4zEIYEnG8QZecopLfEp1LxYV2QISRA9St8pFpiI",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff9b",
+        "startAt": "2018-04-12T07:00:19.460Z",
+        "endAt": "2018-04-12T08:00:19.460Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff9c",
+        "startAt": "2018-04-12T03:00:19.460Z",
+        "endAt": "2018-04-12T04:00:19.460Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "oqSpsVqOvOxCI0cIbXtTcQVKCWi33euPIYC2JthZMoExMUZdvXBCNydY8kFEupAM8bg4wCure9x8WuwwsrXuN0CbdlwlSR6xfZ0CIQzLpry6uXbI1NBtjsgUeGeQF",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff9d",
+        "startAt": "2018-04-12T07:00:19.460Z",
+        "endAt": "2018-04-12T08:00:19.460Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378aff9e",
+        "startAt": "2018-04-11T23:00:19.460Z",
+        "endAt": "2018-04-12T00:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "dX2rziFexeIF79m5zwZ3gM0Wg6Z98ALGrXONDvGztLdF8xxMnwlsW7oQWSnd9VEa9TKrRAd6L07DCqNYV45bhZDRCs0RCI1UTld3OPp2vClpjpVujsU4uTRxRde42",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378aff9f",
+        "startAt": "2018-04-12T11:00:19.460Z",
+        "endAt": "2018-04-12T12:00:19.460Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affa0",
+        "startAt": "2018-04-12T04:00:19.460Z",
+        "endAt": "2018-04-12T05:00:19.460Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "6dA4zgjf3YSYEJLvRVfSxj9oSzb6J8IVLJjviEgmHKvTOL89GtA1BxixmWHlZA77tzjHgJ2JZOAc6gl1pGJTdllYiJ8puYUHmqPuq6TBbnAqrQrnaFOxGFW0Ur5Po",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affa1",
+        "startAt": "2018-04-12T10:00:19.460Z",
+        "endAt": "2018-04-12T11:00:19.460Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affa2",
+        "startAt": "2018-04-12T05:00:19.460Z",
+        "endAt": "2018-04-12T06:00:19.460Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "qM4UKZGFjrKhMAmcYNcPqupMDR3BKrDvxbGMvjDYpab3L5GDtVSG6lIaZ01bJMZvtB37L2RDQup9XA1hwX3gL0a84CTqwd9JaYPaZTgLpkaJC85X4pz9oRVvolmKD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affa3",
+        "startAt": "2018-04-12T10:00:19.460Z",
+        "endAt": "2018-04-12T11:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affa4",
+        "startAt": "2018-04-12T04:00:19.460Z",
+        "endAt": "2018-04-12T05:00:19.460Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ZfPH7j6pH0rNqRBIi88fXhEpLgedLNOoCiJyZlIO2xbfTpHWTVHixiga6eiCg8UkrzIs4H4r6Os7EHT7GSxemJDwCQakvmh0LLS2qDx0M9z8TH0XnGB5vjj9KUEDg",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affa5",
+        "startAt": "2018-04-12T14:00:19.460Z",
+        "endAt": "2018-04-12T15:00:19.460Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affa6",
+        "startAt": "2018-04-12T01:00:19.460Z",
+        "endAt": "2018-04-12T02:00:19.460Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "EgKhQVjp1ccx9GDcsMxpJUs7Lle5tPaHhuRmsqLX5HnZKF5tmY0bgOrNCnwYhj3c5vJJOCNsdSCvB0fpquCMaay74o1ChNKq49pJUieY8KyEZsl9YzkzTO4XrQbp3",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affa7",
+        "startAt": "2018-04-12T12:00:19.460Z",
+        "endAt": "2018-04-12T13:00:19.460Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affa8",
+        "startAt": "2018-04-12T05:00:19.460Z",
+        "endAt": "2018-04-12T06:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "7jNOW9CWodSXtuHT9W3DjbFB6L88NP9dH19fdzzaVXlly52ZMqTGJZYNaQg9iKFFRBMZbolCT06wO4ku5u9iPUAtA5lII2YeVBJgJizPOROqsMZZnTSBRPv4A7lwh",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affa9",
+        "startAt": "2018-04-12T08:00:19.460Z",
+        "endAt": "2018-04-12T09:00:19.460Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affaa",
+        "startAt": "2018-04-12T04:00:19.460Z",
+        "endAt": "2018-04-12T05:00:19.460Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "X7aagAKWC6AUzpNMcnHE6jkhDlosDUamjK41h2qEvf4pfYE0QUO2M9XKu56yZbdFOBQMM0SQLuhvZQrEf1jz56rFJuQc9JgzH4eCaEKswA5L8HorRrPcQFhGML7xX",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affab",
+        "startAt": "2018-04-12T08:00:19.460Z",
+        "endAt": "2018-04-12T09:00:19.460Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affac",
+        "startAt": "2018-04-12T02:00:19.460Z",
+        "endAt": "2018-04-12T03:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "0KpfcbvifbgpldqTjTwQmBo879DgOOnjgubaCxukHCqr81KS7UT5JIcTLrP1hxPQdIDYIlOwuo9pIbmAxctcAZvkKwPLvnjkptB5QyPTHoHmDdgSgajPRa6Lfgw8y",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affad",
+        "startAt": "2018-04-12T11:00:19.460Z",
+        "endAt": "2018-04-12T12:00:19.460Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affae",
+        "startAt": "2018-04-12T06:00:19.460Z",
+        "endAt": "2018-04-12T07:00:19.460Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "NeBeZAw98jCbhXrS9SmkxIUHco49LWwXdSWQqg5uMVart6Tec1JkFUr53L5asqhQyubX067pkXSbjgEDq2dmQYufVAyok53SHEZf0MRUXdhnBH1DfLJxvbqZECXgo",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affaf",
+        "startAt": "2018-04-12T15:00:19.460Z",
+        "endAt": "2018-04-12T16:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affb0",
+        "startAt": "2018-04-12T03:00:19.460Z",
+        "endAt": "2018-04-12T04:00:19.460Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "t2Yaza4xk2oan1pxlIdXDsH40Gi82Mb6I8CYf08rHuxzRGDEPfJRWps218Vnh5u9MzcmY6jDbKsItGn3DHNIrGPnE3ijtPa95SpMrAjuAbfS4C8k1aN3EiLMLjGKE",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affb1",
+        "startAt": "2018-04-12T10:00:19.461Z",
+        "endAt": "2018-04-12T11:00:19.461Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affb2",
+        "startAt": "2018-04-12T05:00:19.461Z",
+        "endAt": "2018-04-12T06:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "K9Rv0w6fgsmmNBehWOyV02KFunBNhVpCqVK2JUgk3jJ5HUJohXzjqxZVYSUsxcD4ZeISmEthZt9TvCQNKNqvRBp79NTJo9vjQgyCN2JxCzIr0NeMra8jqQbHjd5VB",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affb3",
+        "startAt": "2018-04-12T13:00:19.461Z",
+        "endAt": "2018-04-12T14:00:19.461Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affb4",
+        "startAt": "2018-04-12T01:00:19.461Z",
+        "endAt": "2018-04-12T02:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Ct1JbKtgDN0B3gH0VHv8NpYCsDBycCpeUEZKSGVWG8s6hfqLLMsQnObYuJc16RFk9Eh8lijc4KHtRLFU3OdS33IfkoiMVfrMeAVyVQqE7pqQl4KzvodRdqs70rEqn",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affb5",
+        "startAt": "2018-04-12T14:00:19.461Z",
+        "endAt": "2018-04-12T15:00:19.461Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affb6",
+        "startAt": "2018-04-12T00:00:19.461Z",
+        "endAt": "2018-04-12T01:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "1vwAl7VF5cm561YRoJMEMYj4VWGU0uqanaMw35PEMT5FfLAbM1ucohDkV32bBGlwwbAIkQfZblyv8nZoX1mRorbAWLdC1RdQ41ryR7ynZNGwej6p9VKSCnLG72c7f",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affb7",
+        "startAt": "2018-04-12T10:00:19.461Z",
+        "endAt": "2018-04-12T11:00:19.461Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affb8",
+        "startAt": "2018-04-12T06:00:19.461Z",
+        "endAt": "2018-04-12T07:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "bBypRLweE8IfDZnBZ9yUcOtcKNpQLzQc8lkEKblQ3mxcOBfmz9UyDYt7YwjLchlkCGxiZMeSJyF2IMKHZC0rrPJTaNOZb7N0wPHuEjqhFi3TFUv0C4VjUbkub3tLJ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affb9",
+        "startAt": "2018-04-12T13:00:19.461Z",
+        "endAt": "2018-04-12T14:00:19.461Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affba",
+        "startAt": "2018-04-12T01:00:19.461Z",
+        "endAt": "2018-04-12T02:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "eztMVCgGpiCBoCbDRn9Pmw4rY1Vw5Nmyz1hQ8nUcvS9ZfDeZpJLFjyTEGhZBXODz9giT11rGsLmHiAKuxLx5ldcnkmCbUiWGvBdjNH74SLNmvHUJ0MOawbu6RRTux",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affbb",
+        "startAt": "2018-04-12T13:00:19.461Z",
+        "endAt": "2018-04-12T14:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affbc",
+        "startAt": "2018-04-12T05:00:19.461Z",
+        "endAt": "2018-04-12T06:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "TYqHghGo4PrbMKO9THvU8D67dpiHbulQqpyWgpbUyThUCm4NFgzq3Tzxe7rizqJwadLDHemJaRh5AYXOACYevtJIK4B16SXQCUsqee8M4f1CpKFHtuuUS38xy5SUh",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affbd",
+        "startAt": "2018-04-12T14:00:19.461Z",
+        "endAt": "2018-04-12T15:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affbe",
+        "startAt": "2018-04-12T01:00:19.461Z",
+        "endAt": "2018-04-12T02:00:19.461Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Y0ceXiBdiefbBriE0LMjStb0pIeZN41tkjAPPuTnBKfz2C6BVLNDa3dau1SAGe4qgLCnNavvwMTFNgifKDBwAFbBkblS4pV3ocUStwZcdTs3UnARcv8V08Ih1PW2n",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affbf",
+        "startAt": "2018-04-12T11:00:19.461Z",
+        "endAt": "2018-04-12T12:00:19.461Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affc0",
+        "startAt": "2018-04-12T05:00:19.461Z",
+        "endAt": "2018-04-12T06:00:19.461Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "AnBtoCMjOqGmgLFI2X37JM3WToLi5rQnghqgSBbVUcxZkNyoTQc6FedCnwvpW1I4JuLKuJ7m5zDxoj9NAjwSOf0seAefrjciu467EexaUVp9TD6yeUJ5AQIc8kTfp",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affc1",
+        "startAt": "2018-04-12T14:00:19.461Z",
+        "endAt": "2018-04-12T15:00:19.461Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affc2",
+        "startAt": "2018-04-12T01:00:19.461Z",
+        "endAt": "2018-04-12T02:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "m5CTMFbYE1PVGCJp900R35jbxOpB8ZeReA5KHlQdeysTGbbVNfkJpI6nEVnNrhRnoXMdRabCivIP4qBftn9xleUNqTWGqmkJEqJSi2i3x4r7qM7OpAZCpJ0Immr3j",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affc3",
+        "startAt": "2018-04-12T11:00:19.461Z",
+        "endAt": "2018-04-12T12:00:19.461Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affc4",
+        "startAt": "2018-04-12T06:00:19.461Z",
+        "endAt": "2018-04-12T07:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "WtcBGSxtFuv833ack4vxwPHGNtWhzBEyVO2ffbw1niD8QY1xo6WfhkdNJovVPHOCUMUyaA9V5XDcoRL6atXBqs1Y9aghzJjKyXeUnDEODE5IcsnS8UYkJNwDYCYJF",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affc5",
+        "startAt": "2018-04-12T13:00:19.461Z",
+        "endAt": "2018-04-12T14:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affc6",
+        "startAt": "2018-04-12T04:00:19.461Z",
+        "endAt": "2018-04-12T05:00:19.461Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "IkyMLV18idMhU9yb3bgvjTE2BIJBOQNfxKqwypm22besokPcNnfpKKy305jeF13I7kpagv2au0yF6oQaUbeXcE73sePICw1WL4b6TCOfWhzAxzzr1iTwhws8afp7j",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affc7",
+        "startAt": "2018-04-12T10:00:19.461Z",
+        "endAt": "2018-04-12T11:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affc8",
+        "startAt": "2018-04-12T04:00:19.461Z",
+        "endAt": "2018-04-12T05:00:19.461Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "N16xCrLzOHOSekOeSa7fjSKGhc19aKv0Ac8r1PiIZOvoVZlKbzy7lBNtVpafa298ZzHhhr0G3E0dTUGxP6pTDLNdUNHBkW9AFaI1yd12t3dvcKM50WFunTwwegjoz",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affc9",
+        "startAt": "2018-04-12T10:00:19.462Z",
+        "endAt": "2018-04-12T11:00:19.462Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affca",
+        "startAt": "2018-04-12T02:00:19.462Z",
+        "endAt": "2018-04-12T03:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "v5ezj8cw3gibes5SVyBUgCXskQUENkqihIfEECNtIIczLt83a5uERTlcW5z36vW9cwnUVIsUds1gJDZuXMV5JiYx4ZRdUd2BenryKjw2KqBKGRfIBuupSIXa44VC7",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affcb",
+        "startAt": "2018-04-12T11:00:19.462Z",
+        "endAt": "2018-04-12T12:00:19.462Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affcc",
+        "startAt": "2018-04-11T23:00:19.462Z",
+        "endAt": "2018-04-12T00:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "cJKL4t9PGfBctpwYKy2W2WZaPVeRIfMG77zo7rt8XkaxFs8JWerFQCDtWDNi8KmkLZ1mEC5qRMPz9UsyPdgGfiMkhu3gfsmAzYYpyjUgswkw3rO2QKmE4ZmQcEESg",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affcd",
+        "startAt": "2018-04-12T13:00:19.462Z",
+        "endAt": "2018-04-12T14:00:19.462Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affce",
+        "startAt": "2018-04-12T00:00:19.462Z",
+        "endAt": "2018-04-12T01:00:19.462Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "NB6thqEGQv3FzdFCOOelRTIlHyFC89VNDaMp2jqmABXbto2l8orLsxRk67KROj9JuZDLXD0iLahd4pQxLRHSquGEa8ROySOUE3ICAwoyE4Wy6hAnuc7Jq5e8fjeD4",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affcf",
+        "startAt": "2018-04-12T14:00:19.462Z",
+        "endAt": "2018-04-12T15:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affd0",
+        "startAt": "2018-04-12T05:00:19.462Z",
+        "endAt": "2018-04-12T06:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "gRo6bGv7Fq2PK4pMeaDHsn5PFp7okgEDIYsArf0wwaKsMQKNZTLyxx4qnvtF03wP3deuFtW215yJt4qGoFSgD4afcABiuU2ZLgJiXGpiNEI0odMHon1mJPhQRIBmu",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affd1",
+        "startAt": "2018-04-12T10:00:19.462Z",
+        "endAt": "2018-04-12T11:00:19.462Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affd2",
+        "startAt": "2018-04-12T00:00:19.462Z",
+        "endAt": "2018-04-12T01:00:19.462Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "L428zHdXbJtpDLHqyVeDriUiy4G1baTefuu9iHEZ3s55EdMKiP232S20eVr0K9LKvLImQeAnRbBJF2UpJFG6LAbTQBzgtsa19PMDmtsyxBY3FXTdvrkoO8KOTOK4i",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affd3",
+        "startAt": "2018-04-12T14:00:19.462Z",
+        "endAt": "2018-04-12T15:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affd4",
+        "startAt": "2018-04-12T04:00:19.462Z",
+        "endAt": "2018-04-12T05:00:19.462Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "pjgUsD2fxmW15wABfMMrmhbH7fKpFgoKQVdFJXOvzvN6rL20QEoWeZibsOaW0UdGmZypqf84jgXdwU0zNctorq3Vgs0NamMoQpMrLO2b0AsFyx3q0O2hv14g2vE2S",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affd5",
+        "startAt": "2018-04-12T09:00:19.462Z",
+        "endAt": "2018-04-12T10:00:19.462Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affd6",
+        "startAt": "2018-04-12T03:00:19.462Z",
+        "endAt": "2018-04-12T04:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "CIpkLPE92REGEALemLXnciqflgLnVZcP6aLV36iMKL9DjghFjIDcbBaJ1ZKGdDWgjSE41yyu9G1IuZLa4CJkcDloyj6PyMZOdWRLeUddj73NJRkQ866Nsl4PgzKkL",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affd7",
+        "startAt": "2018-04-12T11:00:19.462Z",
+        "endAt": "2018-04-12T12:00:19.462Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affd8",
+        "startAt": "2018-04-12T04:00:19.462Z",
+        "endAt": "2018-04-12T05:00:19.462Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "oLydgd8d4ZssmDBGbybI5ck5CLaPXic0YHteh11LVNGlUji4Sr82wEkZfNz7JardRN8Zkqpp5dzZVFXEkPuYgxri6NLAIvJ7BXJp5nORD0prqBEiH3Bi7OxUUhnMb",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affd9",
+        "startAt": "2018-04-12T13:00:19.462Z",
+        "endAt": "2018-04-12T14:00:19.462Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affda",
+        "startAt": "2018-04-12T05:00:19.462Z",
+        "endAt": "2018-04-12T06:00:19.462Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "DjRTXvOoBtsSS5dJc2dLZ9jffzmfeBUIt10qo1UT23qPzsN41typPcl0M1DEFLuhDO7Kkxx4ZWLGsoScMzBGFuilh2Y6pP4EPNFQQzHvvHLM60vjGZBd0aem37uKU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affdb",
+        "startAt": "2018-04-12T11:00:19.462Z",
+        "endAt": "2018-04-12T12:00:19.462Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affdc",
+        "startAt": "2018-04-12T00:00:19.462Z",
+        "endAt": "2018-04-12T01:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "9E6KWoECnoNAH1r3ldIbErnZ6aHqL0bYja5i7aoCjNnlS3YJQxiVrwVjncJBNC7ve8II0qmGKlWloRGU9pkRbFBO698Z0DPhgK3NLMgbJPGQcFla0jmGCCWB6Gv6P",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affdd",
+        "startAt": "2018-04-12T14:00:19.462Z",
+        "endAt": "2018-04-12T15:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affde",
+        "startAt": "2018-04-12T00:00:19.462Z",
+        "endAt": "2018-04-12T01:00:19.462Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "GHt7TdxsqLqR6DogRjIVZTMOjfHGrCCOlF7FxvJdbZbO7fE5Mm9l5ImLgKJQ1SV8ia7jqWXcuL8lcH91CdJOd338DvfglHkHE3r43LMuUnXgL2auAjPX78udDpl92",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affdf",
+        "startAt": "2018-04-12T07:00:19.462Z",
+        "endAt": "2018-04-12T08:00:19.462Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affe0",
+        "startAt": "2018-04-12T06:00:19.462Z",
+        "endAt": "2018-04-12T07:00:19.462Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "naS5cyEdA24JqUY4Kh2EwfVkgt0I3ddB52rhw2m8MDaI2MSyjBIQobGPmPOsU4Y2SsrfrPVH0CFDZQkQeV6Rujec1Nc7BI5bAF0PpTeV4q5YWEyodAbkJWzNi1jTJ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affe1",
+        "startAt": "2018-04-12T10:00:19.463Z",
+        "endAt": "2018-04-12T11:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affe2",
+        "startAt": "2018-04-11T23:00:19.463Z",
+        "endAt": "2018-04-12T00:00:19.463Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "1HNSjyuyIsJ6pJuZVkybVElWu0XWFYmCXSiaCMzhgiw7Zj16QpfBg09tHglFp5cJGPabyPEx9V6Jk2VkGy08uu2i2OBYwA3h8Q3Wp9anP0UGXVU1IlTGaZHl4FRjV",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affe3",
+        "startAt": "2018-04-12T12:00:19.463Z",
+        "endAt": "2018-04-12T13:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affe4",
+        "startAt": "2018-04-12T01:00:19.463Z",
+        "endAt": "2018-04-12T02:00:19.463Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "zxsmMHKEsQZ2xZldBhPKV5rls38U47XkIzhlpeEXKKtcAOY1KNBQK7VEcn2u1G5ikagaiO0YSbAPw5qmFENSUQ8iSfcfRH5eu1CQhjflQ39GPlKPVaVHUI1yT10td",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affe5",
+        "startAt": "2018-04-12T07:00:19.463Z",
+        "endAt": "2018-04-12T08:00:19.463Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affe6",
+        "startAt": "2018-04-11T22:00:19.463Z",
+        "endAt": "2018-04-11T23:00:19.463Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "9OlKw9udvIdUUhKFAYuWb22etbLLlJUouBvU45mB22mxFoIPQinXHS5vRt2xk3LG5rTGxbbqthg9joBKsoFni5llEo6Z2GZZN2n7Wx9lubXs1TpGCzP0hEbgs8piO",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affe7",
+        "startAt": "2018-04-12T09:00:19.463Z",
+        "endAt": "2018-04-12T10:00:19.463Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affe8",
+        "startAt": "2018-04-12T01:00:19.463Z",
+        "endAt": "2018-04-12T02:00:19.463Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "IlCSNeSKJ4hRiecb6yPvFAkzz6hww5pvfKR64wG19sWE3WdAnXeFb46A39tU2yz0di3S9t1RPQcZ0I3NOdiLD8xHTyOPgG1GnDa0zNh4W8a0UtFgp37GgtjfIe9d5",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affe9",
+        "startAt": "2018-04-12T11:00:19.463Z",
+        "endAt": "2018-04-12T12:00:19.463Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affea",
+        "startAt": "2018-04-12T05:00:19.463Z",
+        "endAt": "2018-04-12T06:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "mk2sY3rAiR1A1WW9hFVqAQ0IBXzhBU6tBnxCimbn9KfupKlGXNsvggb8K7jXvtFqLnhi8Vf8aljdhMwhvUxBg8eMlHgAI2OpWPLnSuW92T3XDjGPGkM7lLywc3Jyg",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affeb",
+        "startAt": "2018-04-12T14:00:19.463Z",
+        "endAt": "2018-04-12T15:00:19.463Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affec",
+        "startAt": "2018-04-11T22:00:19.463Z",
+        "endAt": "2018-04-11T23:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "GpZEDtiO60HtrnH8lhhvJV2HHpoPKTNwYQXabgpeVH5kP9LitU3PLBukeLzwY8JSeWfgNC6RUScDEFSkVRmJG5UkvKWVK47emGQgZYuHMMtwOMMajihVDOdx0Ynhu",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affed",
+        "startAt": "2018-04-12T10:00:19.463Z",
+        "endAt": "2018-04-12T11:00:19.463Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378affee",
+        "startAt": "2018-04-12T02:00:19.463Z",
+        "endAt": "2018-04-12T03:00:19.463Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "sYzk2PMbcQhUpSvkhVJavlXVVTH7kbxHd3HzhFVBiwOHtLd6168KG52evWmxTxWbG0vC7wvwpWXdAGG6wpdQiVgtsO5zYObpHDmaAXPmrsss3vxVlXE0y1mzEdpyd",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affef",
+        "startAt": "2018-04-12T10:00:19.463Z",
+        "endAt": "2018-04-12T11:00:19.463Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afff0",
+        "startAt": "2018-04-12T04:00:19.463Z",
+        "endAt": "2018-04-12T05:00:19.463Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "6mrwQVTD4dbpa9uqoloOQkouy4pNC4tx0hzzTYYcPls8Y3fsc4S32yOJGkMmIY6qt5SzOHuAXQWk12UQIl1DTwnegJcihN7eMXybztTuxva9ztbBM3s4BfhFh3u4s",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afff1",
+        "startAt": "2018-04-12T10:00:19.463Z",
+        "endAt": "2018-04-12T11:00:19.463Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afff2",
+        "startAt": "2018-04-12T05:00:19.463Z",
+        "endAt": "2018-04-12T06:00:19.463Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "fI3lobVeQsAP9fVupE9UX0DnyZTw3a6VszOkIuEhHHuuDiNyffDiIqX04QafCuTOUi4nvaayyLGiMT0kfsH5BZ8nWluOtGbijLSdHJY8Wlw78aKNxNOyfRHCbXgAc",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afff3",
+        "startAt": "2018-04-12T15:00:19.463Z",
+        "endAt": "2018-04-12T16:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afff4",
+        "startAt": "2018-04-12T06:00:19.463Z",
+        "endAt": "2018-04-12T07:00:19.463Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "PhpWggHrl2XJfwhLKqasTh1ucbQ5kPtrbNxTYc8xrCAp1S9ZLmN7ozKWfvlgH0EPCGJnRKICv560QGdJvDTqsJA8499RhZxOKxtI1ySOkJAZ6x2xw5aArnZdW7Ekq",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afff5",
+        "startAt": "2018-04-12T12:00:19.463Z",
+        "endAt": "2018-04-12T13:00:19.463Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afff6",
+        "startAt": "2018-04-12T03:00:19.463Z",
+        "endAt": "2018-04-12T04:00:19.463Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "rHTp0umbVpQjVgIGHqH5zOGoSADkfwDVLDmi0rLRMQ0SviWjdkQPp6dSqNPpTgIVnh0TpGrOJmPYhPeY5cDbQTpkO9UX2LaBkqhBlkZMbnnFwevHUQAEUYEj6AyI6",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afff7",
+        "startAt": "2018-04-12T12:00:19.463Z",
+        "endAt": "2018-04-12T13:00:19.463Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afff8",
+        "startAt": "2018-04-12T05:00:19.463Z",
+        "endAt": "2018-04-12T06:00:19.463Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "yzeeQt7dFVyks9nPOHV0SRRrXD9YZTBM8fzvYgR9Vil7jWcCRS8BSJdez5UbLnAH0Mv6p0TbUsvuD1mdrh53teguXxJikxH5a9ouKG6IDoYVlEBlQCjGk8WzDhAk8",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afff9",
+        "startAt": "2018-04-12T13:00:19.463Z",
+        "endAt": "2018-04-12T14:00:19.463Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afffa",
+        "startAt": "2018-04-12T02:00:19.463Z",
+        "endAt": "2018-04-12T03:00:19.463Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "P5BzPMqQcW0vC0845graibHbx9DDJfDn4HIgrKecebhOj29IaacZtYvFNrMY1QJEnJm07haCgLvXRbcFUkahpcUl5sF2RZ0RKdwIzCz64wTBUzvSEi7mkMXgEo75I",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afffb",
+        "startAt": "2018-04-12T07:00:19.464Z",
+        "endAt": "2018-04-12T08:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afffc",
+        "startAt": "2018-04-12T03:00:19.464Z",
+        "endAt": "2018-04-12T04:00:19.464Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "shX0dN8qyFLjngBmDtj6DLAjNyuH1tHWtjK7gOSqZbahGFZCTAAKNmYe4lkxEnV6D723Hq7g34KW4KSF3VMK9k7CTQh4l0JNAsoa6CcMKTdWm7uAlOiIF0WogqWM0",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378afffd",
+        "startAt": "2018-04-12T10:00:19.464Z",
+        "endAt": "2018-04-12T11:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378afffe",
+        "startAt": "2018-04-12T00:00:19.464Z",
+        "endAt": "2018-04-12T01:00:19.464Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "C1SJxTpxONrU8i6SSN2CQSc4rJD2djOjQ6ii1yKcRjwyzWonhYKwEy9sKARmTOfdqQ9f80nDeQQ37hHRfiWK3TcfBAyHDvS3vVBOzz9lflI8bJKUVMbucVCVAPvgM",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378affff",
+        "startAt": "2018-04-12T12:00:19.464Z",
+        "endAt": "2018-04-12T13:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0000",
+        "startAt": "2018-04-12T04:00:19.464Z",
+        "endAt": "2018-04-12T05:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "zVxGx2CHUwRrfbPcbhjfKgCkW8PvTt5doxE5tmctU006z8baz3NmTPAKqPP4cmtCoQpqbOtjKZGtn33zmtQls89unNAZHQhg4tIsvocE8SZhkpW6kNklBrjf2lVgD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0001",
+        "startAt": "2018-04-12T10:00:19.464Z",
+        "endAt": "2018-04-12T11:00:19.464Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0002",
+        "startAt": "2018-04-12T03:00:19.464Z",
+        "endAt": "2018-04-12T04:00:19.464Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "eevYSHQ0GaSr77wFhbym4yKNJPGIk2vlQXpwmlkBM6zpqJqZ5DLBAw8gy8bN5D6tydNYoBVknviX4Kk1xNUzVlVreDerUwdFSn8xtrqoouX9nwAUop1gioQKxUJSC",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0003",
+        "startAt": "2018-04-12T15:00:19.464Z",
+        "endAt": "2018-04-12T16:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0004",
+        "startAt": "2018-04-11T22:00:19.464Z",
+        "endAt": "2018-04-11T23:00:19.464Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "76H71TfXDsfxcRUDrOzdrWd0d3k0lOx4MddM0mqiVb7xOIrGX68ogWXB7cUleC24XEkxk3J8zEpu0By0UawcFTft9JutgSohfKfvAHcpvedm1Sgc47TQ6g4uLBf9U",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0005",
+        "startAt": "2018-04-12T07:00:19.464Z",
+        "endAt": "2018-04-12T08:00:19.464Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0006",
+        "startAt": "2018-04-11T22:00:19.464Z",
+        "endAt": "2018-04-11T23:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "aUywDA10xZLOZyc8ZTorNhjGqNhHgXjgAmyeoQYa8BLcMLELrs5j4SiS0VEHRiN0IPsZ0BQt32Pgx6Eon3r0C9eCXu1BXxp8XzGZkcQnJE97kzIbxTBe8IZ2Y49As",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0007",
+        "startAt": "2018-04-12T08:00:19.464Z",
+        "endAt": "2018-04-12T09:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0008",
+        "startAt": "2018-04-11T23:00:19.464Z",
+        "endAt": "2018-04-12T00:00:19.464Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "etTv7yKFDlv2D0gbef0uIV0WXOodZTkyVTkJJ3fS6PqeMswEbUZta8CZPlGlLcuTlF27gsTYiW30XJ8zVF9NDLghZAEmMFxa0mtCCldBd1uz3RbRbwOWcAsswOoZm",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0009",
+        "startAt": "2018-04-12T08:00:19.464Z",
+        "endAt": "2018-04-12T09:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b000a",
+        "startAt": "2018-04-12T05:00:19.464Z",
+        "endAt": "2018-04-12T06:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ZgC2i1OhG7v7UMQHN46K7zUVM0Vb9I4pbmAPH9six6Dgsr7g1qKq6x5qc3ZwutWEdGTAzuhO25H01AdE1XMD7RMXjljzJrK0tkXNGIj8aXLzljJoTgsE2EeXMcxtW",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b000b",
+        "startAt": "2018-04-12T14:00:19.464Z",
+        "endAt": "2018-04-12T15:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b000c",
+        "startAt": "2018-04-11T23:00:19.464Z",
+        "endAt": "2018-04-12T00:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ZopM44DLux8JNApkLk0WZ8lXW1VGHd6lQEYxJdn1Ml4W14vFQfnTNm65HZHct3rrnJzVfsGmbG7xzMt1o2pVmCorCsSaGmsNXiqYWtxpHG0VwmfTcdxLqKOnkwBOp",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b000d",
+        "startAt": "2018-04-12T07:00:19.464Z",
+        "endAt": "2018-04-12T08:00:19.464Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b000e",
+        "startAt": "2018-04-12T05:00:19.464Z",
+        "endAt": "2018-04-12T06:00:19.464Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "7PuQksLJffP6gik7uWLuhaq5cBcCsLo20RtTQVnac2YWgGfIyhofO90CdJDiC51Ouw1lgxqMSQTyWhPUa6dcedL2EF3aVkcIeOIQ1JfIGDC9MiS0506dQFejBIxsJ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b000f",
+        "startAt": "2018-04-12T07:00:19.464Z",
+        "endAt": "2018-04-12T08:00:19.464Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0010",
+        "startAt": "2018-04-12T03:00:19.464Z",
+        "endAt": "2018-04-12T04:00:19.464Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "lmImqYVXHWUlWgVA6SDvZxh2XJi0TiHuNyYhoQZxnKqsJvtrT56WuEQCD2ApM2cOxiGW3Xj4HOqTuPFzZHdvIUvEdMDHF6hDGs1NmuJwMYWtKR0UY1gpiJ3CA9zbn",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0011",
+        "startAt": "2018-04-12T10:00:19.464Z",
+        "endAt": "2018-04-12T11:00:19.464Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0012",
+        "startAt": "2018-04-12T04:00:19.464Z",
+        "endAt": "2018-04-12T05:00:19.464Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "MCWg33NhmmH4Az2Y3sX0S3oxU2UoF6kB2NQ8sK9XZuFwgL1asnqlXqsELWQ1yZb0g3XZEhvOcJ6mUUNto8hPf4giYKABvd9XwHTiw4sa6IVGLw7QI3lU5IfSqaOPH",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0013",
+        "startAt": "2018-04-12T15:00:19.464Z",
+        "endAt": "2018-04-12T16:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0014",
+        "startAt": "2018-04-12T01:00:19.465Z",
+        "endAt": "2018-04-12T02:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "wuHY8t85fRjgJXV8D4iQ5OkVedcnNsSkvxvjagZJZg2Y2KBWHMCsGtQqGMWD5libw6KZ0uXcxq35DCadhvxNclrc5olzpCKIz6I6bLfA2XCLYcZs54lHIbuhAzdmr",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0015",
+        "startAt": "2018-04-12T09:00:19.465Z",
+        "endAt": "2018-04-12T10:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0016",
+        "startAt": "2018-04-11T23:00:19.465Z",
+        "endAt": "2018-04-12T00:00:19.465Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "tnlWA7dqQ9fzHKkA65eLO05Wi0DIvJWohrSo9ezqOTKSta8DCd9Ehj1jCZ6s4f9wCE0cVXXK6Z0GZKlkJ9LwmIwVLcgH25nkoifOl5k6rKIeQvIvQpbOuWI2OaGjf",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0017",
+        "startAt": "2018-04-12T08:00:19.465Z",
+        "endAt": "2018-04-12T09:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0018",
+        "startAt": "2018-04-12T02:00:19.465Z",
+        "endAt": "2018-04-12T03:00:19.465Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ITMLRaP5lqCw8o6kUcCgHUle0FQzadeRrOEOHuMmi9hi6ZA02fQknw8gnhicIFLCfVlQsmcgIx5FWwzeINllBFNiV3mIdbnaxItggoJEbkUbE2WLi44zZaW7nbzJb",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0019",
+        "startAt": "2018-04-12T10:00:19.465Z",
+        "endAt": "2018-04-12T11:00:19.465Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b001a",
+        "startAt": "2018-04-12T05:00:19.465Z",
+        "endAt": "2018-04-12T06:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "hYFlhV5wvQcYsF5snBlbfULNaSv16OgJeG0q6tQrKHd99NAby0vORBy0jsnsZ3FDOL1OCXtQUB2zC1pZdVO8Vncn6PijbVVYTQ4gbjkVPkOMmiJZqFzlYqwp5ppRh",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b001b",
+        "startAt": "2018-04-12T12:00:19.465Z",
+        "endAt": "2018-04-12T13:00:19.465Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b001c",
+        "startAt": "2018-04-11T23:00:19.465Z",
+        "endAt": "2018-04-12T00:00:19.465Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "cB9S54wMXDS4EfQmgdEbALSsCacy6waBl2YlAjkdyfmrl7S69fulBftkKVcJtKR5wklhPBbe1EBJLFDGmLQojqYHGSAGjYIIqhJEZFoSTa4jnYBa4o73UzWUClkTU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b001d",
+        "startAt": "2018-04-12T08:00:19.465Z",
+        "endAt": "2018-04-12T09:00:19.465Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b001e",
+        "startAt": "2018-04-12T01:00:19.465Z",
+        "endAt": "2018-04-12T02:00:19.465Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "l1dVmZvGF0AgTAkneL8ZP080bGLFBuwu1LcmuKgLoEE54yAr06OMJy0GT3ooasgeGCa1pMDW5utAbir0yiAH8gIvA4xIW945EUwcKCeaBJLZRzoJFMcy2f1Br4jrP",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b001f",
+        "startAt": "2018-04-12T11:00:19.465Z",
+        "endAt": "2018-04-12T12:00:19.465Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0020",
+        "startAt": "2018-04-12T03:00:19.465Z",
+        "endAt": "2018-04-12T04:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "SwzDyp9adikJJ6VPDcKZUKz2spu6TADLpQM7lC3L0ZhxIcKyTSAYf3C1usaXPD5qAq68BERAxQhzMJ10X1hkGOjDeiklPJ6h40Cx2Pa1L1xLpko06z92StOehEj9D",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0021",
+        "startAt": "2018-04-12T09:00:19.465Z",
+        "endAt": "2018-04-12T10:00:19.465Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0022",
+        "startAt": "2018-04-12T02:00:19.465Z",
+        "endAt": "2018-04-12T03:00:19.465Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "urzd40AXToxrFyv7U334vTdtBpsiGNvrDgbUkRYKp4WTkGry18yBrmNJ8QfOamQ0TZMNiae2MFBjpnI3ctiyUTU5hnW0U9M1UhjSxuJRBtkLzHtvvQHhMqwMFJVPU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0023",
+        "startAt": "2018-04-12T10:00:19.465Z",
+        "endAt": "2018-04-12T11:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0024",
+        "startAt": "2018-04-12T01:00:19.465Z",
+        "endAt": "2018-04-12T02:00:19.465Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "YtpBNWsmSvvvEk7O09GYNHc0oUFjA5GAabQhUQgBEGPF84sSpd4XyLjGjiXJgCNQieX38d4FI10D7yQunGITeZZL7MOIgFnpoR2MoYWsS8AHbiOV0IEA4WQG5koX5",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0025",
+        "startAt": "2018-04-12T13:00:19.465Z",
+        "endAt": "2018-04-12T14:00:19.465Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0026",
+        "startAt": "2018-04-12T04:00:19.465Z",
+        "endAt": "2018-04-12T05:00:19.465Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "goYZcMvAhiEPeUvvEXHgcx9D1EV5z5rQtME4JGpCBsjm8j6CGUrbWIXPpdC1YaOeWssTRvz4ovH3eCjBYBTHBTlpEDGzHPvtLQ8YxtWJ4bjCukBr0plyzNgljTupi",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0027",
+        "startAt": "2018-04-12T15:00:19.465Z",
+        "endAt": "2018-04-12T16:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0028",
+        "startAt": "2018-04-11T23:00:19.465Z",
+        "endAt": "2018-04-12T00:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "gDYLGx9TGnWGi8k4yODFqk1CZaf1SmI3ALo2vdffi0WvSNymmVxp55FiIddiECfH8HsShxWpmKlvJMadBhqyrkk4ikUYAspahgJQ2Lu6us88FoXESasVymjXfismn",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0029",
+        "startAt": "2018-04-12T12:00:19.465Z",
+        "endAt": "2018-04-12T13:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b002a",
+        "startAt": "2018-04-12T00:00:19.465Z",
+        "endAt": "2018-04-12T01:00:19.465Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "5hvmvOVOZxc9OqQ3TrBHWkxf97UzP6rhkMPaAq00TlQmsqZWsgva79Fq5rywrlRqktr8U5o5FfCnRwmfqXB6qSku35yOPXUvvw1kaVGNy4Z6bkbOKB2n2EiFd7O9Q",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b002b",
+        "startAt": "2018-04-12T10:00:19.466Z",
+        "endAt": "2018-04-12T11:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b002c",
+        "startAt": "2018-04-12T01:00:19.466Z",
+        "endAt": "2018-04-12T02:00:19.466Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "EpywCUme9RDRO2PshUFE0Qf7OVbzSwCOVZArNCFjZrJSiA1upZms6sZypWAFmErvtMjQQWl9IYyFimjcr6CYrNHlARS6CVOCrlzuNKnxXvBx0DgCcqQdmEDS6Eyzs",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b002d",
+        "startAt": "2018-04-12T14:00:19.466Z",
+        "endAt": "2018-04-12T15:00:19.466Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b002e",
+        "startAt": "2018-04-12T04:00:19.466Z",
+        "endAt": "2018-04-12T05:00:19.466Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "vAx1aH32fvHVD0eeJGSZkmVIencj0vszeixF27JRK34dcdZtyqoNyQqKm1c6mkwZEmj1PfaDuujGaYNWpNIgNKrGojCVXZXyTEIp8l6YXTACe5nJvf37umUrmJmQp",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b002f",
+        "startAt": "2018-04-12T14:00:19.466Z",
+        "endAt": "2018-04-12T15:00:19.466Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0030",
+        "startAt": "2018-04-12T00:00:19.466Z",
+        "endAt": "2018-04-12T01:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "JKPhrC0aIKZWSoyoeMvLBdTeoKB41B5smHaQ6knpYXeUZnv8AtJKTaweOX0gqFMCsLsvOjrkKRszbTLxTv4B9hA4aJHZgaSSxvvGWEGy0k9URRDjsyVo2KrFQDXHO",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0031",
+        "startAt": "2018-04-12T12:00:19.466Z",
+        "endAt": "2018-04-12T13:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0032",
+        "startAt": "2018-04-12T01:00:19.466Z",
+        "endAt": "2018-04-12T02:00:19.466Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "U9mABGjSBDMPnwc33EJHVziLr70SBAiAjxzFJBXQN2dgCPs2WGYIo2oBJTxWM4uG62BKRkto9RegWqWDQMYHtYSAm1TgHzEqXkhJNfz07hOs1JrxJkPShKYlZuU6U",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0033",
+        "startAt": "2018-04-12T11:00:19.466Z",
+        "endAt": "2018-04-12T12:00:19.466Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0034",
+        "startAt": "2018-04-12T00:00:19.466Z",
+        "endAt": "2018-04-12T01:00:19.466Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "fLBzSMuV14edEtXU4Bkmpza6TyZbhXnU52ko5T5SbkJyH8DNcJBVdZZAIwTOsUp7g8C8FnBgXtn6LlzsHr3qIw6w3jdOxnm7ZOae5XFtHCojMy54i2w7BM2uh92fs",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0035",
+        "startAt": "2018-04-12T13:00:19.466Z",
+        "endAt": "2018-04-12T14:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0036",
+        "startAt": "2018-04-12T00:00:19.466Z",
+        "endAt": "2018-04-12T01:00:19.466Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "aypVmbC2kzHm3ZfFnmItlr6cPGB7Z5JNz6atfqFmJWp04TYxsy2l4a3EZ8iA2vsS0eE9XOOJ0TM9VVDQc804PVxIhGy2eJGzNHPQpELqRq8tmi7FOxYqdnH3Svir7",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0037",
+        "startAt": "2018-04-12T13:00:19.466Z",
+        "endAt": "2018-04-12T14:00:19.466Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0038",
+        "startAt": "2018-04-12T01:00:19.466Z",
+        "endAt": "2018-04-12T02:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "FD9h4Ecf4s2h4joeS8umRQMxDc4xnA8UvHkpfh9igfuBLWjrVf0SSKvFXMG0xJSstQBEg8wzP0DabGIvNlVxB2bTaM2JvozT0b958yhXjBFXBmXvtc7TcplPnKdQR",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0039",
+        "startAt": "2018-04-12T08:00:19.466Z",
+        "endAt": "2018-04-12T09:00:19.466Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b003a",
+        "startAt": "2018-04-12T03:00:19.466Z",
+        "endAt": "2018-04-12T04:00:19.466Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ozOXo6vv0DzHKsX7FL0PGEafq2QdGSdh7jt8lBmgHpLUArP0b6wrWjDcxxEvHj2hI7YMVKDypSNaWGWpg2gkXYNOBGQThCKYuYvXV5MUwntWstU0GQSsm1dFr1Mbb",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b003b",
+        "startAt": "2018-04-12T09:00:19.466Z",
+        "endAt": "2018-04-12T10:00:19.466Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b003c",
+        "startAt": "2018-04-11T22:00:19.466Z",
+        "endAt": "2018-04-11T23:00:19.466Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "4YL5cy4Vm3zAP9JoiCbs4QLAYh8D6nrvo5dgfFPmPFrXLSqmZWNc09dEnghATtOoT5VFFPDIZ5WhmAVb9UFA6JaULBc3OR5H8rHvH5iZhY9eRPP7wkn0vteD2JXqh",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b003d",
+        "startAt": "2018-04-12T13:00:19.466Z",
+        "endAt": "2018-04-12T14:00:19.466Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b003e",
+        "startAt": "2018-04-12T02:00:19.466Z",
+        "endAt": "2018-04-12T03:00:19.466Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "088Cehnnjxv6wWwr6hJkWspCBQJdFnUoPpvIllKVDHUZMfeesJssrcniZxVi9qMBAXg8ssxlUHWk7kP2W7wzhw6Wf1S1B1koQnfzGivF1RYMmCnRqPtN8WHEX4N6S",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b003f",
+        "startAt": "2018-04-12T10:00:19.466Z",
+        "endAt": "2018-04-12T11:00:19.466Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0040",
+        "startAt": "2018-04-12T04:00:19.466Z",
+        "endAt": "2018-04-12T05:00:19.466Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "TPfkroUUt2XomZLLgBs3gt9QFO584m5swkRUfRpOlhgYANDtvSF4z7X5s8WLtX96KQ8AusyREAAGkw7xKdhlyot4DvovDKpMtKm8WvYgZxa28rtJUe0x61QuyKRhU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0041",
+        "startAt": "2018-04-12T11:00:19.466Z",
+        "endAt": "2018-04-12T12:00:19.466Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0042",
+        "startAt": "2018-04-12T02:00:19.466Z",
+        "endAt": "2018-04-12T03:00:19.466Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "xqJLdR85c8HUAb3dSrUfMDJcmHM2zEs1sz5vZt6AzfVUGNARvYUpjjc0NpGN0Wa55TJ07HA14Lkz3zl9tAZd16b4aB77EbVGo75v59Zk2U2Ra0ZDTM3XJbTflJEwr",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0043",
+        "startAt": "2018-04-12T13:00:19.466Z",
+        "endAt": "2018-04-12T14:00:19.467Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0044",
+        "startAt": "2018-04-12T05:00:19.467Z",
+        "endAt": "2018-04-12T06:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "iT3Ikwy4S8t4u1UpCgB9mgCXurWxCftgmktWQxQBbgVKvQnIQMQRz8JCR4jSNZc5GTCzAJyd2sErBZYmTaSbfV7zmJLlEcLGfTT4R1WrkBD9Y5Yb67ixdxUegc5CP",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0045",
+        "startAt": "2018-04-12T10:00:19.467Z",
+        "endAt": "2018-04-12T11:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0046",
+        "startAt": "2018-04-12T04:00:19.467Z",
+        "endAt": "2018-04-12T05:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ODp7tFotyMCCfGCPdwjpywTdC10lUE5xpYsBMTpMFOx5h6Kcsv7DfnKmMcUxa4E67d4DPvdLtFW75dONFE7BbzF3ltggngAHrqtgmXLdiUNJPZ9xOYAdyrIpdPJiR",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0047",
+        "startAt": "2018-04-12T11:00:19.467Z",
+        "endAt": "2018-04-12T12:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0048",
+        "startAt": "2018-04-12T02:00:19.467Z",
+        "endAt": "2018-04-12T03:00:19.467Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "KoDL40IHSPsRBzUJTEJheMken5dqVyulVxFNQWZyjq5JsBofCRr9pCMuAQJH9Gf4iZVHIFTyfaxSL7ei1nQID47dp7Pattu2LtxQZoaCyh9oFRuJ4aJVXC6LyT3wQ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0049",
+        "startAt": "2018-04-12T15:00:19.467Z",
+        "endAt": "2018-04-12T16:00:19.467Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b004a",
+        "startAt": "2018-04-12T01:00:19.467Z",
+        "endAt": "2018-04-12T02:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "KTlZXbVj4YP1cEgvlPbMAc1D38ajiT5VXWG1VUQCX0AQqR2WhfdYlEjsTBBYztOSoNzpeyPHl5Yu7wyiuksBJcuNKdzqazYRICV8bifIqPQkHlYRqtuVeNJYQqKty",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b004b",
+        "startAt": "2018-04-12T13:00:19.467Z",
+        "endAt": "2018-04-12T14:00:19.467Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b004c",
+        "startAt": "2018-04-12T02:00:19.467Z",
+        "endAt": "2018-04-12T03:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "e1r8btDZ0wMHpV5rhIWCkBbgl2SC5CV38c2EkXdUKPkk582A9a5P2VNQTHcQoBLrTshdA8aw1hvhSPkiC3o0fVvfHhna6aYIDxQwvBZr2KzRInW6kc8ziG3tILc6W",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b004d",
+        "startAt": "2018-04-12T13:00:19.467Z",
+        "endAt": "2018-04-12T14:00:19.467Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b004e",
+        "startAt": "2018-04-11T23:00:19.467Z",
+        "endAt": "2018-04-12T00:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "gKdx7ahPBtbSd43e7gduQLRQqOS8w4hoJ4vDwhZiakrLHlbvKmIHDTlgBfOnqKL6EPlkQ5Uks9T61LESUidClwdOZzttEs0mHWXKoJwJM5OXgyikjEmH1NKv3yFTG",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b004f",
+        "startAt": "2018-04-12T12:00:19.467Z",
+        "endAt": "2018-04-12T13:00:19.467Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0050",
+        "startAt": "2018-04-12T00:00:19.467Z",
+        "endAt": "2018-04-12T01:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "SPVKogl2vxNNjLAYF5Qu8doCieKonA9oumkSYbkaduwulRGfVZlXsuQTZsxC56DTKntFowTpFkIjwO6qMAkGrGThfdHnERGiOrHYyVrOtIfmxKYdOcwu6fBVNKmcD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0051",
+        "startAt": "2018-04-12T12:00:19.467Z",
+        "endAt": "2018-04-12T13:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0052",
+        "startAt": "2018-04-12T01:00:19.467Z",
+        "endAt": "2018-04-12T02:00:19.467Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Bl5P08tFyoV6V6DJvVHJsMpWv30DciEUO5C3snHRxaoHRpo4Ywq3r0glieHZreoaS2x411atOGqLl14jCQeiUdQXJk8kM5lxfQvaeT962g0x8bgNSdVfGSilF8An2",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0053",
+        "startAt": "2018-04-12T10:00:19.467Z",
+        "endAt": "2018-04-12T11:00:19.467Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0054",
+        "startAt": "2018-04-12T03:00:19.467Z",
+        "endAt": "2018-04-12T04:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "fPcMlDQHLlY907FAOq7f1gUL06LynS3hlfiqrOrnC1ixdRPGqGXpNMW8VdXD2WbbOcreQ1oEjUli5KW6FZ6VqVFy1ulZaVr9EOj9rgdZrMeLBIbh3YjwmXZOexQwB",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0055",
+        "startAt": "2018-04-12T09:00:19.467Z",
+        "endAt": "2018-04-12T10:00:19.467Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0056",
+        "startAt": "2018-04-11T22:00:19.467Z",
+        "endAt": "2018-04-11T23:00:19.467Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "S3HcbKiQAuGh5StRMM0Gd3rlGuHOgx8owm9YEsRuVfbIDWehnIQUSifGZ88avLskIisNjQ6TFUiRMrxtsoMZHJMm10Kvd6AFlXAriqKHvh6FHgTMFhija06oGBYZ6",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0057",
+        "startAt": "2018-04-12T13:00:19.467Z",
+        "endAt": "2018-04-12T14:00:19.467Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0058",
+        "startAt": "2018-04-12T04:00:19.467Z",
+        "endAt": "2018-04-12T05:00:19.467Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "IOEZWnGs6votHNZSZnUzzuYIAbop4k1fb6lYVNYfiE6l9P1ImNd7Zy9KOW002UEn1kpgwN2OdOAW2wwicdXE5905Wj1ziSmfWwW0fm6Td8OyMJBZUCoRftb112M7G",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0059",
+        "startAt": "2018-04-12T08:00:19.467Z",
+        "endAt": "2018-04-12T09:00:19.467Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b005a",
+        "startAt": "2018-04-12T05:00:19.468Z",
+        "endAt": "2018-04-12T06:00:19.468Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "UdnytV9iYRwpx8gt0lmsou6mDv2xj5D03ILkw6BBXGv4jSYUt2BT6S9sTPqkr8GnHkyPFf79dPlAsKFT6jgDLVxeZUYCQPRhlbdFj99wp1KGu8clJsU0ok9ZmeDok",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b005b",
+        "startAt": "2018-04-12T12:00:19.468Z",
+        "endAt": "2018-04-12T13:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b005c",
+        "startAt": "2018-04-12T02:00:19.468Z",
+        "endAt": "2018-04-12T03:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "7XSY37rZBMFiBycuot4rYairGLvYKm4OagPfLLWNW6PJ6xkpPrAIaGYRmeIggqO2pzBzelVeAEoucjcF85fvNUOEsyMvObMp8wPuEdFkVg0UQvKRt9SV5BrDQWrjI",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b005d",
+        "startAt": "2018-04-12T10:00:19.468Z",
+        "endAt": "2018-04-12T11:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b005e",
+        "startAt": "2018-04-12T01:00:19.468Z",
+        "endAt": "2018-04-12T02:00:19.468Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "t41As61A9jTW4numahzneE8whGu0qYgsTLUPppLOWJ72tc4psubukIgKMJbtp92NXffKRWyOEA4ZApxl9vvKlXGuj9MzFvOYm8jX5rgQW1i3YFibXUNyjtCKfkRe6",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b005f",
+        "startAt": "2018-04-12T07:00:19.468Z",
+        "endAt": "2018-04-12T08:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0060",
+        "startAt": "2018-04-12T00:00:19.468Z",
+        "endAt": "2018-04-12T01:00:19.468Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "OT7C0FBjgb5J2Sb4EbcVQUomLS4W2ckgj5jFr0ajD5nFCHKoysVQDulEg29TZbEVMaTEMVaA6qtfmWygp38Y5bk8bUgfH8G5K5rE5wPGtTXKNxwqk2eRfgfUIsM1R",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0061",
+        "startAt": "2018-04-12T08:00:19.468Z",
+        "endAt": "2018-04-12T09:00:19.468Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0062",
+        "startAt": "2018-04-12T02:00:19.468Z",
+        "endAt": "2018-04-12T03:00:19.468Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "fr64Z8upvY2rOWcs9xqRc8eq4fULZ6qDtnQXR1FBi99iBBUR5QGd5fjatDoqdp5EuAIsxIDPxz5sNUjJIkYPZ9wqBjkU1uWpuGWzWrMcL5AXNy6SqonqoAdcXsJvO",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0063",
+        "startAt": "2018-04-12T11:00:19.468Z",
+        "endAt": "2018-04-12T12:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0064",
+        "startAt": "2018-04-12T01:00:19.468Z",
+        "endAt": "2018-04-12T02:00:19.468Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "EnOTYBm6uUsioTaYn0ss4vbiZ3EgBbgchP0khtuMV7L1baCvjak02gLoM73KZfM6OEr3nrCG1XhaTY5kMIpljxTP5CFBCJofBSHOXdfkB1uNgheIn3A3NMYIhm8iB",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0065",
+        "startAt": "2018-04-12T15:00:19.468Z",
+        "endAt": "2018-04-12T16:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0066",
+        "startAt": "2018-04-12T05:00:19.468Z",
+        "endAt": "2018-04-12T06:00:19.468Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Jn2B6dqVZyGX9keAanArMYtptaJeJRHdhZOk7pW06swKY5ZlstFpEbXobZjis1YPfH85hRhXwPA68ugu7tgvWFxFUij3IFvE5FoQqrAglvC9K5rCeln5b9Ljnke5y",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0067",
+        "startAt": "2018-04-12T10:00:19.468Z",
+        "endAt": "2018-04-12T11:00:19.468Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0068",
+        "startAt": "2018-04-11T23:00:19.468Z",
+        "endAt": "2018-04-12T00:00:19.468Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "3MGElh2exyZrxaZk6CPMdIH2Ti7YeIXmfXR1K256bDWkuoWMI3NfH4o0BKAaJ28ZUfLMaOOF1InXYYzOQo04Xd5odjxvN2AA9b0XJilfGZQGCwGILsPQLaY02HgGi",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0069",
+        "startAt": "2018-04-12T08:00:19.468Z",
+        "endAt": "2018-04-12T09:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b006a",
+        "startAt": "2018-04-12T04:00:19.468Z",
+        "endAt": "2018-04-12T05:00:19.468Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "zDOF4rmkXobwhSjhRBqE4OUuOijZ8RvbnQUiRURyUNRgGZLzEX1E8mj5TkI0upVqhcooNS25H41MAuyLLNP3cgoypyDD3UkPgnkwKfLHw3dTfXtLCJXYNokZgS8b8",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b006b",
+        "startAt": "2018-04-12T08:00:19.468Z",
+        "endAt": "2018-04-12T09:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b006c",
+        "startAt": "2018-04-12T01:00:19.468Z",
+        "endAt": "2018-04-12T02:00:19.468Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "poPCSeIVzS1jtm3YfuBZFSpOF1ztGtFVkkWGU1FaGghugXFpAFJ8WLSFiQWUwLh0wqRkvUU1hZlAxHqxoyBVmJCRp2LuYu7Jpr2GziUeErlkY5lZ1OIk6Hy0BIljq",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b006d",
+        "startAt": "2018-04-12T14:00:19.468Z",
+        "endAt": "2018-04-12T15:00:19.468Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b006e",
+        "startAt": "2018-04-12T03:00:19.469Z",
+        "endAt": "2018-04-12T04:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "VW7BAFdsDZdTaFhp4rpPprjRhnvvUscEgpXwUh1chgqFczdw8L8NZXJvQb4wN3mrTaj3CGV4kTXSKjrLKaGCtoGbo0ksi0gCzFYqKu5MUIfpyOXWBmjN2t2labiLJ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b006f",
+        "startAt": "2018-04-12T07:00:19.469Z",
+        "endAt": "2018-04-12T08:00:19.469Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0070",
+        "startAt": "2018-04-12T03:00:19.469Z",
+        "endAt": "2018-04-12T04:00:19.469Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "X6iGMeDejicIVMc8CxRCrbASF4JTgktK41LipQpuOb2jWj1Gxw7nTFNdfWIrXqAq9WgGaGra7ZwttcjX67H5EsbP1EsU1173pSCX7JD94ZwOND7PF8PCWfRmAbM8o",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0071",
+        "startAt": "2018-04-12T09:00:19.469Z",
+        "endAt": "2018-04-12T10:00:19.469Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0072",
+        "startAt": "2018-04-11T23:00:19.469Z",
+        "endAt": "2018-04-12T00:00:19.469Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "luPnbq72tuhJX0aJ7Iu6YLa6BLTv4NxDNyW0EWNc4QCtykMrPOP8KzI0f6XGudA7aEbLwEvNgDOSujNum5zfZnBsyfMPzKnSkY1B4jTXCDdG2pV9kdgKAlSUjp44C",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0073",
+        "startAt": "2018-04-12T11:00:19.469Z",
+        "endAt": "2018-04-12T12:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0074",
+        "startAt": "2018-04-12T03:00:19.469Z",
+        "endAt": "2018-04-12T04:00:19.469Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "SOTB4nZm90oXVSlw3HQ4xyp3p8szboKpzwb4Njo28T1NOK5hMzWgTvgf4C6rU6RbpgcrDKH1tQPLuyQgWAbbP06GbjJXCfqelZZm8XzEwyZVPpEnBR3hegpQgzj5c",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0075",
+        "startAt": "2018-04-12T07:00:19.469Z",
+        "endAt": "2018-04-12T08:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0076",
+        "startAt": "2018-04-11T23:00:19.469Z",
+        "endAt": "2018-04-12T00:00:19.469Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "6l31BydOjuZRfBwklKk4FrThTecj5gSlmz38Qx6QaxCq3ARkZ8XSq36x90tg8YeGlE0sTn4zBlUiTOHV85bii7YEco57Gf7K2IhYvSconaFATbWWzdNJwLnfexVed",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0077",
+        "startAt": "2018-04-12T09:00:19.469Z",
+        "endAt": "2018-04-12T10:00:19.469Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0078",
+        "startAt": "2018-04-12T03:00:19.469Z",
+        "endAt": "2018-04-12T04:00:19.469Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "mt99ub8XfFwp7NLVdx0xP4RaFecBNzVMbGS8E10UnIz47ydiJmuzNKveQ3mYhbGJY1vF1btjvpqvwChwkiY7UQBT6TPJ3eNTQyUeMaFirOrooKfiStqCptMwxCzvF",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0079",
+        "startAt": "2018-04-12T11:00:19.469Z",
+        "endAt": "2018-04-12T12:00:19.469Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b007a",
+        "startAt": "2018-04-12T06:00:19.469Z",
+        "endAt": "2018-04-12T07:00:19.469Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "DWn3IpLjW4T0dqEtqiPMNPxuvxXcN8oxxAcAFg0DFV0z025856MfyR6kJwkd8i4nwvyYSXGmJiq3yAEKPZEYQMLWGIBVS7s8mzLmrottNojiSDSv5Uwy4CybqgNRT",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b007b",
+        "startAt": "2018-04-12T11:00:19.469Z",
+        "endAt": "2018-04-12T12:00:19.469Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b007c",
+        "startAt": "2018-04-12T00:00:19.469Z",
+        "endAt": "2018-04-12T01:00:19.469Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "IwCowNofrMZoSAXPL10qppbedHNmWNo2W5Q2XipKEwcz95hx0mWwvYt87w4sU4TSgWcOkrHZ72p9esTtDMhBfnvdCQ5Jy18Rr4WDpRAS1PhNhhDWPn6oB1Pm3dvAd",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b007d",
+        "startAt": "2018-04-12T14:00:19.469Z",
+        "endAt": "2018-04-12T15:00:19.469Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b007e",
+        "startAt": "2018-04-11T23:00:19.469Z",
+        "endAt": "2018-04-12T00:00:19.469Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Ow9oQQzeQJJDy0g52tWgEcyMY9sy0Wbc9xHBwszRJu7UVlQsR2E35rczuUPvZuGLsWvWoj9LBkm6nQqA8h88ahM8o74ahKd4UH0vY1h17qp1nTthqhs6seSS1opi2",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b007f",
+        "startAt": "2018-04-12T11:00:19.469Z",
+        "endAt": "2018-04-12T12:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0080",
+        "startAt": "2018-04-12T00:00:19.469Z",
+        "endAt": "2018-04-12T01:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "tNALTyYx74zY7ehGjWRUrLqvczlNV52KodftfuYON6v38V1fazFRrcrZ5JHINX9H4hmmcBzIzGzv1DcGCO7xUjrAqYmvsTa8xMJIwMFyaKuJzJinHlY8UkuJiw0qx",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0081",
+        "startAt": "2018-04-12T13:00:19.469Z",
+        "endAt": "2018-04-12T14:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0082",
+        "startAt": "2018-04-11T23:00:19.469Z",
+        "endAt": "2018-04-12T00:00:19.469Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "bmc8IHnbprt9eG8CKmT5KSHvd8MAJSPgtKHRZg7rl7lpNO7aZ81IPaLi9OTaEP9zZNWMMwuHorxTQurGt6KbR6FbYDXd7VAWcACGW3c7VbVQsVyvgjntboKkfzPPv",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0083",
+        "startAt": "2018-04-12T13:00:19.469Z",
+        "endAt": "2018-04-12T14:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0084",
+        "startAt": "2018-04-12T03:00:19.469Z",
+        "endAt": "2018-04-12T04:00:19.469Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "CQSyL6CDa9d7tiZorv46e9wddzaqiDpHbMQIFZNFZCJEuX6zEJ81OUKRBW29LbfnTjRjMjXlRLJAMLAhah60bM9FsBOAlNNpHzgVBuMamEdBHRmlG3MJs0SMXIDDE",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0085",
+        "startAt": "2018-04-12T08:00:19.469Z",
+        "endAt": "2018-04-12T09:00:19.469Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0086",
+        "startAt": "2018-04-11T23:00:19.469Z",
+        "endAt": "2018-04-12T00:00:19.469Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "9MA68m8Ag9kdgBG5u2C6IcC0qAzxK7lFH0Me1Bt0IkCVF3BRC6SDDOtOTlJ8hcZSxUWEWU1mpSYZI4Q3NVRmTyKJZQX9jEaKOc8wpvrH3bOOSysByCOsbTYqaMGmO",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0087",
+        "startAt": "2018-04-12T12:00:19.470Z",
+        "endAt": "2018-04-12T13:00:19.470Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0088",
+        "startAt": "2018-04-12T01:00:19.470Z",
+        "endAt": "2018-04-12T02:00:19.470Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "NIB3pVMX2sCjX2QM1wheIqYoeDp2qifnTPexvicPlcUwsdzehwobIhbwxKDy3ir3or4BMz80zRWJUELlof7sEVQmgf0rUKrIf0OA1AxodJVONHz3wk11bNEvtgcp3",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0089",
+        "startAt": "2018-04-12T13:00:19.470Z",
+        "endAt": "2018-04-12T14:00:19.470Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b008a",
+        "startAt": "2018-04-12T01:00:19.470Z",
+        "endAt": "2018-04-12T02:00:19.470Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ec2vMf8uHsImrTZuRlwngwaBgc10kHXLwI4tNnOQLI5iZonJWeO5JQmwUPDVL1WVwoIR0kyWwrQ4UE76VuI6S2qceQMUVm9NtzEVsvtD6LhqaCEbyifmMWCSiIntl",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b008b",
+        "startAt": "2018-04-12T12:00:19.470Z",
+        "endAt": "2018-04-12T13:00:19.470Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b008c",
+        "startAt": "2018-04-12T00:00:19.470Z",
+        "endAt": "2018-04-12T01:00:19.470Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "U6QbFNFARZkCiNecPfyq0lZlsmwPb6LytKFxEyrdrJ0ovbQMS4tpZwaqpJoZqFEWxPH4ahLxBU800ctEhs0p2WjSmNoAQWHwoNXKyYepJJGdIs1dnXxvuWhpz4rmT",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b008d",
+        "startAt": "2018-04-12T11:00:19.470Z",
+        "endAt": "2018-04-12T12:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b008e",
+        "startAt": "2018-04-12T05:00:19.470Z",
+        "endAt": "2018-04-12T06:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "ipeEjKnDqJxOKOZSNlu3zMTV15xhoxCNByD45nAo6DhvqiKArAkgzgZ6ynmmuHE3Ya03GQiNApHvoxjCmvCTycHAttTaBqP6gFP7GbdFY1mfyos1hmehRKaU9S1Bs",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b008f",
+        "startAt": "2018-04-12T12:00:19.470Z",
+        "endAt": "2018-04-12T13:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0090",
+        "startAt": "2018-04-12T03:00:19.470Z",
+        "endAt": "2018-04-12T04:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "PEAAkpfeL1401iaExmYG1FVyK7ve4gLsRcY4FIeUoC7n8IxTC0RjuW2tweCXAt2aaTfooxPTRnmemmcj8S4Qlvykdvjld19ks2wLa8uFPN2gvr6GKGeusnBYPx6NH",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0091",
+        "startAt": "2018-04-12T15:00:19.470Z",
+        "endAt": "2018-04-12T16:00:19.470Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0092",
+        "startAt": "2018-04-12T00:00:19.470Z",
+        "endAt": "2018-04-12T01:00:19.470Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "CIjmv1Whvnr5jlWA9JX8YTZfVDGGB6sSzHJCUFTJt9925HZPIXPGv0gtT3glSafy1jPRqAPh7h3RCnWdx711U212gSn7RlyEhyXCEziaqnbOnxGQI8zO5tulvZGzq",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0093",
+        "startAt": "2018-04-12T13:00:19.470Z",
+        "endAt": "2018-04-12T14:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0094",
+        "startAt": "2018-04-12T04:00:19.470Z",
+        "endAt": "2018-04-12T05:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "xEfV81INvhYWe1JSW5izQKmo46Wggp4eK3GJryvgAkYDIaW5AD96t6J8NY4aWPMRpEjp1xtqRg2ORifqFRA8rnFG59UOe9P5DT4pHg0m2CtglHXOOczkm9DtcEiZE",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0095",
+        "startAt": "2018-04-12T11:00:19.470Z",
+        "endAt": "2018-04-12T12:00:19.470Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0096",
+        "startAt": "2018-04-12T03:00:19.470Z",
+        "endAt": "2018-04-12T04:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "5CbzqJMjrY9UlFbeiZZ9Mni8njN2kwYoZS6f3ANZimLpTdj4SnaJV1xAbZRXMONaPiDZswSsTzUHiGTB3PnK7QbhqQ3zeZPEA0cCokJMKpzasL08tfYA36cZx2CuR",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0097",
+        "startAt": "2018-04-12T10:00:19.470Z",
+        "endAt": "2018-04-12T11:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b0098",
+        "startAt": "2018-04-11T23:00:19.470Z",
+        "endAt": "2018-04-12T00:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "Do1SGqI1SMEuRbJB4EKWNYtNMID5FqfdHu5zLCglewaYicvQ37j4Zr9NKtJJxmlIdYNAV2HB99q4jBgmJlG6tFrz1KEEN3OzhDj4AY6dhlpg7CJt8Sin74JC71sq0",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b0099",
+        "startAt": "2018-04-12T10:00:19.470Z",
+        "endAt": "2018-04-12T11:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b009a",
+        "startAt": "2018-04-12T02:00:19.470Z",
+        "endAt": "2018-04-12T03:00:19.470Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "m8JAQaI7HH5bw1YJJ1ty4HckBGQI63RXLPP1KjAXf03t9dxS6EGc10Ne6B8w4mJW4cL6NPAqRmogCkeFUK4dWv7F6GG3LbxoPnoSLi0SegD9iDaz9bb1F57MARdbA",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b009b",
+        "startAt": "2018-04-12T15:00:19.470Z",
+        "endAt": "2018-04-12T16:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b009c",
+        "startAt": "2018-04-12T04:00:19.470Z",
+        "endAt": "2018-04-12T05:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "AS2FLCBKvFg19S5cbNFCXtt8fxYXkb8rdNAtAakIoIgJurehAupP7KtjFDxxoIm22zuXLtzbIBLIjAebnONo2TnluVnWKe0rGPTHtAPFqM8mi7IuP3MiAJ65MjZeb",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b009d",
+        "startAt": "2018-04-12T13:00:19.470Z",
+        "endAt": "2018-04-12T14:00:19.470Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b009e",
+        "startAt": "2018-04-12T03:00:19.470Z",
+        "endAt": "2018-04-12T04:00:19.470Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "D6YQwnVR38DWK0VOKGlZpq5zECTM8UZbkPpHnZ9FbGh0RaRuJLBFIrzCKs1zcLLLsdEmUPID3ROZbeIBjOX1OaCW3OUpNeP5Qfo2xROgrNVpOAAlIQD7XK01Hb1bv",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b009f",
+        "startAt": "2018-04-12T08:00:19.470Z",
+        "endAt": "2018-04-12T09:00:19.470Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00a0",
+        "startAt": "2018-04-12T03:00:19.470Z",
+        "endAt": "2018-04-12T04:00:19.470Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "33mjqhT4OIUHD1hTkCGD2ypjD9jANCMpR2UONx8GmELkjM5gfkO27ibi4ri1FOVwEHnaBPxBLyv52qpIKH74wpdta7v6ELC9tbVM7TBnzXwphEjN06iJeB4iz73XS",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00a1",
+        "startAt": "2018-04-12T11:00:19.471Z",
+        "endAt": "2018-04-12T12:00:19.471Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00a2",
+        "startAt": "2018-04-12T03:00:19.471Z",
+        "endAt": "2018-04-12T04:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "hgnGY5HBLNgldOEAmNzwOjNQb48ueZEX5ddq4r9GXQsacX7ZGDizrjJtdcfDUZlm7KUkLcy7mQ72kGp3M8ETy5siZmrDMlib7WjA0kVPYmFpLTR6HbQidOxByOrRk",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00a3",
+        "startAt": "2018-04-12T11:00:19.471Z",
+        "endAt": "2018-04-12T12:00:19.471Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00a4",
+        "startAt": "2018-04-12T02:00:19.471Z",
+        "endAt": "2018-04-12T03:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "5YgWo8Ods1dbW7TcgzguXqwzCPrwNBzl3qqVTlnl6kP3XjdWkqNycwqDMM0sOm8gI21LS39KnoTu183W0U4cUdDbFuOnlKnAF7ylbaUWgqXvjaCeQfFLGkyMhmOqL",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00a5",
+        "startAt": "2018-04-12T09:00:19.471Z",
+        "endAt": "2018-04-12T10:00:19.471Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00a6",
+        "startAt": "2018-04-12T02:00:19.471Z",
+        "endAt": "2018-04-12T03:00:19.471Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "gz0S0SAugVfLxPeGWnkeNj7j5gx7fXPwYXBW1SLx7GawMijxJFx2CwHqEZ2iTco50vOX7JphtOqxOPLwZbG7xBUaWwzZBtzcmii8sJtLu5DJ5p19OquolAJTSvBYS",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00a7",
+        "startAt": "2018-04-12T08:00:19.471Z",
+        "endAt": "2018-04-12T09:00:19.471Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00a8",
+        "startAt": "2018-04-12T01:00:19.471Z",
+        "endAt": "2018-04-12T02:00:19.471Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "lY9IJuZM0jFKFjsS8QpVN5KOzcyZtttiAUpyUnxcVjJMv8jJb3FEhiDDEmi3udLWYNQ2uasN8XtwJe2RR2gW5vsApHYDKQgufEJibxhEVOL88N5KHnXr2NOzeEFF7",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00a9",
+        "startAt": "2018-04-12T12:00:19.471Z",
+        "endAt": "2018-04-12T13:00:19.471Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00aa",
+        "startAt": "2018-04-12T05:00:19.471Z",
+        "endAt": "2018-04-12T06:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "cIpRapoX2SpmNeDINZMUPDS3TgqNISzKChMTJDeQXripWku6AgnPGErOVtMDxXMlCu6U2e6yQMCZjKr7i2VFPbW4HFR1h23xEnco08LDEELBouafZ9s0nTarbQPsk",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00ab",
+        "startAt": "2018-04-12T10:00:19.471Z",
+        "endAt": "2018-04-12T11:00:19.471Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00ac",
+        "startAt": "2018-04-12T04:00:19.471Z",
+        "endAt": "2018-04-12T05:00:19.471Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "RhTOKtrWV3OxBaP6A7p2czSRqxvXHaPXJ0SL9nkrO5CAkc7SEehmj3LhpYKp3dbMYXlbayQsLaomHzlUoBmEGEDJdjXPDvvVuXUHacMQ72oE15NR2QGhFhDESXLdD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00ad",
+        "startAt": "2018-04-12T13:00:19.471Z",
+        "endAt": "2018-04-12T14:00:19.471Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00ae",
+        "startAt": "2018-04-12T03:00:19.471Z",
+        "endAt": "2018-04-12T04:00:19.471Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "WVHQsRhijVK6uHvPmausBTs2plSYYRMbWU5piHds1AuXnlHMTOtTRa9FmBR7zSWbyA37kOAuC7Fu5zR6BxhFacQ5I5iywGm9zXLSOp6TjDnUInylulUtkfGyfWaAj",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00af",
+        "startAt": "2018-04-12T11:00:19.471Z",
+        "endAt": "2018-04-12T12:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00b0",
+        "startAt": "2018-04-12T04:00:19.471Z",
+        "endAt": "2018-04-12T05:00:19.471Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "PXSV6yd9CzS7EhSJmOHXWMuf94jN5VgkRir9tfjycZRXTwsuSxcjNqcuRZomV6haBJDzZAs86qlWYqjm3XWlGEm3AERfdKOkjTPNAalK0hG2UFE2UI7OkhSckNS9G",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00b1",
+        "startAt": "2018-04-12T08:00:19.471Z",
+        "endAt": "2018-04-12T09:00:19.471Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00b2",
+        "startAt": "2018-04-12T03:00:19.471Z",
+        "endAt": "2018-04-12T04:00:19.471Z",
+        "day": 4,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "NfrVyDj5yL2EkwNb38z90lqXh0UweL9AbIXlkw5pkrk5lnPhy3nfovlx2XslKVd4utvFdEUKizN0nZX5rIn9l1FAJam29y5MRTabA6gtyZtu7vcCbh4zuXC7wersQ",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00b3",
+        "startAt": "2018-04-12T08:00:19.471Z",
+        "endAt": "2018-04-12T09:00:19.471Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00b4",
+        "startAt": "2018-04-12T01:00:19.471Z",
+        "endAt": "2018-04-12T02:00:19.471Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "tB0BjsgDulPpcXXJ0aKoTLmUwOOpxlGtpjCbXz9skiGoIlD3KVx7V7eWx0AGCAREubI7la2nHQcF703Pk27v7tH4GEAbDfUSi0sk0OYn95FA2nfC0PiVc2LQKDwUn",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00b5",
+        "startAt": "2018-04-12T12:00:19.471Z",
+        "endAt": "2018-04-12T13:00:19.471Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00b6",
+        "startAt": "2018-04-12T05:00:19.471Z",
+        "endAt": "2018-04-12T06:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "1CNKMsQi8lnvKHH93ePwYo1ktZZASJ0bC8XD93N8rki5RPyLl356eMTVtnzUw0JJW5S0wpkSiVlA567gFNWhr6B5DfxJpNXlQDnt54ID0t6mptxcggaAEYigFUPkP",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00b7",
+        "startAt": "2018-04-12T11:00:19.471Z",
+        "endAt": "2018-04-12T12:00:19.471Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00b8",
+        "startAt": "2018-04-12T05:00:19.471Z",
+        "endAt": "2018-04-12T06:00:19.471Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "cfGV4WG8x5QvcZaQYAoGIbbqIR8GDzV468akTstztWjWwJqdFuOFgg0Bd4IPThCgP5GqNqZufeRHrR2Ai1hqylfZCfJUp9LqTCLTy26f4c8dP1GthY57STUIfuUmj",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00b9",
+        "startAt": "2018-04-12T09:00:19.472Z",
+        "endAt": "2018-04-12T10:00:19.472Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00ba",
+        "startAt": "2018-04-12T00:00:19.472Z",
+        "endAt": "2018-04-12T01:00:19.472Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "nR1tTuc1KkmOhxFVfFjgtXjly0t2kD2GPEiUKzmUxQO1A6c8TeI4gpFfXu1TjM0wzY2Zqcb5uiVVOgbCWauD4MtY6qME5dZZwzhGqszmRCBTpVyhHQVvlV7J4L16v",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00bb",
+        "startAt": "2018-04-12T12:00:19.472Z",
+        "endAt": "2018-04-12T13:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00bc",
+        "startAt": "2018-04-11T23:00:19.472Z",
+        "endAt": "2018-04-12T00:00:19.472Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "xQGnJtGwKgNDpvzZQaBeoempjO2dBqNmGk4cKN2i1qCYwWKWDJdaNEslSYSjPWLi2b4Wf3rZuQ8N4pA7b0HnoFywbavB48FniGqtFPfTOZesYROSyYcY6io0VMvja",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00bd",
+        "startAt": "2018-04-12T15:00:19.472Z",
+        "endAt": "2018-04-12T16:00:19.472Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00be",
+        "startAt": "2018-04-12T03:00:19.472Z",
+        "endAt": "2018-04-12T04:00:19.472Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "CHo4QqpcwZMZkYUp1TdnsgjCsQnyjCheHHHualjMFR5xBqCh7ODwqqZDr9SSkzrAfeQIS4jRJwpdF1xPgz6fQPbZ3udgblam0ZmCsQBaetxbTK283j2Xmwt662Tdw",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00bf",
+        "startAt": "2018-04-12T08:00:19.472Z",
+        "endAt": "2018-04-12T09:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00c0",
+        "startAt": "2018-04-12T00:00:19.472Z",
+        "endAt": "2018-04-12T01:00:19.472Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "74TjJMzZmO8GNMEFq6xh2hQGgicdkYAhNdnA9XjE2HkRcoTjEIb0o6gbwUpvgOOZOHmcNHOg2ZzFLTVm237e00KJNzqea1ySs3eKkN8z1ngP1rWP3EkoZVex5nE7C",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00c1",
+        "startAt": "2018-04-12T13:00:19.472Z",
+        "endAt": "2018-04-12T14:00:19.472Z",
+        "day": 6,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00c2",
+        "startAt": "2018-04-12T01:00:19.472Z",
+        "endAt": "2018-04-12T02:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "j7VqghHDmLTBYF8m9t4Pzj58DaIbSs64dBKJchjpeuDVBsadkwx5MCPM3Oqmve1p8MHCvHh0wh7kId9tleBhhWw1akN56s1Six2qfSVwtupSBKeFUWSF2hoSs1Q9f",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00c3",
+        "startAt": "2018-04-12T13:00:19.472Z",
+        "endAt": "2018-04-12T14:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00c4",
+        "startAt": "2018-04-12T01:00:19.472Z",
+        "endAt": "2018-04-12T02:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "HfxesvOIlYIXzvmQ3MckysCYnhMaYzEU9dNYcAQhUuiTmzn1p76fJpnb4jwARBbyXBlqIM5d95fmiDGMjOk1LHZzAC71Q29xE0rxFiZVGinSkChSOs9iAjQEBj9nq",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00c5",
+        "startAt": "2018-04-12T12:00:19.472Z",
+        "endAt": "2018-04-12T13:00:19.472Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00c6",
+        "startAt": "2018-04-12T04:00:19.472Z",
+        "endAt": "2018-04-12T05:00:19.472Z",
+        "day": 5,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "zCBrSA5c0QoMUezRSGEkf56r6pk0kkzdAr80AOiYbFsoo4NIHjzVhq228w32gqI2Dcxs53oWhjaxqHAqyCmcvDIcgxWqasDUv4PSHcFyqO0N3amuZY0l0LJyCNUsj",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00c7",
+        "startAt": "2018-04-12T10:00:19.472Z",
+        "endAt": "2018-04-12T11:00:19.472Z",
+        "day": 1,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00c8",
+        "startAt": "2018-04-12T02:00:19.472Z",
+        "endAt": "2018-04-12T03:00:19.472Z",
+        "day": 2,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "0VN5wHpDc2QXtkgPScOPN1c2Yw1KmsDvqU6qMBjldPWZLOXdr9Hbtg022NRQtl1aRqSGLOFryorcRurGH4uvEEcOooYC7r0Bkc0unNdQIrD3HjReitaqyWAoSf6iD",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00c9",
+        "startAt": "2018-04-12T11:00:19.472Z",
+        "endAt": "2018-04-12T12:00:19.472Z",
+        "day": 4,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00ca",
+        "startAt": "2018-04-12T01:00:19.472Z",
+        "endAt": "2018-04-12T02:00:19.472Z",
+        "day": 1,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "rnfaq7v6qkPRWy6unF7MHxHHAOuDpGn2YCXqqTrtwhfiVu6D5pX1wU6ubAsGZOZg0D9gdHSxXEuH9tGArunFdbktE1VEmoY2INr9utUOKlhbQyJ92BC9lFCDm8Wd1",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00cb",
+        "startAt": "2018-04-12T11:00:19.472Z",
+        "endAt": "2018-04-12T12:00:19.472Z",
+        "day": 2,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00cc",
+        "startAt": "2018-04-12T00:00:19.472Z",
+        "endAt": "2018-04-12T01:00:19.472Z",
+        "day": 6,
+        "recurring": false
+      }
+    ]
+  },
+  {
+    "title": "Group of %activity_name%",
+    "description": "qtPoBHurVcMhJgPVjKuv8D3C6Td3V8RCiH1jyfQbRUTmApulsPHnVYCsJdGgHKn2ojRlNCgRtUPofQywyTIeQrBOYyqw6yLAA8EmGDG0o3rtmLiL3SgjYScwvHlHU",
+    "schedule": [
+      {
+        "_id": "5acf5287335f5a07378b00cd",
+        "startAt": "2018-04-12T14:00:19.472Z",
+        "endAt": "2018-04-12T15:00:19.472Z",
+        "day": 5,
+        "recurring": false
+      },
+      {
+        "_id": "5acf5287335f5a07378b00ce",
+        "startAt": "2018-04-11T22:00:19.472Z",
+        "endAt": "2018-04-11T23:00:19.472Z",
+        "day": 3,
+        "recurring": false
+      }
+    ]
+  }
+]
