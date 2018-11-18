@@ -25,14 +25,18 @@ class App extends Component {
             mode: 'cors',
             cache: 'default'
         };
-        fetch('http://localhost:3001/api/v1/auth/google', options).then(r => {
-            const token = r.headers.get('x-auth-token');
-            r.json().then(user => {
-                if (token) {
-                    this.setState({isAuthenticated: true, user, token})
-                }
-            });
+        console.log(response)
+        fetch('http://localhost:3001/api/v1/auth', options)
+        .then(r => {
+          console.log(r)
+            // const token = r.headers.get('x-auth-token');
+            // r.json().then(user => {
+            //     if (token) {
+            //         this.setState({isAuthenticated: true, user, token})
+            //     }
+            // });
         })
+          .catch(err => console.log(err))
     };
 
     render() {

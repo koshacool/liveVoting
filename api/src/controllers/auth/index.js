@@ -57,7 +57,7 @@ module.exports = (models, { config, socketIO }) => {
   const api = router();
 
 
-  api.post('/sign-in',
+  api.post('/',
     passport.authenticate('google-token', { session: false }),
     generateAccessToken,
     signIn(models));

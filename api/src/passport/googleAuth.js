@@ -1,6 +1,7 @@
 const { Unauthorized } = require('rest-api-errors');
 
 const googleAuth = User => (accessToken, refreshToken, profile, done) => {
+  console.log(profile)
   return User.findOne({
     'googleProvider.id': profile.id
   })

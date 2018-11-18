@@ -3,6 +3,7 @@ const { MethodNotAllowed } = require('rest-api-errors');
 
 const signIn = ({ User }) => async (req, res, next) => {
   const { token } = req;
+  console.req
   try {
     const user = await User.findOne({ _id: req.user.id });
 
