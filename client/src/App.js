@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
 import { GoogleLogin } from 'react-google-login';
 import config from './config.json';
+import { post, APIAddresses } from './utils/api';
+import { setAuthUser, getAuthUser, unSetAuthUser } from './utils/api/authorization';
+
 
 class App extends Component {
     constructor() {
         super();
-        this.state = { isAuthenticated: false, user: null, token: ''};
+        const userEmail = getAuthUser(); 
+
+        this.state = userEmail ? { isAuthenticated: true, email: userEmail } : { isAuthenticated: false, email: '' };
     }
 
-    logout = () => {
-        this.setState({isAuthenticated: false, token: '', user: null})
+    onLogout = async () => {
+     try {
+        post(APIAddresses.SIGN_OUT, {});
+        unSetAuthUser();
+    } catch (error) {
+        console.log('error', error)
+        throw error;
+    }
     };
 
     onFailure = (error) => {
@@ -17,26 +28,17 @@ class App extends Component {
         alert(error);
     };
 
-    googleResponse = (response) => {
-        const tokenBlob = new Blob([JSON.stringify({access_token: response.accessToken}, null, 2)], {type : 'application/json'});
-        const options = {
-            method: 'POST',
-            body: tokenBlob,
-            mode: 'cors',
-            cache: 'default'
-        };
-        console.log(response)
-        fetch('http://localhost:3001/api/v1/auth', options)
-        .then(r => {
-          console.log(r)
-            // const token = r.headers.get('x-auth-token');
-            // r.json().then(user => {
-            //     if (token) {
-            //         this.setState({isAuthenticated: true, user, token})
-            //     }
-            // });
-        })
-          .catch(err => console.log(err))
+    googleResponse = async (response) => {
+       try {
+        const { data } = await post(APIAddresses.SIGN_IN, {access_token: response.accessToken});
+        const { user, token } = data;
+        console.log(data)
+        setAuthUser(user.email, token)
+        this.setState({isAuthenticated: true, email: user.email })
+        } catch (error) {
+            console.log(error)
+            throw error;
+        }
     };
 
     render() {
@@ -45,10 +47,10 @@ class App extends Component {
                 <div>
                     <p>Authenticated</p>
                     <div>
-                        {this.state.user.email}
+                        {this.state.email}
                     </div>
                     <div>
-                        <button onClick={this.logout} className="button">
+                        <button onClick={this.onLogout} className="button">
                             Log out
                         </button>
                     </div>
@@ -58,8 +60,8 @@ class App extends Component {
                 <div>
                     <GoogleLogin
                         clientId={config.GOOGLE_CLIENT_ID}
-                        buttonText="Login"
-                        onSuccess={this.googleResponse}
+                        buttonText="Login with Google"
+                        onSuccess={this.onLogout}
                         onFailure={this.onFailure}
                     />
                 </div>

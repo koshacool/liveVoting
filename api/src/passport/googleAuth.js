@@ -1,8 +1,7 @@
 const { Unauthorized } = require('rest-api-errors');
 
-const googleAuth = User => (accessToken, refreshToken, profile, done) => {
-  console.log(profile)
-  return User.findOne({
+const googleAuth = User => (accessToken, refreshToken, profile, done) => 
+  User.findOne({
     'googleProvider.id': profile.id
   })
   .then(user => {
@@ -21,12 +20,14 @@ const googleAuth = User => (accessToken, refreshToken, profile, done) => {
         .then(savedUser => {
           return done(null, savedUser);
         })
-        .catch(err => console.log(err));
+        .catch((err) => {
+          console.log('error', err)
+          done(err)
+        });
     } else {
       return done(null, user);
     }
   })
   .catch(done);
-};
 
 module.exports = { googleAuth };

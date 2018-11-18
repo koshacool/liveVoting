@@ -2,12 +2,8 @@ const { Router: router } = require('express');
 const { authenticate, generateAccessToken } = require('../../middleware');
 const passport = require('passport');
 const signIn = require('./sign-in');
-const my = require('./my');
-const update = require('./update');
-const signUp = require('./sign-up');
 const signOut = require('./sign-out');
-const changePassword = require('./change-password');
-const restorePassword = require('./restore-password');
+const update = require('./update');
 
 /**
  * Provide Api for Auth
@@ -57,12 +53,12 @@ module.exports = (models, { config, socketIO }) => {
   const api = router();
 
 
-  api.post('/',
+  api.post('/sign-in',
     passport.authenticate('google-token', { session: false }),
     generateAccessToken,
     signIn(models));
 
-  api.post('/sign-out', authenticate, signOut(models, { socketIO }));
+  api.post('/sign-out', authenticate,  signOut(models, { config, socketIO }));
 
 
   return api;

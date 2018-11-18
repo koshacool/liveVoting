@@ -10,8 +10,10 @@ passport.use(new GoogleTokenStrategy({
   clientSecret: config.google.clientSecret,
 }, googleAuth(User)));
 
+// Serialize user into the sessions
+passport.serializeUser((user, done) => done(null, user));
 
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+// Deserialize user from the sessions
+passport.deserializeUser((user, done) => done(null, user));
 
 module.exports = { passport };

@@ -15,7 +15,7 @@ const schema = new Schema({
     default: new Date(),
   },
   fullName: String,
-  googleProvider: Object
+  googleProvider: Object,
 });
 
 module.exports = { schema };

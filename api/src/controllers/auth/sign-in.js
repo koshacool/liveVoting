@@ -3,17 +3,15 @@ const { MethodNotAllowed } = require('rest-api-errors');
 
 const signIn = ({ User }) => async (req, res, next) => {
   const { token } = req;
-  console.req
+
   try {
     const user = await User.findOne({ _id: req.user.id });
 
-    if (!user.approved) {
-      throw new MethodNotAllowed(405, 'Is not approved yet.');
+    if (!user) {
+      throw new MethodNotAllowed(405, 'Some went wrong.');
     }
-    if (!user.active) {
-      throw new MethodNotAllowed(405, 'Is de-active user.');
-    }
-    return sendOne(res, { user, token});
+
+    return sendOne(res, { user, token });
   } catch (error) {
     next(error);
   }
