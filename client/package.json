@@ -7,7 +7,11 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-google-login": "^3.2.1",
+    "react-loader-spinner": "^2.2.0",
+    "react-redux": "^5.1.1",
+    "react-s-alert": "^1.4.1",
     "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
     "socket.io-client": "^2.1.1"
   },
   "scripts": {
@@ -24,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "react-router-dom": "^4.3.1"
+  }
 }

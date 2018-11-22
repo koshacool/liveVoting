@@ -8,7 +8,7 @@ const getAuthUser = () => {
   return email;
 };
 
-const setAuthUser = (email, token) => {
+const setAuthUser = async (email, token) => {
   window.localStorage.setItem('email', email);
   setAuthToken(token);
 };
