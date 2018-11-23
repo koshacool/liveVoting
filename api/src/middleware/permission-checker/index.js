@@ -19,7 +19,7 @@ const isRoleHasPermission = action => role =>
 
    @example
            const permission = require('../../middleware/permission-checker');
-           const { VIEW_ACTIVITY } = permission.actions; <-- here action type
+           const { VIEW_ACTIVITY } = permission.auth; <-- here action type
 
            module.exports = (models) => {
             const api = router();
@@ -35,7 +35,7 @@ const isRoleHasPermission = action => role =>
    Check permissions inside controller
 
    @example
-          if (!hasPermissionTo(actions.CREATE_LANDLORD, users, res)) {
+          if (!hasPermissionTo(auth.CREATE_LANDLORD, users, res)) {
                 throw new MethodNotAllowed();
           }
 **/

@@ -3,7 +3,7 @@ const { authenticate, generateAccessToken } = require('../../middleware');
 const passport = require('passport');
 const signIn = require('./sign-in');
 const signOut = require('./sign-out');
-const update = require('./update');
+const get = require('./get');
 
 /**
  * Provide Api for Auth
@@ -58,7 +58,8 @@ module.exports = (models, { config, socketIO }) => {
     generateAccessToken,
     signIn(models));
 
-  api.post('/sign-out', authenticate,  signOut(models, { config, socketIO }));
+  api.post('/sign-out', authenticate, signOut(models, { config, socketIO }));
+  api.get('/user', authenticate, get(models, { config, socketIO }));
 
 
   return api;

@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import axios from 'axios';
 import APIAddresses from './urls';
 import { io } from './sockets';
@@ -10,14 +9,13 @@ const rootUrl = NODE_ENV === 'production' ? '' : 'http://localhost:3001';
 const makeRequest = async (type, url, data, token) => {
   try {
     const headers = getTokenHeaderObject(token);
-    const response = await axios({
+
+    return await axios({
       url: `${rootUrl}${url}`,
       data,
       method: type,
       headers,
     });
-
-    return response;
   } catch (error) {
     console.log(error);
     throw error;

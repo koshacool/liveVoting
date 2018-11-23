@@ -1,41 +1,58 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { GoogleLogin } from 'react-google-login';
 import config from './config.json';
-import { post, APIAddresses } from 'utils/api';
-import { setAuthUser, getAuthToken, unSetAuthUser } from 'utils/api/authorization';
+import { post, get, APIAddresses } from 'utils/api';
+import { setAuthToken, getAuthToken } from 'utils/api/authorization';
 import { handleError } from 'utils/error-handler';
 import { routeList } from 'pages/routes';
-import setLoading from "../../redux/actions/loader";
 
 
-const onLogout = async () => {
+const googleResponse = (push, setLoading, setUser) => async (response) => {
     try {
-        post(APIAddresses.SIGN_OUT, {});
-        unSetAuthUser();
-    } catch (error) {
-        handleError(error)
-        throw error;
-    }
-};
+        setLoading(true);
 
-const googleResponse = (push) => async (response) => {
-    try {
         const { data } = await post(APIAddresses.SIGN_IN, {access_token: response.accessToken});
         const { user, token } = data;
 
-        await setAuthUser(user.email, token);
-        push(routeList.HOME)
+        setAuthToken(token);
+        setUser(user);
+        push(routeList.HOME);
+
+        setLoading(false);
     } catch (error) {
         handleError(error);
+        setLoading(false);
         throw error;
     }
 };
 
-const Login = ({ history, setLoading, ...props }) => {
-    console.log(props)
-    if (getAuthToken()) {
-        setLoading(false)
+const getUser = async (push, setLoading, setUser) => {
+    const token = getAuthToken();
+
+    if (token) {
+        try {
+            setLoading(true);
+
+            const { data } = await get(APIAddresses.AUTH);
+            const { user } = data;
+
+            setUser(user);
+            push(routeList.HOME);
+
+            setLoading(false);
+        } catch (error) {
+            handleError(error);
+            setLoading(false);
+            throw error;
+        }
+    }
+};
+
+const Login = ({ history, setLoading, user, setUser, ...props }) => {
+    if (user) {
         history.push(routeList.HOME);
+    } else {
+        getUser(history.push, setLoading, setUser);
     }
 
     return (
@@ -43,7 +60,7 @@ const Login = ({ history, setLoading, ...props }) => {
             <GoogleLogin
                 clientId={config.GOOGLE_CLIENT_ID}
                 buttonText="Login with Google"
-                onSuccess={googleResponse(history.push)}
+                onSuccess={googleResponse(history.push, setLoading, setUser)}
                 onFailure={handleError}
             />
         </div>

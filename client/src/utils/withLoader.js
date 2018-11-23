@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import setLoading from 'redux/actions/loader';
+import setLoading from 'redux/loader/loaderActions';
 
 const withLoader = connect(
   null,

@@ -1,7 +1,7 @@
-import { SET_LOADING } from '../actions/types'
+import { SET_LOADING } from './types'
 
 const initialState = {
-  isLoading: true,
+  isLoading: false,
 }
 
 const loaderReducer = (state = initialState, { type, payload }) => {

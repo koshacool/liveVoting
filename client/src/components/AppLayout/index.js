@@ -1,7 +1,9 @@
 import React from 'react';
+import * as R from 'ramda';
 import { element } from 'prop-types';
 
 import withLoader from 'utils/withLoader';
+import withUser from 'utils/withUser';
 
 
 
@@ -13,7 +15,10 @@ const Wrapper = Component => {
         </div>
     );
 
-    return withLoader(AppLayout);
+    return R.compose(
+        withLoader,
+        withUser
+    )(AppLayout);
 };
 
 

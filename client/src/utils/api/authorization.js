@@ -1,34 +1,21 @@
 const getAuthToken = () => window.localStorage.getItem('token');
+
 const setAuthToken = token => window.localStorage.setItem('token', token);
-const getTokenHeaderValue = () => `Bearer ${getAuthToken()}`;
 
-const getAuthUser = () => {
-  const email = window.localStorage.getItem('email');
-
-  return email;
-};
-
-const setAuthUser = async (email, token) => {
-  window.localStorage.setItem('email', email);
-  setAuthToken(token);
-};
-
-const unSetAuthUser = () => {
-  setAuthUser('', '');
-  setAuthToken('');
-};
+const unsetAuthToken = () => setAuthToken('');
 
 // eslint-disable-next-line
-const getTokenHeaderObject = token => ({
-  Authorization: token ? `Bearer ${token}` : getTokenHeaderValue(),
-});
+const getTokenHeaderObject = token => {
+  const authToken = token || getAuthToken();
+
+  return {
+        Authorization: `Bearer ${authToken}`,
+    }
+};
 
 export {
   setAuthToken,
   getAuthToken,
-  getAuthUser,
-  setAuthUser,
-  unSetAuthUser,
-  getTokenHeaderValue,
+  unsetAuthToken,
   getTokenHeaderObject,
 };
