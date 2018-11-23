@@ -14,7 +14,7 @@ const routersInit = config => {
   const router = express();
 
   router.use('/auth', auth(models, { config, socketIO }));
-  router.use('/users', users(models, { config, socketIO }));
+  router.use('/user', users(models, { config, socketIO }));
 
   router.use(errorHandler);
 

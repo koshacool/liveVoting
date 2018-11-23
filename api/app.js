@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
-
+const cors = require('cors');
 require('dotenv').config();
 
 const bodyParser = require('body-parser');
@@ -14,6 +14,9 @@ const { nocache } = require('./src/middleware');
 
 const app = express();
 mongoManager.connect();
+
+// Allow CORS
+app.use(cors());
 
 
 app.use(logger('dev'));

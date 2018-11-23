@@ -3,7 +3,7 @@ const { config } = require('../../config');
 const path = require('path');
 const jade = require('jade');
 const nodemailer = require('nodemailer');
-// const logger = require('../../logger');
+// const loader = require('../../loader');
 
 /**
  * Send email for users
@@ -52,7 +52,7 @@ class EmailSender {
     };
     this._transporter.sendMail(mailData, (error) => {
       if(!error) {
-        // logger.info(`EmailSender [${this._templateName}]`, { error });
+        // loader.info(`EmailSender [${this._templateName}]`, { error });
       }
       callback();
     });
