@@ -9,7 +9,7 @@ import { getUser } from 'utils/api/authorization';
 
 
 const AuthLayout = Component => {
-  const wrapper = (props) => {
+  const wrapper = props => {
     const { history, setLoading, user, setUser } = props;
 
     // If token exist try to get user or redirect to login page
@@ -18,8 +18,8 @@ const AuthLayout = Component => {
     }
     
     return user ? <Component {...props} /> : null;
-  }
- return AppLayout(wrapper);
+  };
+  return AppLayout(wrapper);
 };
 
 AuthLayout.propTypes = {
@@ -30,5 +30,5 @@ AuthLayout.defaultProps = {
   user: null,
 };
 
-export default AuthLayout
+export default AuthLayout;
 

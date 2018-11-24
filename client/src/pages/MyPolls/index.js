@@ -1,7 +1,8 @@
 import React from 'react';
-import Home from 'components/Home';
+import PollsList from 'components/PollsList/PollsList';
+import withPolls from 'utils/withPolls';
 
 
-const MyPollsPage = props => <div>my polls</div>;
+const MyPollsPage = props => <PollsList {...props} showPrivate />;
 
-export default MyPollsPage;
+export default withPolls(MyPollsPage);

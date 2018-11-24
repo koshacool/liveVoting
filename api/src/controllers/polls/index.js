@@ -14,11 +14,11 @@ module.exports = (models, { config, socketIO }) => {
   const isAllow = ({ User }) => action => async (req, res, next) => {
     next();
   };
-
-    api.get('/', authenticate, list(models, { config }));
-  api.get('/private', authenticate, list(models, { config }));
-  api.get('/public', authenticate, list(models, { config }));
-  api.get('/:_id', authenticate, get(models, { config }));
+  //
+  // api.get('/', authenticate, list(models, { config }));
+  // api.get('/private', authenticate, list(models, { config }));
+  // api.get('/public', authenticate, list(models, { config }));
+  // api.get('/:_id', authenticate, get(models, { config }));
   // api.delete('/:_id', authenticate, isAllow(), remove(models, { config }));
 
   api.post('/create', authenticate, create(models, { config }));

@@ -8,9 +8,9 @@ import withUser from 'utils/withUser';
 
 
 const AppLayout = R.compose(
-    withLoader,
-    withUser
-  )
+  withLoader,
+  withUser
+);
 
 AppLayout.propTypes = {
   Component: element.isRequired,

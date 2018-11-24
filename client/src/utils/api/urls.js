@@ -1,5 +1,8 @@
+const versionPart = '/api/v1';
+
 export default {
-  SIGN_IN: '/api/v1/auth/sign-in',
-  SIGN_OUT: '/api/v1/auth/sign-out',
-  AUTH: '/api/v1/auth/user',
+  SIGN_IN: `${versionPart}/auth/sign-in`,
+  SIGN_OUT: `${versionPart}/auth/sign-out`,
+  AUTH: `${versionPart}/auth/user`,
+  POLLS_CREATE: `${versionPart}/polls/create`,
 };
