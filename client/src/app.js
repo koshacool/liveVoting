@@ -1,34 +1,28 @@
 import React from 'react';
-import { Switch, Route, Inde } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import Alert from 'react-s-alert';
+import AppLayout from 'layouts/AppLayout';
+import CoreLayout from './layouts/CoreLayout';
+import AuthLayout from './layouts/AuthLayout';
 
-import 'react-s-alert/dist/s-alert-default.css';
-import 'react-s-alert/dist/s-alert-css-effects/genie.css';
-
-import LoginPage from './pages/Login';
-import HomePage from './pages/Home';
-import AppLayout from './components/AppLayout';
-import Loader from 'components/Loader';
-
-import { routeList } from './pages/routes';
+import Login from 'pages/Login';
+import { PRIVATE_ROUTES, PUBLIC_ROUTES } from 'routes';
 
 import './app.scss';
 
-const ALERTS_LIMIT = 3;
-const TIMEOUT = 3000;
 
-const Main = () => (
-    <div>
-        <Switch>
-            <Route path={routeList.LOGIN} component={AppLayout(LoginPage)} />
+const App = props => (
+    <CoreLayout {...props}>
+      <Switch>
+      {PRIVATE_ROUTES.map(({ exact, path, component }, index) => (
+          <Route  key={index} exact={exact} path={path} component={AuthLayout(component)} />
+        ))}
 
-            <Route exact path={routeList.HOME} component={AppLayout(HomePage)} />
-        </Switch>
-
-        <Alert stack={{ limit: ALERTS_LIMIT }} timeout={TIMEOUT} position="bottom" />
-        <Loader  />
-    </div>
+      {PUBLIC_ROUTES.map(({ exact, path, component }, index) => (
+          <Route  key={index} exact={exact} path={path} component={AppLayout(component)} />
+        ))}
+      </Switch>
+    </CoreLayout>
 );
 
-export default Main;
+export default App;
