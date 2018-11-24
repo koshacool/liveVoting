@@ -1,34 +1,28 @@
 import React from 'react';
-import { Switch, Route, Inde } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
-import Alert from 'react-s-alert';
-
-import 'react-s-alert/dist/s-alert-default.css';
-import 'react-s-alert/dist/s-alert-css-effects/genie.css';
-
-import LoginPage from './pages/Login';
-import HomePage from './pages/Home';
-import AppLayout from './components/AppLayout';
-import Loader from 'components/Loader';
-
-import { routeList } from './pages/routes';
+import CoreLayout from './layouts/CoreLayout';
+import ProtectedRoute from './layouts/ProtectedRoute';
+import { MAIN_ROUTES } from './constants';
 
 import './app.scss';
 
-const ALERTS_LIMIT = 3;
-const TIMEOUT = 3000;
 
-const Main = () => (
-    <div>
-        <Switch>
-            <Route path={routeList.LOGIN} component={AppLayout(LoginPage)} />
-
-            <Route exact path={routeList.HOME} component={AppLayout(HomePage)} />
-        </Switch>
-
-        <Alert stack={{ limit: ALERTS_LIMIT }} timeout={TIMEOUT} position="bottom" />
-        <Loader  />
-    </div>
+const App = props => (
+  <div>
+    <CoreLayout {...props}>
+      <Switch>
+        {MAIN_ROUTES.map(({ exact, path, component }, index) => (
+          <ProtectedRoute
+                  key={`${path}-${index}`}
+                  path={path}
+                  exact={exact}
+                  component={component}
+          />
+        ))}
+      </Switch>
+    </CoreLayout>
+  </div>
 );
 
-export default Main;
+export default App;

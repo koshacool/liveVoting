@@ -9,8 +9,8 @@ const getTokenHeaderObject = token => {
   const authToken = token || getAuthToken();
 
   return {
-        Authorization: `Bearer ${authToken}`,
-    }
+    Authorization: `Bearer ${authToken}`,
+  };
 };
 
 export {

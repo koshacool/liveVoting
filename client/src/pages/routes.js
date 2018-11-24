@@ -1,6 +1,6 @@
 const routeList = {
-  LOGIN: '/Login',
   HOME: '/',
+  LOGIN: '/Login',
 };
 
 export { routeList };
