@@ -7,21 +7,13 @@ import withLoader from 'utils/withLoader';
 import withUser from 'utils/withUser';
 
 
-const Wrapper = Component => {
-  const AppLayout = props => (
-    <div>
-      <Component  {...props} />
-    </div>
-  );
-
-  return R.compose(
+const AppLayout = R.compose(
     withLoader,
     withUser
-  )(AppLayout);
-};
+  )
 
-Wrapper.propTypes = {
+AppLayout.propTypes = {
   Component: element.isRequired,
 };
 
-export default Wrapper;
+export default AppLayout;

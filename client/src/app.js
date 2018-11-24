@@ -1,28 +1,28 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
+import AppLayout from 'layouts/AppLayout';
 import CoreLayout from './layouts/CoreLayout';
-import ProtectedRoute from './layouts/ProtectedRoute';
-import { MAIN_ROUTES } from './constants';
+import AuthLayout from './layouts/AuthLayout';
+
+import Login from 'pages/Login';
+import { PRIVATE_ROUTES, PUBLIC_ROUTES } from 'routes';
 
 import './app.scss';
 
 
 const App = props => (
-  <div>
     <CoreLayout {...props}>
       <Switch>
-        {MAIN_ROUTES.map(({ exact, path, component }, index) => (
-          <ProtectedRoute
-                  key={`${path}-${index}`}
-                  path={path}
-                  exact={exact}
-                  component={component}
-          />
+      {PRIVATE_ROUTES.map(({ exact, path, component }, index) => (
+          <Route  key={index} exact={exact} path={path} component={AuthLayout(component)} />
+        ))}
+
+      {PUBLIC_ROUTES.map(({ exact, path, component }, index) => (
+          <Route  key={index} exact={exact} path={path} component={AppLayout(component)} />
         ))}
       </Switch>
     </CoreLayout>
-  </div>
 );
 
 export default App;
