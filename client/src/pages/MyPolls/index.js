@@ -1,5 +1,5 @@
 import React from 'react';
-import PollsList from 'components/PollsList/PollsList';
+import PollsList from 'components/PollsList';
 import withPolls from 'utils/withPolls';
 
 

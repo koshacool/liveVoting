@@ -1,40 +1,29 @@
-// const _ = require('lodash');
-// const { sendOne } = require('../../middleware/index');
-// const { MethodNotAllowed } = require('rest-api-errors');
-// const { parseFormDataBody } = require('../../utils/requests');
+const _ = require('lodash');
+const { sendOne } = require('../../middleware/index');
+const { MethodNotAllowed } = require('rest-api-errors');
 
-const update = ({ User, Image }) => async (req, res, next) => {
-  // try {
-  //   const { email, documentApproval, isAgreeGDPR, profile } = parseFormDataBody(req.body);
-  //   const user = await User.findOne({ _id: req.user.id });
-  //   if (!user) {
-  //     throw new MethodNotAllowed(405, 'Permission denied');
-  //   }
-  //   const newDocumentApproval = _.extend(user.documentApproval, documentApproval || {});
-  //   const newProfile = _.extend(user.profile, profile || {});
-  //
-  //   _.extend(user, {
-  //     email: email || user.email,
-	// 		isAgreeGDPR: _.isUndefined(isAgreeGDPR) ? user.isAgreeGDPR : isAgreeGDPR,
-  //     documentApproval: newDocumentApproval,
-  //     profile: newProfile,
-  //   });
-  //
-  //   const avatar = _.get(req, 'files.avatar');
-  //   if (avatar) {
-  //     user.validateSync();
-  //     await Image.remove({ _id: user.profile.imageId });
-  //     const image = new Image(avatar);
-  //     const savedImage = await image.save();
-  //     user.profile.imageId = savedImage._id;
-  //   }
-  //
-  //   await user.save();
-  //   return sendOne(res, { user });
-  //
-  // } catch (error) {
-  //   next(error);
-  // }
+const update = ({ User, Polls }) => async (req, res, next) => {
+  try {
+    const user = await User.findOne({ _id: req.user.id });
+    const partToUpdate = req.body;
+    const { _id } = req.params;
+    const poll = await Polls.findOne({ _id, createdBy: user._id });
+
+    if (!user) {
+      throw new MethodNotAllowed(405, 'Some went wrong.');
+    }
+
+    if (!poll) {
+      throw new MethodNotAllowed(405, 'Permission denied');
+    }
+
+    _.extend(poll, partToUpdate);
+    const saved = await poll.save();
+
+    return sendOne(res, { poll: saved });
+  } catch (error) {
+    next(error);
+  }
 };
 
 module.exports = update;

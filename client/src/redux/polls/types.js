@@ -1,5 +1,4 @@
-export const GET_PRIVATE = 'GET_PRIVATE';
-export const GET_PUBLIC = 'GET_PUBLIC';
-export const CREATE = 'CREATE';
-export const UPDATE = 'UPDATE';
-export const REMOVE = 'REMOVE';
+export const GET_POLLS = 'GET_POLLS';
+export const CREATE_POLLS = 'CREATE_POLLS';
+export const UPDATE_POLLS = 'UPDATE_POLLS';
+export const REMOVE_POLLS = 'REMOVE_POLLS';

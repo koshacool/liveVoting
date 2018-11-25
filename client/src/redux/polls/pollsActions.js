@@ -1,25 +1,21 @@
-import { GET_PRIVATE, GET_PUBLIC, CREATE, UPDATE, REMOVE } from './types';
+import { GET_POLLS, CREATE_POLLS, UPDATE_POLLS, REMOVE_POLLS } from './types';
 
-export const getPrivate = polls => ({
-  type: GET_PRIVATE,
-  payload: { polls },
-});
-export const getPublic = polls => ({
-  type: GET_PUBLIC,
+export const getPolls = polls => ({
+  type: GET_POLLS,
   payload: { polls },
 });
 
 export const createPoll = poll => ({
-  type: CREATE,
+  type: CREATE_POLLS,
   payload: { poll },
 });
 
 export const updatePoll = poll => ({
-  type: UPDATE,
+  type: UPDATE_POLLS,
   payload: { poll },
 });
 
 export const removePoll = id => ({
-  type: REMOVE,
+  type: REMOVE_POLLS,
   payload: { id },
 });

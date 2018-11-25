@@ -6,28 +6,52 @@ import { Container, Row, Button } from 'reactstrap';
 import PollItem from './PollItem';
 import NoItems from 'components/NoItems';
 
-import { post, get, APIAddresses } from 'utils/api';
+import { post, get, patch, APIAddresses } from 'utils/api';
 import { handleError } from 'utils/error-handler';
 import { EDIT_POLL } from 'routes';
 
 
 class MyPolls extends React.Component {
-  constructor(props) {
-    super(props);
+  async componentDidMount(){
+    const { setLoading, getPolls, showPrivate } = this.props;
 
-    this.onPublicityToggle = this.onPublicityToggle.bind(this);
-    // this.createPoll = this.createPoll.bind(this);
+    try {
+      setLoading(true);
+
+      const { data: { polls } } = await get(APIAddresses.POLLS_LIST);
+
+      getPolls(polls);
+      setLoading(false);
+    } catch (error) {
+      handleError(error);
+      setLoading(false);
+      throw error;
+    }
   }
 
+  onPublicityToggle = async (poll) => {
+    const { setLoading, updatePoll } = this.props;
 
-  onPublicityToggle(isPublic, pollId) {
-    // updatePoll.call({ _id: pollId, partToUpdate: { isPublic } },
-    //   handleResult());
+    try {
+      setLoading(true);
+
+      const { data } = await patch(
+        `${APIAddresses.POLLS_UPDATE}/${poll._id}`,
+        { isPublic: !poll.isPublic }
+        );
+
+      updatePoll(data.poll);
+      setLoading(false);
+    } catch (error) {
+      handleError(error);
+      setLoading(false);
+      throw error;
+    }
   }
 
    createPoll = async () => {
     const { setLoading, createPoll, history } = this.props;
-console.log(this.props)
+
     try {
       setLoading(true);
 
@@ -45,8 +69,11 @@ console.log(this.props)
   }
 
   render() {
-    const { polls, showPrivate } = this.props;
-    const pollsToShow = showPrivate ? polls.private : polls.public;
+    const { polls, showPrivate, user } = this.props;
+
+    const pollsToShow = showPrivate
+      ? polls.filter(({ createdBy }) => createdBy === user._id)
+      : polls.filter(({ isPublic }) => !!isPublic);
 
     return (
       <Container>
@@ -57,12 +84,18 @@ console.log(this.props)
                 key={poll._id}
                 poll={poll}
                 onPublicityToggle={this.onPublicityToggle}
+                userId={user._id}
               />
             ))
             : <NoItems />}
         </Row>
 
-        <Button className="float-right" onClick={this.createPoll}>ADD</Button>
+        <Button
+          onClick={this.createPoll}
+          style={{ position: 'fixed', bottom: '20px', right: '20px' }}
+        >
+          ADD
+        </Button>
       </Container>
     );
   }

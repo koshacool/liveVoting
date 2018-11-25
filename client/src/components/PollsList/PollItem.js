@@ -1,77 +1,72 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import moment from 'moment';
+import moment from 'moment';
+import {
+  Card,
+  CardTitle,
+  CardText,
+  Col,
+  FormGroup,
+  CustomInput
+} from 'reactstrap';
+import LinkButton from 'components/LinkButton';
 
 
-import { Col, Card, CardTitle, Checkbox } from 'reactstrap';
+const getCheckboxId = poll => `checkbox-${poll._id}`;
 
+const getHumanizeDuration = date => moment.duration(new Date() - date).
+  humanize();
 
+const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
 
+const PollItem = ({ poll, onPublicityToggle, userId }) => {
+  const onPublicityToggleHandler = () => onPublicityToggle(poll);
 
-
-// const getCheckboxId = poll => `checkbox-${poll._id}`;
-//
-// const getHumanizeDuration = date => moment.duration(new Date() - date).humanize();
-//
-// const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
-
-
-const PollItem = ({ poll, onPublicityToggle }) => {
-  // const onPublicityToggleHandler = isChecked => onPublicityToggle(isChecked, poll._id);
-
-  // const canEditPoll = poll.createdBy === Meteor.userId();
-
+  const canEditPoll = poll.createdBy === userId;
+  console.log(canEditPoll);
   return (
     <Col xs={12} className="m-b-20">
-      {/*<Card>*/}
-      {/*<CardTitle*/}
-      {/*title={poll.title}*/}
-      {/*subtitle={getTimeAgo(poll.createdAt)}*/}
-      {/*/>*/}
+      <Card body>
+        <CardTitle>{poll.title}</CardTitle>
+        <CardText>{getTimeAgo(moment(poll.createdAt))}</CardText>
+        <FormGroup>
 
-      {/*<CardActions>*/}
-      {/*<LinkButton*/}
-      {/*flat*/}
-      {/*to={`vote/${poll._id}`}*/}
-      {/*label="Open"*/}
-      {/*/>*/}
+          {canEditPoll && (
+            <LinkButton
+              flat
+              to={`edit-poll/${poll._id}`}
+              label="Edit"
+            />
+          )}
 
-      {/*{canEditPoll && (*/}
-      {/*<LinkButton*/}
-      {/*flat*/}
-      {/*to={`edit-poll/${poll._id}`}*/}
-      {/*label="Edit"*/}
-      {/*/>*/}
-      {/*)}*/}
+          {canEditPoll && (
+            <CustomInput
+                type="checkbox"
+                className="ml-4"
+                id={getCheckboxId(poll)}
+                name={getCheckboxId(poll)}
+                checked={poll.isPublic}
+                onChange={onPublicityToggleHandler}
+                label="Public"
+                inline
+            />
+          )}
 
-      {/*{canEditPoll && (*/}
-      {/*<Checkbox*/}
-      {/*id={getCheckboxId(poll)}*/}
-      {/*name={getCheckboxId(poll)}*/}
-      {/*label="public"*/}
-      {/*checked={poll.isPublic}*/}
-      {/*onChange={onPublicityToggleHandler}*/}
-      {/*/>*/}
-      {/*)}*/}
-      {/*</CardActions>*/}
-      {/*</Card>*/}
 
-      pollItem
+        </FormGroup>
+      </Card>
     </Col>
   );
 };
 
-
 PollItem.defaultProps = {
   onPublicityToggle: () => true,
 };
-
 
 PollItem.propTypes = {
   poll: PropTypes.object.isRequired,
 
   onPublicityToggle: PropTypes.func,
 };
-
 
 export default PollItem;

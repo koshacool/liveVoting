@@ -1,8 +1,7 @@
-import { GET_PRIVATE, GET_PUBLIC, CREATE, UPDATE, REMOVE } from './types';
+import { GET_POLLS, CREATE_POLLS, UPDATE_POLLS, REMOVE_POLLS } from './types';
 
 const initialState = {
-  private: [],
-  public: [],
+  polls: [],
 };
 
 const updpatePoll = (polls, poll) => {
@@ -20,23 +19,19 @@ const updpatePoll = (polls, poll) => {
 
 const pollsReducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    case GET_PRIVATE:
-      return { ...state, private: payload.polls };
-    case GET_PUBLIC:
-      return { ...state, public: payload.polls };
-    case CREATE:
-      return { ...state, private: state.private.concat([payload.poll]) };
-    case UPDATE:
+    case GET_POLLS:
+      return { ...state, polls: payload.polls };
+    case CREATE_POLLS:
+      return { ...state, polls: state.polls.concat([payload.poll]) };
+    case UPDATE_POLLS:
       return {
         ...state,
-        private: updpatePoll(state.private, payload.poll),
-        public: updpatePoll(state.public, payload.poll)
+        polls: updpatePoll(state.polls, payload.poll),
       };
-    case REMOVE:
+    case REMOVE_POLLS:
       return {
         ...state,
-        private: state.private.filter(({ _id }) => _id !== payload.id),
-        public: state.public.filter(({ _id }) => _id !== payload.id),
+        polls: state.polls.filter(({ _id }) => _id !== payload.id),
       };
     default:
       return state;
