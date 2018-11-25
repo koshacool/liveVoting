@@ -5,7 +5,7 @@
 export NODE_ENV=development
 
 cd client
-npm i
+# npm i
 cd ../api
-npm i
+# npm i
 npm run dev

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import { Link, NavLink } from 'react-router-dom';
-import { Container, Row, Navbar, Collapse, Col, NavbarToggler, Nav, NavItem, Button, 
+import { Container, Row, Navbar, Collapse, Col, NavbarToggler, Nav, NavItem, Button,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -14,11 +14,11 @@ import { onLogout } from 'utils/onLogout';
 
 const menuItems = [
     {
-        url: 'my-polls',
+        url: '/my-polls',
         title: 'MY POLLS',
     },
   {
-    url: 'public-polls',
+    url: '/public-polls',
     title: 'PUBLIC POLLS',
   },
 ];
@@ -31,7 +31,7 @@ class Header extends Component {
   render() {
    const { user, unsetUser, setLoading } = this.props
    const { isOpen } = this.state
- 
+
   return (
     <div>
      <Navbar color="light" light expand="md">
