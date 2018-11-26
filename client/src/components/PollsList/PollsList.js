@@ -6,70 +6,25 @@ import { Container, Row, Button } from 'reactstrap';
 import PollItem from './PollItem';
 import NoItems from 'components/NoItems';
 
-import { post, get, patch, APIAddresses } from 'utils/api';
-import { handleError } from 'utils/error-handler';
-import { EDIT_POLL } from 'routes';
-
 
 class MyPolls extends React.Component {
   async componentDidMount(){
-    const { setLoading, getPolls, showPrivate } = this.props;
-
-    try {
-      setLoading(true);
-
-      const { data: { polls } } = await get(APIAddresses.POLLS_LIST);
-
-      getPolls(polls);
-      setLoading(false);
-    } catch (error) {
-      handleError(error);
-      setLoading(false);
-      throw error;
-    }
+    const { getPolls } = this.props;
+    getPolls();
   }
 
   onPublicityToggle = async (poll) => {
     const { setLoading, updatePoll } = this.props;
-
-    try {
-      setLoading(true);
-
-      const { data } = await patch(
-        `${APIAddresses.POLLS_UPDATE}/${poll._id}`,
-        { isPublic: !poll.isPublic }
-        );
-
-      updatePoll(data.poll);
-      setLoading(false);
-    } catch (error) {
-      handleError(error);
-      setLoading(false);
-      throw error;
-    }
+    updatePoll(poll._id,  { isPublic: !poll.isPublic });
   }
 
    createPoll = async () => {
-    const { setLoading, createPoll, history } = this.props;
-
-    try {
-      setLoading(true);
-
-      const { data: { poll } } = await post(APIAddresses.POLLS_CREATE, {});
-
-      createPoll(poll);
-      history.push(EDIT_POLL.replace(/:id/, poll._id));
-
-      setLoading(false);
-    } catch (error) {
-      handleError(error);
-      setLoading(false);
-      throw error;
-    }
+    const { createPoll, history } = this.props;
+    createPoll(history);
   }
 
   render() {
-    const { polls, showPrivate, user } = this.props;
+    const { polls, showPrivate, user, removePoll } = this.props;
 
     const pollsToShow = showPrivate
       ? polls.filter(({ createdBy }) => createdBy === user._id)
@@ -85,6 +40,7 @@ class MyPolls extends React.Component {
                 poll={poll}
                 onPublicityToggle={this.onPublicityToggle}
                 userId={user._id}
+                onRemove={() => removePoll(poll._id)}
               />
             ))
             : <NoItems />}

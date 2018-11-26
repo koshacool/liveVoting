@@ -7,7 +7,8 @@ import {
   CardText,
   Col,
   FormGroup,
-  CustomInput
+  CustomInput,
+  Button
 } from 'reactstrap';
 import LinkButton from 'components/LinkButton';
 
@@ -19,11 +20,10 @@ const getHumanizeDuration = date => moment.duration(new Date() - date).
 
 const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
 
-const PollItem = ({ poll, onPublicityToggle, userId }) => {
+const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
   const onPublicityToggleHandler = () => onPublicityToggle(poll);
-
   const canEditPoll = poll.createdBy === userId;
-  console.log(canEditPoll);
+
   return (
     <Col xs={12} className="m-b-20">
       <Card body>
@@ -32,8 +32,14 @@ const PollItem = ({ poll, onPublicityToggle, userId }) => {
         <FormGroup>
 
           {canEditPoll && (
+            <Button outline color="danger" className='mr-1' onClick={onRemove}>
+              Remove
+            </Button>
+          )}
+
+          {canEditPoll && (
             <LinkButton
-              flat
+              outline
               to={`edit-poll/${poll._id}`}
               label="Edit"
             />

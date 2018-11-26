@@ -2,17 +2,16 @@ import axios from 'axios';
 import APIAddresses from './urls';
 import { io } from './sockets';
 import { getTokenHeaderObject } from './authorization';
-import setLoading from 'redux/loader/loaderActions';
+import { switchLoader } from 'redux/loader/operations';
 import { handleError } from 'utils/error-handler';
 
 const { NODE_ENV } = process.env;
 const rootUrl = NODE_ENV === 'production' ? '' : 'http://localhost:3001';
 
-const makeRequest = async (type, url, data, dispatch, token) => {
-  console.log(url, data, dispatch)
+const makeRequest = async (type, url, data, dispatch) => {
   try {
-    dispatch(setLoading(true));
-    const headers = getTokenHeaderObject(token);
+    switchLoader(true)(dispatch);
+    const headers = getTokenHeaderObject();
 
     const result = await axios({
       url: `${rootUrl}${url}`,
@@ -21,11 +20,11 @@ const makeRequest = async (type, url, data, dispatch, token) => {
       headers,
     });
 
-    dispatch(setLoading(false));
+    switchLoader(false)(dispatch);
     return result;
   } catch (error) {
     handleError(error);
-    dispatch(setLoading(false));
+    switchLoader(false)(dispatch);
     throw error;
   }
 };

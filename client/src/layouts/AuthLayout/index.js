@@ -11,7 +11,7 @@ const AuthLayout = Component => {
     if (!user) {
       getUser(history.push);
     }
-    
+
     return user ? <Component {...props} /> : null;
   };
 
