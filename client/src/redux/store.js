@@ -1,5 +1,7 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
+import ReduxThunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 import loaderReducer from './loader/loaderReducer';
 import authReducer from './auth/authReducer';
@@ -12,7 +14,7 @@ const store = createStore(
     auth: authReducer,
     polls: pollsReducer,
   }),
-  applyMiddleware(logger)
+  composeWithDevTools(applyMiddleware(logger, ReduxThunk))
 );
 
 export default store;

@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
-import { setUser, unsetUser } from 'redux/auth/authActions';
+import { onGoogleResponse, getUser, onLogout, checkUser } from 'redux/auth/operations';
 
 const withUser = connect(
   ({ auth }) => ({ user: auth.user }),
-  { setUser, unsetUser }
+  { onGoogleResponse, getUser, onLogout, checkUser }
 );
 
 export default withUser;

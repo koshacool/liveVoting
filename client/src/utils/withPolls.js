@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { createPoll, updatePoll, removePoll, getPolls } from 'redux/polls/pollsActions';
+import { createPoll, updatePoll, removePoll, getPolls } from 'redux/polls/operations';
 
 const withLoader = connect(
   ({ polls }) => ({ polls: polls.polls }),
