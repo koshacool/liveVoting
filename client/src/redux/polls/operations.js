@@ -27,7 +27,9 @@ export const updatePoll = (id, partToUpdate) => async dispatch => {
 };
 
 export const removePoll = id => async dispatch => {
-  const res = await remove(`${APIAddresses.POLLS_DELETE}/${id}`, {}, dispatch);
-  console.log(id);
+  await remove(`${APIAddresses.POLLS_DELETE}/${id}`, {}, dispatch);
   dispatch(actions.removePoll(id));
 };
+
+export const togglePublic = poll => async dispatch =>
+  dispatch(actions.updatePoll(poll));

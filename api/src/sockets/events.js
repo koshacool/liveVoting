@@ -1,4 +1,3 @@
 module.exports = {
-  NEW_POLL: 'new-poll',
-  UPDATE_POLL: 'update-poll',
+  POLL_TOGGLE_PUBLIC: 'poll-toggle-public',
 };

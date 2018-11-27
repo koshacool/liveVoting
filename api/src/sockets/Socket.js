@@ -15,6 +15,7 @@ class SocketIO {
     this._clients_hash = {};
     this._sockets = {};
   }
+
   init(server) {
     const io = socketIo(server);
 
@@ -38,10 +39,12 @@ class SocketIO {
         }
       });
   }
+
   remove(userId){
     delete this._sockets[userId];
     delete this._clients_hash[this._clients_hash[userId]];
   }
+
   /**
    * Emit new socket event for certain user
    *
@@ -55,6 +58,20 @@ class SocketIO {
       this._sockets[userId].emit(name, params);
     }
   }
+
+  /**
+   * Emit new socket event for all registered users
+   *
+   * @params
+   *    {String} - name of emmit method
+   *    {Any} - params to send for client
+   * **/
+  emitAll(name, params) {
+    Object.values(this._sockets).forEach(socket => {
+      return socket.emit(name, params)
+    });
+  }
+
   /**
    * Return all connected users
    *

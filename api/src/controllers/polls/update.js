@@ -1,8 +1,9 @@
 const _ = require('lodash');
 const { sendOne } = require('../../middleware/index');
+const { POLL_TOGGLE_PUBLIC } = require('../../sockets/events');
 const { MethodNotAllowed } = require('rest-api-errors');
 
-const update = ({ User, Polls }) => async (req, res, next) => {
+const update = ({ User, Polls }, { socketIO }) => async (req, res, next) => {
   try {
     const user = await User.findOne({ _id: req.user.id });
     const partToUpdate = req.body;
@@ -19,6 +20,8 @@ const update = ({ User, Polls }) => async (req, res, next) => {
 
     _.extend(poll, partToUpdate);
     const saved = await poll.save();
+    console.log(socketIO.getConnected())
+    socketIO.emitAll(POLL_TOGGLE_PUBLIC, { poll });
 
     return sendOne(res, { poll: saved });
   } catch (error) {

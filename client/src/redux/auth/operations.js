@@ -2,6 +2,7 @@ import { get, post, APIAddresses } from 'utils/api';
 import * as actions from './authActions';
 import {HOME_URL, LOGIN_URL} from 'routes';
 import { getAuthToken, setAuthToken, unsetAuthToken } from 'utils/api/authorization';
+import initSockets from 'sockets';
 
 
 export const checkUser = callback => async dispatch => {
@@ -13,6 +14,7 @@ export const checkUser = callback => async dispatch => {
       const { user } = data;
 
       dispatch(actions.setUser(user));
+      initSockets(token, dispatch);
 
       if (typeof callback === 'function') {
         callback();
@@ -45,6 +47,7 @@ export const onGoogleResponse = (googleResponse, push) => async dispatch => {
 
     setAuthToken(token);
     dispatch(actions.setUser(user));
+    initSockets(token, dispatch);
 
     return push(HOME_URL);
   } catch (error) {
