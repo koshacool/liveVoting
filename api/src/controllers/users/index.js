@@ -81,6 +81,19 @@ module.exports = (models, { config }) => {
 
   api.get('/auth', authenticate, get(models));
   api.get('/:_id', authenticate, get(models));
+  //
+  // api.get('/', authenticate, list(models, { config }));
+  // api.get('/statistics', authenticate, getStatistic(models));
+  // api.get('/statistics/excel', getStatisticExcel(models));
+  // api.get('/statistic/count', getStatisticCount(models));
+  // api.get('/:_id', authenticate, get(models));
+  // api.get('/:_id/groups', authenticate, groups(models, { config }));
+  // api.post('/', authenticate, isAllow(CREATE_USER), create(models, { config }));
+  // api.patch('/:_id', authenticate,  isAllow(EDIT_USER), update(models));
+  // api.patch('/:_id/approve', authenticate,  isAllow(EDIT_USER), approve(models));
+  // api.patch('/:_id/un-approve', authenticate,  isAllow(EDIT_USER), unApprove(models));
+  // api.patch('/:_id/de-activate/:value', authenticate,  isAllow(EDIT_USER), deActivate(models));
+  // api.delete('/:_id', authenticate, isAllow(REMOVE_USER), remove(models));
 
   return api;
 };

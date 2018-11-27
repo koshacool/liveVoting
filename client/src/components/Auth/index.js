@@ -1,71 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { GoogleLogin } from 'react-google-login';
-import config from './config.json';
-import { post, get, APIAddresses } from 'utils/api';
-import { setAuthToken, getAuthToken } from 'utils/api/authorization';
 import { handleError } from 'utils/error-handler';
-import { routeList } from 'pages/routes';
+import {HOME_URL, LOGIN_URL} from 'routes';
+import config from './config.json';
 
+class Login extends Component {
+  componentDidMount () {
+    const { checkUser, history } = this.props;
 
-const googleResponse = (push, setLoading, setUser) => async (response) => {
-    try {
-        setLoading(true);
+    checkUser(() => history.push(HOME_URL));
+  }
 
-        const { data } = await post(APIAddresses.SIGN_IN, {access_token: response.accessToken});
-        const { user, token } = data;
-
-        setAuthToken(token);
-        setUser(user);
-        push(routeList.HOME);
-
-        setLoading(false);
-    } catch (error) {
-        handleError(error);
-        setLoading(false);
-        throw error;
-    }
-};
-
-const getUser = async (push, setLoading, setUser) => {
-    const token = getAuthToken();
-
-    if (token) {
-        try {
-            setLoading(true);
-
-            const { data } = await get(APIAddresses.AUTH);
-            const { user } = data;
-
-            setUser(user);
-            push(routeList.HOME);
-
-            setLoading(false);
-        } catch (error) {
-            handleError(error);
-            setLoading(false);
-            throw error;
-        }
-    }
-};
-
-const Login = ({ history, setLoading, user, setUser, ...props }) => {
-    if (user) {
-        history.push(routeList.HOME);
-    } else {
-        getUser(history.push, setLoading, setUser);
-    }
+  render () {
+    const { history, onGoogleResponse } = this.props;
 
     return (
-        <div>
-            <GoogleLogin
-                clientId={config.GOOGLE_CLIENT_ID}
-                buttonText="Login with Google"
-                onSuccess={googleResponse(history.push, setLoading, setUser)}
-                onFailure={handleError}
-            />
-        </div>
+      <GoogleLogin
+        clientId={config.GOOGLE_CLIENT_ID}
+        buttonText="Login with Google"
+        onSuccess={googleResponse => onGoogleResponse(googleResponse, history.push)}
+        onFailure={handleError}
+      />
     );
+  }
 }
-
 
 export default Login;

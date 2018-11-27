@@ -1,21 +1,14 @@
-const getAuthToken = () => window.localStorage.getItem('token');
+export const getAuthToken = () => window.localStorage.getItem('token');
 
-const setAuthToken = token => window.localStorage.setItem('token', token);
+export const setAuthToken = token => window.localStorage.setItem('token', token);
 
-const unsetAuthToken = () => setAuthToken('');
+export const unsetAuthToken = () => setAuthToken('');
 
 // eslint-disable-next-line
-const getTokenHeaderObject = token => {
+export const getTokenHeaderObject = token => {
   const authToken = token || getAuthToken();
 
   return {
-        Authorization: `Bearer ${authToken}`,
-    }
-};
-
-export {
-  setAuthToken,
-  getAuthToken,
-  unsetAuthToken,
-  getTokenHeaderObject,
+    Authorization: `Bearer ${authToken}`,
+  };
 };

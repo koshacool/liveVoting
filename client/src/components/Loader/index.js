@@ -4,13 +4,13 @@ import Loader from 'react-loader-spinner';
 import './Loader.scss';
 
 export const LoaderWrapper = ({ isLoading }) => {
-    return isLoading ? (
-        <div className="react-loader">
+  return isLoading ? (
+    <div className="react-loader">
+      <div>
         <div>
-            <div>
-                <Loader type="TailSpin" color="#0099ca" height={50} width={50} />
-            </div>
+          <Loader type="TailSpin" color="#0099ca" height={50} width={50} />
         </div>
+      </div>
     </div> ) : null;
 };
 

@@ -1,8 +1,8 @@
-import { SET_LOADING } from './types'
+import { SET_LOADING } from './types';
 
 const initialState = {
   isLoading: false,
-}
+};
 
 const loaderReducer = (state = initialState, { type, payload }) => {
   switch (type) {
@@ -11,6 +11,6 @@ const loaderReducer = (state = initialState, { type, payload }) => {
     default:
       return state;
   }
-}
+};
 
-export default loaderReducer
+export default loaderReducer;
