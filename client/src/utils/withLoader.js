@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
-import setLoading from 'redux/loader/loaderActions';
+import { switchLoader } from 'redux/loader/operations';
 
 const withLoader = connect(
   null,
-  { setLoading }
+  { switchLoader }
 );
 
 export default withLoader;

@@ -9,7 +9,6 @@ import { Container, Row, Navbar, Collapse, Col, NavbarToggler, Nav, NavItem, But
   DropdownItem,
   NavbarBrand } from 'reactstrap';
 import AppLayout from 'layouts/AppLayout';
-import { onLogout } from 'utils/onLogout';
 
 
 const menuItems = [
@@ -29,8 +28,8 @@ class Header extends Component {
   toggle = () => this.setState({ isOpen: !this.state.isOpen })
 
   render() {
-   const { user, unsetUser, setLoading } = this.props
-   const { isOpen } = this.state
+   const { user, onLogout } = this.props;
+   const { isOpen } = this.state;
 
   return (
     <div>
@@ -61,7 +60,7 @@ class Header extends Component {
             {user.email}
           </DropdownItem>
           <DropdownItem divider />
-          <DropdownItem onClick={onLogout(unsetUser, setLoading)}>
+          <DropdownItem onClick={onLogout}>
             Logout
           </DropdownItem>
         </DropdownMenu>
