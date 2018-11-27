@@ -17,7 +17,7 @@ module.exports = (models, { config, socketIO }) => {
   // api.get('/:_id', authenticate, get(models, { config }));
   // api.delete('/:_id', authenticate, isAllow(), remove(models, { config }));
 
-  api.post('/create', authenticate, create(models, { config }));
+  api.post('/create', authenticate, create(models, { socketIO }));
   api.get('/list', authenticate, getPolls(models, { config }));
   api.patch('/update/:_id', authenticate,  update(models, { config }));
 
