@@ -60,6 +60,22 @@ class SocketIO {
   }
 
   /**
+   * Emit new socket event for all expect passed user id
+   *
+   * @params
+   *    {String} - userId
+   *    {String} - name of emmit method
+   *    {Any} - params to send for client
+   * **/
+  emitNotFor(userId, name, params) {
+    Object.keys(this._sockets).forEach(id => {
+      if (id !== userId) {
+        return this._sockets[id].emit(name, params);
+      }
+     });
+  }
+
+  /**
    * Emit new socket event for all registered users
    *
    * @params

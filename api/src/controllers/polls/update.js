@@ -1,11 +1,26 @@
 const _ = require('lodash');
 const { sendOne } = require('../../middleware/index');
-const { POLL_TOGGLE_PUBLIC } = require('../../sockets/events');
+const { POLL_UNPUBLIC, POLL_ON_PUBLIC, POLL_UPDATE } = require('../../sockets/events');
 const { MethodNotAllowed } = require('rest-api-errors');
+
+const getSocketMessageName = (poll, partToUpdate) => {
+  let messageName = '';
+
+  if (poll.isPublic) {
+    messageName = !partToUpdate.isPublic
+      ? POLL_UNPUBLIC
+      : POLL_UPDATE;
+  } else if (partToUpdate.isPublic && !poll.isPublic) {
+    messageName = POLL_ON_PUBLIC;
+  }
+
+  return messageName;
+};
 
 const update = ({ User, Polls }, { socketIO }) => async (req, res, next) => {
   try {
-    const user = await User.findOne({ _id: req.user.id });
+    const userId = req.user.id;
+    const user = await User.findOne({ _id: userId });
     const partToUpdate = req.body;
     const { _id } = req.params;
     const poll = await Polls.findOne({ _id, createdBy: user._id });
@@ -18,10 +33,14 @@ const update = ({ User, Polls }, { socketIO }) => async (req, res, next) => {
       throw new MethodNotAllowed(405, 'Permission denied');
     }
 
+    const socketMessageName = getSocketMessageName(poll, partToUpdate);
+
     _.extend(poll, partToUpdate);
     const saved = await poll.save();
-    console.log(socketIO.getConnected())
-    socketIO.emitAll(POLL_TOGGLE_PUBLIC, { poll });
+
+    if (socketMessageName) {
+      socketIO.emitNotFor(userId, socketMessageName, { poll: saved });
+    }
 
     return sendOne(res, { poll: saved });
   } catch (error) {
