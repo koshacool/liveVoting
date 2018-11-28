@@ -27,7 +27,20 @@ export const updatePoll = (id, partToUpdate) => async dispatch => {
 };
 
 export const removePoll = id => async dispatch => {
-  const res = await remove(`${APIAddresses.POLLS_DELETE}/${id}`, {}, dispatch);
-  console.log(id);
+  await remove(`${APIAddresses.POLLS_DELETE}/${id}`, {}, dispatch);
   dispatch(actions.removePoll(id));
 };
+
+
+// Socket operations
+export const pollOnPublic = poll => async dispatch =>
+  dispatch(actions.createPoll(poll));
+
+export const pollUnPublic = poll => async dispatch =>
+  dispatch(actions.removePoll(poll._id));
+
+export const pollUpdate = poll => async dispatch =>
+  dispatch(actions.updatePoll(poll));
+
+export const pollRemove = id => async dispatch =>
+  dispatch(actions.removePoll(id));
