@@ -8,7 +8,7 @@ import NoItems from 'components/NoItems';
 
 
 class MyPolls extends React.Component {
-  async componentDidMount(){
+  componentDidMount(){
     const { getPolls } = this.props;
     getPolls();
   }

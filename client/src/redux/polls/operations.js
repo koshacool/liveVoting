@@ -8,7 +8,6 @@ export const getPolls = () => async dispatch => {
   dispatch(actions.getPolls(polls));
 };
 
-
 export const createPoll = history => async dispatch => {
   const { data: { poll } } = await post(APIAddresses.POLLS_CREATE, {}, dispatch);
 
