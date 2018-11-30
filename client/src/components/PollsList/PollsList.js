@@ -13,9 +13,9 @@ class MyPolls extends React.Component {
     getPolls();
   }
 
-  onPublicityToggle = async (poll) => {
-    const { setLoading, updatePoll } = this.props;
-    updatePoll(poll._id,  { isPublic: !poll.isPublic });
+  onPublicityToggle = async (poll, isPublic) => {
+    const { updatePoll } = this.props;
+    updatePoll(poll._id,  { isPublic });
   }
 
    createPoll = async () => {

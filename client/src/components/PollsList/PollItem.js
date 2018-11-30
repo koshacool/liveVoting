@@ -19,7 +19,7 @@ const getHumanizeDuration = date => moment.duration(new Date() - date).
 const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
 
 const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
-  const onPublicityToggleHandler = () => onPublicityToggle(poll);
+  const onPublicityToggleHandler = () => onPublicityToggle(poll, !poll.isPublic);
   const canEditPoll = poll.createdBy === userId;
 
   return (

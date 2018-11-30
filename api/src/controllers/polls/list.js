@@ -1,31 +1,26 @@
-const _ = require('lodash');
-// const { sendList } = require('../../middleware/index');
-// const { onlyDefined } = require('../../utils/requests');
+const { sendOne } = require('../../middleware');
+const { MethodNotAllowed } = require('rest-api-errors');
 
-const getList = ({ User }, { config }) => async (req, res, next) => {
-  // try {
-  //   let { limit, skip, search, type, isApproved, isAgreeGDPR } = req.query;
-  //
-  //   skip = skip ? parseInt(skip, 10) : 0;
-  //   limit = parseInt(limit, 10);
-  //   limit = limit && limit < config.maxLimitPerQuery ? limit : config.maxLimitPerQuery;
-  //
-  //   const query = _.pickBy({ roles: type, approved: isApproved, isAgreeGDPR }, onlyDefined);
-  //   if (search) {
-  //     const fieldToSearch = new User().fieldsToSearch(search);
-  //     _.extend(query, { $or: fieldToSearch })
-  //   }
-  //
-  //   const count = await User.find(query).count();
-  //   const users = await User.find(query)
-  //     .sort({ approved: 1 })
-  //     .skip(skip)
-  //     .limit(limit);
-  //
-  //   return sendList(res, { users, count });
-  // } catch (error) {
-  //   next(error);
-  // }
+const getList = ({ User, Polls }) => async (req, res, next) => {
+  try {
+    const user = await User.findOne({ _id: req.user.id },
+      { email: 1, fullName: 1 });
+
+    if (!user) {
+      throw new MethodNotAllowed(405, 'Some went wrong.');
+    }
+
+    const polls = await Polls.find({
+      $or: [
+        { createdBy: user._id },
+        { isPublic: true },
+      ],
+    }).sort({ createdAt: -1 });
+
+    return sendOne(res, { polls });
+  } catch (error) {
+    next(error);
+  }
 };
 
 module.exports = getList;

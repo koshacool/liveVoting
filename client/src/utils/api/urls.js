@@ -8,5 +8,7 @@ export default {
   POLLS_LIST: `${versionPart}/polls/list`,
   POLL_ITEM: `${versionPart}/polls`,
   POLLS_UPDATE: `${versionPart}/polls`,
-  POLLS_DELETE: `${versionPart}/polls`,
+
+  QUESTION_CREATE: `${versionPart}/questions/create`,
+  QUESTION_ITEM: `${versionPart}/questions`,
 };

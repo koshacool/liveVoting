@@ -5,12 +5,12 @@ import { CustomInput } from 'reactstrap';
 
 const getCheckboxId = poll => `checkbox-${poll._id}`;
 
-const TogglePublicCheckbox = ({ poll, onPublicityToggle, className }) => (
+const TogglePublicCheckbox = ({ poll, onPublicityToggle, name, className }) => (
   <CustomInput
     type="checkbox"
     className={className}
     id={getCheckboxId(poll)}
-    name={getCheckboxId(poll)}
+    name={name}
     checked={poll.isPublic}
     onChange={onPublicityToggle}
     label="Public"

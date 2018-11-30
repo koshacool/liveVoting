@@ -1,7 +1,7 @@
 const { sendOne } = require('../../middleware');
 const { MethodNotAllowed } = require('rest-api-errors');
 
-const get = ({ User, Polls }) => async (req, res, next) => {
+const getList = ({ User, Polls }) => async (req, res, next) => {
   try {
     const user = await User.findOne({ _id: req.user.id },
       { email: 1, fullName: 1 });
@@ -23,4 +23,4 @@ const get = ({ User, Polls }) => async (req, res, next) => {
   }
 };
 
-module.exports = get;
+module.exports = getList;

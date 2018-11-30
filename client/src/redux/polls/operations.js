@@ -1,5 +1,6 @@
 import { get, post, patch, remove, APIAddresses } from 'utils/api';
 import * as actions from './pollsActions';
+import * as questionActions from 'redux/questions/questionsActions';
 import { EDIT_POLL } from 'routes';
 
 export const getPolls = () => async dispatch => {
@@ -26,8 +27,18 @@ export const updatePoll = (id, partToUpdate) => async dispatch => {
 };
 
 export const removePoll = id => async dispatch => {
-  await remove(`${APIAddresses.POLLS_DELETE}/${id}`, {}, dispatch);
+  await remove(`${APIAddresses.POLL_ITEM}/${id}`, {}, dispatch);
   dispatch(actions.removePoll(id));
+};
+
+export const getPollToEdit = id => async dispatch => {
+  const { data } = await get(`${APIAddresses.POLL_ITEM}/${id}`, dispatch);
+  const { poll, question, answers } = data;
+
+  dispatch(actions.updatePoll(poll));
+  question && dispatch(questionActions.updateQuestion(question));
+  // TODO: get answers
+  // dispatch(answerActions.updateAnswer(answers));
 };
 
 

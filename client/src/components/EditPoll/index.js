@@ -1,3 +1,3 @@
-import PollsList from './PollsList';
+import EditPoll from './EditPoll';
 
-export default PollsList;
+export default EditPoll;

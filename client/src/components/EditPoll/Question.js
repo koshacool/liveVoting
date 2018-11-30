@@ -1,23 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Container,
   Col,
   Row,
   Button,
-  Form,
   FormGroup,
   Label,
   Input,
-  FormText,
+  CustomInput
 } from 'reactstrap';
 
-import { CustomInput } from 'reactstrap';
-import Answers from './Answers';
+import withQuestions from 'utils/withQuestions';
+import { findByField } from 'utils/helpers';
+import Answers from "./Answers";
 
-const Question = ({ question, answers }) => {
+
+const Question = (props) => {
+  const { pollId, questions, createQuestion, removeQuestion, updateQuestion, children,  } = props;
+
+  const question = findByField(questions, 'pollId', pollId);
+
+  const onChangeQuestion = questionId =>  ({ target }) => {
+    const { name, value, checked } = target;
+    updateQuestion(questionId,  { [name]: name === 'showResult' ? checked : value });
+  }
+
+
   return question
     ? (
+      <FormGroup>
       <div>
         <FormGroup>
           <Label for="questionTitle">Question</Label>
@@ -25,34 +36,37 @@ const Question = ({ question, answers }) => {
             <Col sm={11}>
               <Input
                 type="text"
-                name="questionTitle"
-                id="questionTitle"
+                name="title"
                 placeholder="Question text"
+                value={question.title}
+                onChange={onChangeQuestion(question._id)}
               />
             </Col>
-            <Button close sm={1} onClick={() => console.log('show answer')} />
+            <Button close sm={1} onClick={() => removeQuestion(question._id)} />
           </Row>
         </FormGroup>
 
         <FormGroup>
             <CustomInput
               type="checkbox"
-              label="Show voting result"
+              label="Show voting results"
               inline
+              id={question._id}
               row
-              onClick={() => console.log('show answer')}
+              name="showResult"
+              checked={question.showResult}
+              onChange={onChangeQuestion(question._id)}
             />
         </FormGroup>
 
-
-
-          <Answers
-            answers={answers}
-          />
+        <Answers
+          answers={[{}, {}]}
+        />
       </div>
+      </FormGroup>
     ) : <div>
       <h3>No questions</h3>
-      <Button onClick={() => console.log('add')}>Add question</Button>
+      <Button onClick={() => createQuestion(pollId)}>Add question</Button>
     </div>;
 
 };
@@ -62,4 +76,4 @@ Question.propTypes = {
   answers: PropTypes.array.isRequired,
 };
 
-export default Question;
+export default withQuestions(Question);
