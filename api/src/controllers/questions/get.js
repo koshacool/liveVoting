@@ -1,7 +1,7 @@
 const { sendOne } = require('../../middleware');
 const { MethodNotAllowed } = require('rest-api-errors');
 
-const get = ({ User, Polls, Questions, Answers }, { socketIO }) => async (req, res, next) => {
+const get = ({ User, Polls }, { socketIO }) => async (req, res, next) => {
   try {
     const userId = req.user.id;
     const user = await User.findOne({ _id: userId });
@@ -15,13 +15,9 @@ const get = ({ User, Polls, Questions, Answers }, { socketIO }) => async (req, r
     if (!poll) {
       throw new MethodNotAllowed(405, 'Permission denied');
     }
+    // TODO: get questions and answers
 
-    const question = await Questions.findOne({ pollId: _id });
-    const answers = question
-      ? await Answers.find({ questionId: question._id })
-      : [];
-
-    return sendOne(res, { poll, question, answers });
+    return sendOne(res, { poll, question: null, answers: [] });
   } catch (error) {
     next(error);
   }

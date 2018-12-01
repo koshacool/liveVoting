@@ -7,13 +7,11 @@ import {
   CardText,
   Col,
   FormGroup,
-  CustomInput,
-  Button
+  Button,
 } from 'reactstrap';
 import LinkButton from 'components/LinkButton';
+import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
 
-
-const getCheckboxId = poll => `checkbox-${poll._id}`;
 
 const getHumanizeDuration = date => moment.duration(new Date() - date).
   humanize();
@@ -21,44 +19,46 @@ const getHumanizeDuration = date => moment.duration(new Date() - date).
 const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
 
 const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
-  const onPublicityToggleHandler = () => onPublicityToggle(poll);
+  const onPublicityToggleHandler = () => onPublicityToggle(poll, !poll.isPublic);
   const canEditPoll = poll.createdBy === userId;
 
   return (
     <Col xs={12} className="m-b-20">
       <Card body>
-        <CardTitle>{poll.title}</CardTitle>
+        <CardTitle>{poll.title || 'No title'}</CardTitle>
         <CardText>{getTimeAgo(moment(poll.createdAt))}</CardText>
         <FormGroup>
 
-          {canEditPoll && (
-            <Button outline color="danger" className='mr-1' onClick={onRemove}>
-              Remove
-            </Button>
+          {(canEditPoll || poll.isPublic) && (
+            <LinkButton
+              outline
+              to={`vote/${poll._id}`}
+              label="Open"
+            />
           )}
 
           {canEditPoll && (
             <LinkButton
               outline
+              className='m-1'
               to={`edit-poll/${poll._id}`}
               label="Edit"
             />
           )}
 
           {canEditPoll && (
-            <CustomInput
-                type="checkbox"
-                className="ml-4"
-                id={getCheckboxId(poll)}
-                name={getCheckboxId(poll)}
-                checked={poll.isPublic}
-                onChange={onPublicityToggleHandler}
-                label="Public"
-                inline
-            />
+            <Button outline color="danger"  onClick={onRemove}>
+              Remove
+            </Button>
           )}
 
-
+          {canEditPoll && (
+            <TogglePublicCheckbox
+              poll={poll}
+              onPublicityToggle={onPublicityToggleHandler}
+              className="m-4"
+            />
+          )}
         </FormGroup>
       </Card>
     </Col>

@@ -3,15 +3,10 @@ const Schema = mongoose.Schema;
 
 
 const schema = new Schema({
-  _id: { type: String },
-  createdAt: { type: Date },
-  createdBy: { type: String },
+  createdAt: { type: Date, default: Date.now },
+  title: { type: String, default: '' },
+  showResult: { type: Boolean, default: false },
   pollId: { type: String },
-
-  title: { type: String },
-  isEnabled: { type: Boolean },
-  isOpen: { type: Boolean },
-  showResults: { type: Boolean },
 });
 
 module.exports = { schema };

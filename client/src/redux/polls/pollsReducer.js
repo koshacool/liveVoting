@@ -10,6 +10,7 @@ const updpatePoll = (polls, poll) => {
   const index = newArr.findIndex(({ _id }) => _id === poll._id);
 
   if (index < 0) {
+    newArr.push(poll);
     return newArr;
   }
 

@@ -3,14 +3,10 @@ const Schema = mongoose.Schema;
 
 
 const schema = new Schema({
-  _id: { type: String },
-  createdAt: { type: Date },
-  createdBy: { type: String },
+  createdAt: { type: Date, default: Date.now },
   questionId: { type: String },
-
-  title: { type: String },
-  votedBy: { type: String },
+  title: { type: String, default: '' },
+  votedBy: { type: Array, default: [] },
 });
-
 
 module.exports = { schema };

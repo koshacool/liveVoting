@@ -12,8 +12,9 @@ module.exports = (models, { config, socketIO }) => {
   const api = router();
 
   api.post('/create', authenticate, create(models, { socketIO }));
-  api.get('/list', authenticate, getList(models, { socketIO }));
-  api.get('/:_id', authenticate, get(models, { socketIO }));
+
+  // api.get('/list', authenticate, getList(models, { socketIO }));
+  // api.get('/:_id', authenticate, get(models, { socketIO }));
   api.patch('/:_id', authenticate,  update(models, { socketIO }));
   api.delete('/:_id', authenticate, remove(models, { socketIO }));
 

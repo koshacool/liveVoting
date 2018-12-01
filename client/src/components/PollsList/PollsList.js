@@ -8,14 +8,14 @@ import NoItems from 'components/NoItems';
 
 
 class MyPolls extends React.Component {
-  async componentDidMount(){
+  componentDidMount(){
     const { getPolls } = this.props;
     getPolls();
   }
 
-  onPublicityToggle = async (poll) => {
-    const { setLoading, updatePoll } = this.props;
-    updatePoll(poll._id,  { isPublic: !poll.isPublic });
+  onPublicityToggle = async (poll, isPublic) => {
+    const { updatePoll } = this.props;
+    updatePoll(poll._id,  { isPublic });
   }
 
    createPoll = async () => {
