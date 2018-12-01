@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import * as R from 'ramda';
-import { element } from 'prop-types';
 import Alert from 'react-s-alert';
 
 import Header from 'components/Header';
@@ -20,14 +18,14 @@ export const CoreLayout = ({ children }) => (
       <Header />
       {children}
     </Fragment>
-        
+
     <Alert stack={{ limit: ALERTS_LIMIT }} timeout={TIMEOUT} position="bottom" />
     <Loader  />
   </div>
 );
-  
+
 CoreLayout.propTypes = {
-  children:     PropTypes.node,
+  children:  PropTypes.node,
 };
-  
+
 export default CoreLayout;

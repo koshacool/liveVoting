@@ -1,4 +1,4 @@
-import { get, post, patch, remove, APIAddresses } from 'utils/api';
+import { post, patch, remove, APIAddresses } from 'utils/api';
 import * as actions from "./questionsActions";
 
 

@@ -1,17 +1,23 @@
-import {
-  get, post, patch, remove, APIAddresses,
-} from 'utils/api';
+import { post, patch, remove, APIAddresses } from 'utils/api';
 import * as actions from './answersActions';
 
-
 export const createAnswer = questionId => async (dispatch) => {
-  const { data: { answer } } = await post(APIAddresses.ANSWER_CREATE, { questionId }, dispatch);
+  const { data: { answer } } = await post(APIAddresses.ANSWER_CREATE,
+    { questionId }, dispatch);
   dispatch(actions.createAnswer(answer));
 };
 
 export const updateAnswer = (id, partToUpdate) => async (dispatch) => {
-  const { data: { answer } } = await patch(`${APIAddresses.ANSWER_ITEM}/${id}`, partToUpdate, dispatch);
+  const { data: { answer } } = await patch(`${APIAddresses.ANSWER_ITEM}/${id}`,
+    partToUpdate, dispatch);
   dispatch(actions.updateAnswer(answer));
+};
+
+export const updateAnswerOnVote = id => async (dispatch) => {
+  const { data: { answers } } = await patch(`${APIAddresses.ANSWER_VOTE}/${id}`,
+    {}, dispatch);
+
+  dispatch(actions.updateAnswers(answers));
 };
 
 export const removeAnswer = id => async (dispatch) => {

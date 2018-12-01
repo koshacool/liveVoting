@@ -1,13 +1,6 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import { Redirect } from 'react-router';
 
-
-
-
-const Home = ({ history, user, unsetUser, setLoading, ...rest }) => (
-    <div>
-            Home
-    </div>
-  );
+const Home = () => <Redirect to="/my-polls"/>;
 
 export default Home;

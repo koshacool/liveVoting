@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 
 const NoItems = ({ noItemsText }) => (
-  <h3 className="col">{noItemsText}</h3>
+  <h3 className="col text-center">{noItemsText}</h3>
 );
 
 NoItems.propTypes = {

@@ -14,4 +14,5 @@ export default {
 
   ANSWER_CREATE: `${versionPart}/answers/create`,
   ANSWER_ITEM: `${versionPart}/answers`,
+  ANSWER_VOTE: `${versionPart}/answers/vote`,
 };

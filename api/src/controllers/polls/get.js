@@ -6,7 +6,12 @@ const get = ({ User, Polls, Questions, Answers }, { socketIO }) => async (req, r
     const userId = req.user.id;
     const user = await User.findOne({ _id: userId });
     const { _id } = req.params;
-    const poll = await Polls.findOne({ _id, createdBy: user._id });
+    const poll = await Polls.findOne({
+      _id,
+      $or: [
+        { createdBy: user._id },
+        { isPublic: true },
+  ] });
 
     if (!user) {
       throw new MethodNotAllowed(405, 'Some went wrong.');

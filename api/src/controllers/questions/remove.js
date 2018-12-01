@@ -10,8 +10,8 @@ const remove = ({ User, Questions, Answers }, { socketIO }) => async (req, res, 
       throw new MethodNotAllowed(405, 'Some went wrong.');
     }
 
-    await Questions.remove({ _id });
-    // await Answers.remove({ questionId: _id }, { multi: true });
+    await Questions.deleteOne({ _id });
+    await Answers.deleteMany({ questionId: _id });
 
     return sendDeleted(res, { _id });
   } catch (error) {
