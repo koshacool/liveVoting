@@ -12,6 +12,7 @@ import {
 
 import withQuestions from 'utils/withQuestions';
 import Answers from './AnswersList';
+import ControlledInput from 'components/ControlledInput';
 
 const Question = (props) => {
   const {
@@ -32,11 +33,11 @@ const Question = (props) => {
             <Label for="questionTitle">Question</Label>
             <Row>
               <Col sm={11}>
-                <Input
+                <ControlledInput
+                  id={`${question._id}-title`}
                   type="text"
                   name="title"
                   placeholder="Question text"
-                  value={question.title}
                   onChange={onChangeQuestion(question._id)}
                 />
               </Col>
@@ -50,7 +51,7 @@ const Question = (props) => {
               type="checkbox"
               label="Show voting results"
               inline
-              id={question._id}
+              id={`${question._id}-publish`}
               name="showResult"
               checked={question.showResult}
               onChange={onChangeQuestion(question._id)}
@@ -69,8 +70,8 @@ const Question = (props) => {
 };
 
 Question.propTypes = {
-  question: object,
   pollId: string,
+  question: object,
   createQuestion: func,
   removeQuestion: func,
   updateQuestion: func,

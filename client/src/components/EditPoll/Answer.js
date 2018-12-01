@@ -1,13 +1,15 @@
 import React from 'react';
 import { array, func } from 'prop-types';
-import { Col, Row, FormGroup, Label, Input, Button } from 'reactstrap';
+import { Col, Row, FormGroup, Label, Button } from 'reactstrap';
+
+import ControlledInput from 'components/ControlledInput';
 
 const Answer = ({ answer, onRemove, onUpdate }) => (
   <FormGroup>
     <Label for="answerTitle">Answer</Label>
     <Row>
       <Col sm={10}>
-        <Input
+        <ControlledInput
           type="text"
           name="title"
           id={answer._id}
