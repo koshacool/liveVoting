@@ -5,23 +5,24 @@ module.exports = {
   },
   parser: 'babel-eslint',
   plugins: ['import', 'promise'],
-  extends: ['airbnb', 'plugin:import/errors', 'plugin:import/warnings'],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   rules: {
     'comma-dangle': [
       'error',
       {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
         exports: 'always-multiline',
         functions: 'ignore',
       },
     ],
     'max-len': [
       'error',
+      120,
       {
-        code: 100,
         ignoreComments: true,
+        ignoreStrings: true,
       },
     ],
     'newline-per-chained-call': [
@@ -44,5 +45,8 @@ module.exports = {
     'no-buffer-constructor': 0,
     'no-unused-expressions': 0,
     'jsx-a11y/label-has-for': 0,
+    'object-curly-spacing': ["error", 'always'],
+    "comma-dangle": ["error", "always-multiline"],
+    "arrow-body-style": ["error", "as-needed"]
   },
 };

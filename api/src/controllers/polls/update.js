@@ -7,7 +7,7 @@ const getSocketMessageName = (poll, partToUpdate) => {
   let messageName = '';
 
   if (poll.isPublic) {
-    messageName = !partToUpdate.isPublic
+    messageName = partToUpdate.isPublic === false
       ? POLL_UNPUBLIC
       : POLL_UPDATE;
   } else if (partToUpdate.isPublic && !poll.isPublic) {

@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import Loader from 'react-loader-spinner';
 import './Loader.scss';
 
-export const LoaderWrapper = ({ isLoading }) => {
-  return isLoading ? (
+export const LoaderWrapper = ({ isLoading }) => isLoading ? (
     <div className="react-loader">
       <div>
         <div>
@@ -12,7 +11,6 @@ export const LoaderWrapper = ({ isLoading }) => {
         </div>
       </div>
     </div> ) : null;
-};
 
 export default connect(({ loader }) => ({ isLoading: loader.isLoading }))(LoaderWrapper);
 

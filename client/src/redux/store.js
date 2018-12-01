@@ -7,6 +7,7 @@ import loaderReducer from './loader/loaderReducer';
 import authReducer from './auth/authReducer';
 import pollsReducer from './polls/pollsReducer';
 import questionsReducer from './questions/questionsReducer';
+import answersReducer from './answers/answersReducer';
 
 
 const store = createStore(
@@ -15,8 +16,9 @@ const store = createStore(
     auth: authReducer,
     polls: pollsReducer,
     questions: questionsReducer,
+    answers: answersReducer,
   }),
-  composeWithDevTools(applyMiddleware(ReduxThunk, logger))
+  composeWithDevTools(applyMiddleware(ReduxThunk, logger)),
 );
 
 export default store;

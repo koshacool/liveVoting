@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { GoogleLogin } from 'react-google-login';
 import { handleError } from 'utils/error-handler';
-import {HOME_URL, LOGIN_URL} from 'routes';
+import { HOME_URL, LOGIN_URL } from 'routes';
 import config from './config.json';
 
 class Login extends Component {

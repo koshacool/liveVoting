@@ -7,7 +7,7 @@ import {
   CardText,
   Col,
   FormGroup,
-  Button
+  Button,
 } from 'reactstrap';
 import LinkButton from 'components/LinkButton';
 import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
@@ -25,11 +25,11 @@ const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
   return (
     <Col xs={12} className="m-b-20">
       <Card body>
-        <CardTitle>{poll.title}</CardTitle>
+        <CardTitle>{poll.title || 'No title'}</CardTitle>
         <CardText>{getTimeAgo(moment(poll.createdAt))}</CardText>
         <FormGroup>
 
-          {canEditPoll && (
+          {(canEditPoll || poll.isPublic) && (
             <LinkButton
               outline
               to={`vote/${poll._id}`}

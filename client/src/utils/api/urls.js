@@ -11,4 +11,7 @@ export default {
 
   QUESTION_CREATE: `${versionPart}/questions/create`,
   QUESTION_ITEM: `${versionPart}/questions`,
+
+  ANSWER_CREATE: `${versionPart}/answers/create`,
+  ANSWER_ITEM: `${versionPart}/answers`,
 };

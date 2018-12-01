@@ -1,6 +1,6 @@
 import { get, post, APIAddresses } from 'utils/api';
 import * as actions from './authActions';
-import {HOME_URL, LOGIN_URL} from 'routes';
+import { HOME_URL, LOGIN_URL } from 'routes';
 import { getAuthToken, setAuthToken, unsetAuthToken } from 'utils/api/authorization';
 import initSockets from 'sockets';
 
@@ -40,7 +40,7 @@ export const onGoogleResponse = (googleResponse, push) => async dispatch => {
   try {
     const { data } = await post(
       APIAddresses.SIGN_IN,
-      {access_token: googleResponse.accessToken},
+      { access_token: googleResponse.accessToken },
       dispatch
     );
     const { user, token } = data;

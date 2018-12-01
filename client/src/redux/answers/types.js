@@ -1,0 +1,4 @@
+export const CREATE_ANSWER = 'CREATE_ANSWER';
+export const UPDATE_ANSWER = 'UPDATE_ANSWER';
+export const UPDATE_ANSWERS = 'UPDATE_ANSWERS';
+export const REMOVE_ANSWER = 'REMOVE_ANSWER';

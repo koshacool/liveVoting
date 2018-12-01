@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import _ from 'lodash';
+import { object, array, func } from 'prop-types';
 import {
   Container,
   Button,
@@ -9,9 +10,9 @@ import {
   Input,
 } from 'reactstrap';
 
-import { findByField } from 'utils/helpers';
-import Question from './Question';
+import { findOneByField } from 'utils/helpers';
 import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
+import Question from './Question';
 
 class EditPoll extends React.Component {
   componentDidMount() {
@@ -24,25 +25,23 @@ class EditPoll extends React.Component {
   getPollId = () => {
     const { match: { params } } = this.props;
     return params.id;
-  }
+  };
 
   getCurrentPoll = () => {
-    const { polls, questions, answers = [] } = this.props;
+    const { polls } = this.props;
     const pollId = this.getPollId();
-    return findByField(polls, '_id', pollId);
-  }
+    return findOneByField(polls, '_id', pollId);
+  };
 
-  onChangePoll = pollId =>  ({ target }) => {
+  onChangePoll = pollId => ({ target }) => {
     const { updatePoll } = this.props;
     const { name, value, checked } = target;
 
-    updatePoll(pollId,  { [name]: name === 'isPublic' ? checked : value });
-  }
-
-
+    updatePoll(pollId, { [name]: name === 'isPublic' ? checked : value });
+    _.debounce(() => console.log('aaaaaaaaaaaaaaaaaaaaaaa'), 500)
+  };
 
   render() {
-    const { answers = [{title: 123}] } = this.props;
     const pollId = this.getPollId();
     const poll = this.getCurrentPoll();
 
@@ -69,12 +68,10 @@ class EditPoll extends React.Component {
             />
           </FormGroup>
 
-
-            <Question
-              pollId={pollId}
-            />
+          <Question
+            pollId={pollId}
+          />
         </Form>
-
 
         <Button
           onClick={this.createPoll}
@@ -89,7 +86,10 @@ class EditPoll extends React.Component {
 }
 
 EditPoll.propTypes = {
-  polls: PropTypes.array.isRequired,
+  polls: array.isRequired,
+  updatePoll: func.isRequired,
+  getPollToEdit: func.isRequired,
+  match: object.isRequired,
 };
 
 export default EditPoll;
