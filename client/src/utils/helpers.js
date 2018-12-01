@@ -3,5 +3,3 @@ export const findOneByField = (collectionItems, fieldToSearch, value) =>
 
 export const findAllByField = (collectionItems, fieldToSearch, value) =>
   collectionItems.filter(item => item[fieldToSearch] === value);
-
-

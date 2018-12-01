@@ -13,6 +13,7 @@ import {
 import { findOneByField } from 'utils/helpers';
 import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
 import Question from './Question';
+import  ControlledInput from 'components/ControlledInput';
 
 class EditPoll extends React.Component {
   componentDidMount() {
@@ -38,7 +39,6 @@ class EditPoll extends React.Component {
     const { name, value, checked } = target;
 
     updatePoll(pollId, { [name]: name === 'isPublic' ? checked : value });
-    _.debounce(() => console.log('aaaaaaaaaaaaaaaaaaaaaaa'), 500)
   };
 
   render() {
@@ -50,10 +50,10 @@ class EditPoll extends React.Component {
         <Form>
           <FormGroup row>
             <Label for="editTitle">TITLE</Label>
-            <Input
+            <ControlledInput
               type="text"
               name="title"
-              id="editTitle"
+              id={pollId}
               placeholder="Poll title"
               value={poll.title}
               onChange={this.onChangePoll(poll._id)}
