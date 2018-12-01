@@ -1,6 +1,6 @@
 # Deploy on Heroku
 
-git checkout heroku
+git checkout -b heroku
 git merge dev
 ## Build client
 cd client
@@ -18,4 +18,4 @@ git push -f heroku heroku-api:master
 git branch -D heroku-api
 
 git checkout dev
-
+git branch -D heroku
