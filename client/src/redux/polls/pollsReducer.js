@@ -1,4 +1,5 @@
 import { GET_POLLS, CREATE_POLLS, UPDATE_POLLS, REMOVE_POLLS } from './types';
+import { sortPolls } from 'utils/sortPolls';
 
 const initialState = {
   polls: [],
@@ -9,6 +10,7 @@ const updpatePoll = (polls, poll) => {
   const index = newArr.findIndex(({ _id }) => _id === poll._id);
 
   if (index < 0) {
+    newArr.push(poll);
     return newArr;
   }
 
@@ -22,7 +24,7 @@ const pollsReducer = (state = initialState, { type, payload }) => {
     case GET_POLLS:
       return { ...state, polls: payload.polls };
     case CREATE_POLLS:
-      return { ...state, polls: state.polls.concat([payload.poll]) };
+      return { ...state, polls: state.polls.concat([payload.poll]).sort(sortPolls) };
     case UPDATE_POLLS:
       return {
         ...state,

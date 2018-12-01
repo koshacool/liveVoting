@@ -1,5 +1,6 @@
 module.exports = {
-  NEW_NOTE: 'new-note',
-  NEW_MESSAGE: 'new-message',
-  UPDATE_LESSON: 'update-lesson',
+  POLL_UNPUBLIC: 'poll-unpublic',
+  POLL_ON_PUBLIC: 'poll-on-public',
+  POLL_UPDATE: 'poll-update',
+  POLL_REMOVE: 'poll-remove',
 };

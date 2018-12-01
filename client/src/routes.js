@@ -1,8 +1,9 @@
-import Home from 'pages/Home/index';
-import MyPolls from 'pages/MyPolls/index';
-import PublicPolls from 'pages/PublicPolls/index';
-import NotFound from 'pages/NotFound/index';
-import Login from 'pages/Login/index';
+import Home from 'pages/Home';
+import MyPolls from 'pages/MyPolls';
+import PublicPolls from 'pages/PublicPolls';
+import EditPoll from 'pages/EditPoll';
+import NotFound from 'pages/NotFound';
+import Login from 'pages/Login';
 
 export const LOGIN_URL = '/login';
 export const HOME_URL = '/';
@@ -27,6 +28,11 @@ export const PRIVATE_ROUTES = [
     title: 'Public Polls',
     path: PUBLIC_POLLS,
     component: PublicPolls,
+  },
+  {
+    title: 'Public Polls',
+    path: EDIT_POLL,
+    component: EditPoll,
   },
 ];
 

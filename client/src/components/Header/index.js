@@ -71,7 +71,7 @@ class Header extends Component {
     </div>
   );
 }
-};
+}
 
 Header.propTypes = {
   user: PropTypes.object,

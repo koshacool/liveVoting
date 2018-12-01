@@ -6,6 +6,12 @@ export default {
   AUTH: `${versionPart}/auth/user`,
   POLLS_CREATE: `${versionPart}/polls/create`,
   POLLS_LIST: `${versionPart}/polls/list`,
+  POLL_ITEM: `${versionPart}/polls`,
   POLLS_UPDATE: `${versionPart}/polls`,
-  POLLS_DELETE: `${versionPart}/polls`,
+
+  QUESTION_CREATE: `${versionPart}/questions/create`,
+  QUESTION_ITEM: `${versionPart}/questions`,
+
+  ANSWER_CREATE: `${versionPart}/answers/create`,
+  ANSWER_ITEM: `${versionPart}/answers`,
 };

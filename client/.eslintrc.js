@@ -1,63 +1,52 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true,
-    "jest/globals": true
+  env: {
+    browser: true,
+    jest: true,
   },
-  "extends": [
-    "eslint:recommended"
+  parser: 'babel-eslint',
+  plugins: ['import', 'promise'],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
-  "parserOptions": {
-      "ecmaFeatures": {
-          "jsx": true
+  rules: {
+    'comma-dangle': [
+      'error',
+      {
+        exports: 'always-multiline',
+        functions: 'ignore',
       },
-      "ecmaVersion": 2018,
-      "sourceType": "module"
+    ],
+    'max-len': [
+      'error',
+      120,
+      {
+        ignoreComments: true,
+        ignoreStrings: true,
+      },
+    ],
+    'newline-per-chained-call': [
+      'error',
+      {
+        ignoreChainWithDepth: 5,
+      },
+    ],
+    'class-methods-use-this': 0,
+    'func-names': 0,
+    'import/extensions': 0,
+    'import/no-extraneous-dependencies': 0,
+    'import/prefer-default-export': 0,
+    'react/jsx-filename-extension': 0,
+    'no-underscore-dangle': 0,
+    'no-confusing-arrow': 0,
+    'new-cap': 0,
+    'react/forbid-prop-types': 0,
+    'jsx-a11y/anchor-is-valid': 0,
+    'no-buffer-constructor': 0,
+    'no-unused-expressions': 0,
+    'jsx-a11y/label-has-for': 0,
+    'object-curly-spacing': ["error", 'always'],
+    "comma-dangle": ["error", "always-multiline"],
+    "arrow-body-style": ["error", "as-needed"]
   },
-  "settings": {},
-  "plugins": ["jest"],
-  "rules": {
-      "eqeqeq": ["error", "always"],
-      "arrow-parens": ["error", "as-needed"],
-      "indent": [
-        "error",
-        2,
-        {
-          "SwitchCase": 1,
-          "ignoredNodes": [ "JSXAttribute", "JSXSpreadAttribute", ],
-        }
-      ],
-      "max-len": [
-        "error",
-        {
-          "ignoreTrailingComments": true,
-          "ignoreComments": true,
-          "code": 100
-        }
-      ],
-      "linebreak-style": [
-          0,
-          "unix"
-      ],
-      "quotes": [
-          "error",
-          "single"
-      ],
-      "semi": [
-          "error",
-          "always"
-      ],
-      "brace-style": ["error", "1tbs"],
-      "keyword-spacing": ["error", {"before": true, "after": true}],
-      "new-cap": ["error", { "newIsCap": true }],
-      "no-var": ["error"],
-      "prefer-const": "error",
-      "one-var": ["error", "never"],
-      "space-infix-ops": "error",
-      "no-nested-ternary": "error",
-      "max-params": ["error", 3],
-      "space-before-function-paren": ["error", "always"],
-      "no-console": ["error", { "allow": ["warn", "error"]}]
-  }
 };
