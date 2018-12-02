@@ -31,15 +31,7 @@ app.use(bodyParser.json({
   limit: config.bodyLimit,
 }));
 
-
-// jade
-// this part of code not worked, have no idea why,
-// so need create folder views folder in root project
-// app.set('views', path.join(__dirname, '../views'));
-// app.set('view engine', 'jade');
-// app.use(express.static(path.resolve(__dirname, './public')));
-
-// Authorization0
+// Authorization
 app.use(passport.initialize());
 
 // api routes v1

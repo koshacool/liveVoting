@@ -14,12 +14,13 @@ class Vote extends React.Component {
 
   render() {
     const { poll, pollId, user } = this.props;
-    const isAvailable = poll && (poll.createdBy === user._id || poll.isPublic);
+    const isOwner = poll && poll.createdBy === user._id;
+    const isAvailable = poll && (isOwner || poll.isPublic);
 
     return (
       <Container>
         {isAvailable
-          ? <Question pollId={pollId} />
+          ? <Question pollId={pollId} isOwner={isOwner} />
           : <NoItems noItemsText="This poll is not public" />
         }
       </Container>
@@ -28,7 +29,7 @@ class Vote extends React.Component {
 }
 
 Vote.propTypes = {
-  poll: object.isRequired,
+  poll: object,
   user: object.isRequired,
   pollId: string.isRequired,
   getPollToEdit: func.isRequired,

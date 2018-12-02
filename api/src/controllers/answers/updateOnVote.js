@@ -1,9 +1,9 @@
 const _ = require('lodash');
-const { sendOne } = require('../../middleware/index');
-const { POLL_UNPUBLIC, POLL_ON_PUBLIC, POLL_UPDATE } = require('../../sockets/events');
 const { MethodNotAllowed } = require('rest-api-errors');
+const { sendOne } = require('../../middleware/index');
+const { ANSWERS_UPDATE_ON_VOTE } = require('../../sockets/events');
 
-const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
+const updateOnVote = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
   try {
     const userId = req.user.id;
     const user = await User.findOne({ _id: userId });
@@ -24,10 +24,12 @@ const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
 
     const updatedAnswers = await Answers.find({ questionId: answer.questionId });
 
+    socketIO.emitNotFor(userId, ANSWERS_UPDATE_ON_VOTE, { answers: updatedAnswers });
+
     return sendOne(res, { answers: updatedAnswers });
   } catch (error) {
     next(error);
   }
 };
 
-module.exports = update;
+module.exports = updateOnVote;

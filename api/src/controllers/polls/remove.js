@@ -20,7 +20,6 @@ const remove = ({ User, Polls, Questions, Answers }, { socketIO }) => async (req
     await Questions.deleteOne({ pollId: _id });
 
     if(question) {
-
       await Answers.deleteMany({ questionId: question._id });
     }
 

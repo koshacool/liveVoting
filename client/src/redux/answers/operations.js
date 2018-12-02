@@ -24,3 +24,13 @@ export const removeAnswer = id => async (dispatch) => {
   await remove(`${APIAddresses.ANSWER_ITEM}/${id}`, {}, dispatch);
   dispatch(actions.removeAnswer(id));
 };
+
+// Socket operations
+export const answerUpdateOnVote = answers => async dispatch =>
+  dispatch(actions.updateAnswers(answers));
+
+export const answerUpdate = answer => async dispatch =>
+  dispatch(actions.updateAnswer(answer));
+
+export const answerRemove = id => async dispatch =>
+  dispatch(actions.removeAnswer(id));
