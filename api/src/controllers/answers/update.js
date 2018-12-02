@@ -1,7 +1,7 @@
 const _ = require('lodash');
-const { sendOne } = require('../../middleware/index');
-const { POLL_UNPUBLIC, POLL_ON_PUBLIC, POLL_UPDATE } = require('../../sockets/events');
 const { MethodNotAllowed } = require('rest-api-errors');
+const { sendOne } = require('../../middleware/index');
+const { ANSWER_UPDATE } = require('../../sockets/events');
 
 const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
   try {
@@ -17,6 +17,8 @@ const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
 
     _.extend(answer, partToUpdate);
     const saved = await answer.save();
+
+    socketIO.emitNotFor(userId, ANSWER_UPDATE, { answer: saved });
 
     return sendOne(res, { answer: saved });
   } catch (error) {

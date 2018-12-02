@@ -1,7 +1,7 @@
 const { sendOne } = require('../../middleware');
 const { MethodNotAllowed } = require('rest-api-errors');
 
-const create = ({ User, Polls }, { socketIO }) => async (req, res, next) => {
+const create = ({ User, Polls }) => async (req, res, next) => {
   try {
     const user = await User.findOne({ _id: req.user.id }, { email: 1, fullName: 1 });
 

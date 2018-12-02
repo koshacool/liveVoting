@@ -58,7 +58,11 @@ class MyPolls extends React.Component {
 }
 
 MyPolls.propTypes = {
+  user: PropTypes.object.isRequired,
   polls: PropTypes.array.isRequired,
+  getPolls: PropTypes.func.isRequired,
+  removePoll: PropTypes.func.isRequired,
+  showPrivate: PropTypes.bool.isRequired,
 };
 
 export default MyPolls;

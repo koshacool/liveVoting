@@ -8,7 +8,7 @@ const update = require('./update');
 const remove = require('./remove');
 
 
-module.exports = (models, { config, socketIO }) => {
+module.exports = (models, { socketIO }) => {
   const api = router();
 
   api.post('/create', authenticate, create(models, { socketIO }));

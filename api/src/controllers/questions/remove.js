@@ -1,5 +1,6 @@
-const { sendDeleted } = require('../../middleware/index');
 const { MethodNotAllowed } = require('rest-api-errors');
+const { sendDeleted } = require('../../middleware/index');
+const { QUESTION_REMOVE } = require('../../sockets/events');
 
 const remove = ({ User, Questions, Answers }, { socketIO }) => async (req, res, next) => {
   try {
@@ -12,6 +13,8 @@ const remove = ({ User, Questions, Answers }, { socketIO }) => async (req, res, 
 
     await Questions.deleteOne({ _id });
     await Answers.deleteMany({ questionId: _id });
+
+    socketIO.emitNotFor(user._id, QUESTION_REMOVE, { _id });
 
     return sendDeleted(res, { _id });
   } catch (error) {

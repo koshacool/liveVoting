@@ -1,7 +1,7 @@
 const _ = require('lodash');
-const { sendOne } = require('../../middleware/index');
-const { POLL_UNPUBLIC, POLL_ON_PUBLIC, POLL_UPDATE } = require('../../sockets/events');
 const { MethodNotAllowed } = require('rest-api-errors');
+const { sendOne } = require('../../middleware/index');
+const { QUESTION_UPDATE } = require('../../sockets/events');
 
 const update = ({ User, Questions }, { socketIO }) => async (req, res, next) => {
   try {
@@ -15,10 +15,10 @@ const update = ({ User, Questions }, { socketIO }) => async (req, res, next) => 
       throw new MethodNotAllowed(405, 'Permission denied');
     }
 
-
     _.extend(question, partToUpdate);
     const saved = await question.save();
 
+    socketIO.emitNotFor(userId, QUESTION_UPDATE, { question: saved });
 
     return sendOne(res, { question: saved });
   } catch (error) {
