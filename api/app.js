@@ -23,7 +23,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 // middleware
@@ -37,7 +37,7 @@ app.use(bodyParser.json({
 // so need create folder views folder in root project
 // app.set('views', path.join(__dirname, '../views'));
 // app.set('view engine', 'jade');
-app.use(express.static(path.resolve(__dirname, './public')));
+// app.use(express.static(path.resolve(__dirname, './public')));
 
 // Authorization0
 app.use(passport.initialize());

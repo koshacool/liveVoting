@@ -7,7 +7,6 @@ const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
   try {
     const userId = req.user.id;
     const user = await User.findOne({ _id: userId });
-    const partToUpdate = req.body;
     const { _id } = req.params;
     const answer = await Answers.findOne({ _id });
 
@@ -15,10 +14,17 @@ const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
       throw new MethodNotAllowed(405, 'Permission denied');
     }
 
-    _.extend(answer, partToUpdate);
-    const saved = await answer.save();
 
-    return sendOne(res, { answer: saved });
+    await Answers.updateMany(
+      { questionId: answer.questionId },
+      { $pull: { votedBy: userId } },
+    );
+
+    await Answers.updateOne({ _id }, { $addToSet: { votedBy: userId } });
+
+    const updatedAnswers = await Answers.find({ questionId: answer.questionId });
+
+    return sendOne(res, { answers: updatedAnswers });
   } catch (error) {
     next(error);
   }

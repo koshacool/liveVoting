@@ -5,6 +5,7 @@ const create = require('./create');
 const getList = require('./list');
 const get = require('./get');
 const update = require('./update');
+const updateOnVote = require('./updateOnVote');
 const remove = require('./remove');
 
 
@@ -16,6 +17,7 @@ module.exports = (models, { config, socketIO }) => {
   // api.get('/list', authenticate, getList(models, { socketIO }));
   // api.get('/:_id', authenticate, get(models, { socketIO }));
   api.patch('/:_id', authenticate,  update(models, { socketIO }));
+  api.patch('/vote/:_id', authenticate,  updateOnVote(models, { socketIO }));
   api.delete('/:_id', authenticate, remove(models, { socketIO }));
 
   return api;

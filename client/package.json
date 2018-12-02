@@ -26,6 +26,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-google-login": "^3.2.1",
+    "react-highcharts": "^16.0.2",
     "react-loader-spinner": "^2.2.0",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",

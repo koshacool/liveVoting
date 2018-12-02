@@ -1,5 +1,5 @@
 import React from 'react';
-import _ from 'lodash';
+import { Link } from 'react-router-dom';
 import { object, array, func } from 'prop-types';
 import {
   Container,
@@ -7,15 +7,22 @@ import {
   Form,
   FormGroup,
   Label,
-  Input,
 } from 'reactstrap';
 
 import { findOneByField } from 'utils/helpers';
 import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
 import Question from './Question';
-import  ControlledInput from 'components/ControlledInput';
+import ControlledInput from 'components/ControlledInput';
+import { VOTE } from 'routes';
 
 class EditPoll extends React.Component {
+  static propTypes = {
+    polls: array.isRequired,
+    match: object.isRequired,
+    updatePoll: func.isRequired,
+    getPollToEdit: func.isRequired,
+  };
+
   componentDidMount() {
     const { getPollToEdit } = this.props;
     const pollId = this.getPollId();
@@ -68,28 +75,20 @@ class EditPoll extends React.Component {
             />
           </FormGroup>
 
-          <Question
-            pollId={pollId}
-          />
+          <Question pollId={pollId} />
         </Form>
 
-        <Button
-          onClick={this.createPoll}
-          style={{ position: 'fixed', bottom: '20px', right: '20px' }}
-          disabled
-        >
-          SAVE
-        </Button>
+        <Link to={VOTE.replace(/:id/, pollId)}>
+          <Button
+            style={{ position: 'fixed', bottom: '20px', right: '20px' }}
+          >
+            OPEN
+          </Button>
+        </Link>
       </Container>
     ) : null;
   }
 }
 
-EditPoll.propTypes = {
-  polls: array.isRequired,
-  updatePoll: func.isRequired,
-  getPollToEdit: func.isRequired,
-  match: object.isRequired,
-};
 
 export default EditPoll;
