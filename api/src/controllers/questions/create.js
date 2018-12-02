@@ -1,5 +1,6 @@
-const { sendOne } = require('../../middleware');
 const { MethodNotAllowed } = require('rest-api-errors');
+const { sendOne } = require('../../middleware');
+const { QUESTION_CREATE } = require('../../sockets/events');
 
 const create = ({ User, Questions }, { socketIO }) => async (req, res, next) => {
   try {
@@ -12,6 +13,8 @@ const create = ({ User, Questions }, { socketIO }) => async (req, res, next) => 
 
     const question = new Questions({ pollId });
     const saved = await question.save();
+
+    socketIO.emitNotFor(user._id, QUESTION_CREATE, { question: saved });
 
     return sendOne(res, { question: saved });
   } catch (error) {

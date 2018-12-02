@@ -18,9 +18,7 @@ const update = ({ User, Answers }, { socketIO }) => async (req, res, next) => {
     _.extend(answer, partToUpdate);
     const saved = await answer.save();
 
-console.log(saved)
     socketIO.emitNotFor(userId, ANSWER_UPDATE, { answer: saved });
-
 
     return sendOne(res, { answer: saved });
   } catch (error) {

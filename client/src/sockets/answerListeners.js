@@ -3,14 +3,25 @@ import { io } from 'utils/api';
 import {
   answerUpdate,
   answerRemove,
+  answerCreate,
   answerUpdateOnVote,
 } from 'redux/answers/operations';
 
-const { ANSWER_REMOVE, ANSWER_UPDATE, ANSWERS_UPDATE_ON_VOTE } = socketEvents;
+const {
+  ANSWER_REMOVE,
+  ANSWER_UPDATE,
+  ANSWER_CREATE,
+  ANSWERS_UPDATE_ON_VOTE,
+} = socketEvents;
+
+const onCreateAnswer = dispatch => {
+  io.removeListener(ANSWER_CREATE);
+  io.on(ANSWER_CREATE, ({ answer }) => answerCreate(answer)(dispatch));
+};
 
 const onRemoveAnswer = dispatch => {
   io.removeListener(ANSWER_REMOVE);
-  io.on(ANSWER_REMOVE, ({ answer }) => answerRemove(answer._id)(dispatch));
+  io.on(ANSWER_REMOVE, ({ _id }) => answerRemove(_id)(dispatch));
 };
 
 const onUpdateAnswer = dispatch => {
@@ -24,4 +35,4 @@ const onVoteUpdateAnswer = dispatch => {
     answerUpdateOnVote(answers)(dispatch));
 };
 
-export { onRemoveAnswer, onUpdateAnswer, onVoteUpdateAnswer };
+export { onRemoveAnswer, onUpdateAnswer, onVoteUpdateAnswer, onCreateAnswer };

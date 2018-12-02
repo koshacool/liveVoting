@@ -1,5 +1,6 @@
 import { removePoll, updatePoll, onPublicPoll, unPublicPoll } from './pollListeners';
-import { onUpdateAnswer, onRemoveAnswer, onVoteUpdateAnswer } from './answerListeners';
+import { onCreateQuestion, onUpdateQuestion, onRemoveQuestion } from './questionListeners';
+import { onUpdateAnswer, onRemoveAnswer, onVoteUpdateAnswer, onCreateAnswer } from './answerListeners';
 import { io } from 'utils/api';
 
 const initSockets = (token, dispatch) => {
@@ -10,6 +11,11 @@ const initSockets = (token, dispatch) => {
   onPublicPoll(dispatch);
   unPublicPoll(dispatch);
 
+  onCreateQuestion(dispatch);
+  onUpdateQuestion(dispatch);
+  onRemoveQuestion(dispatch);
+
+  onCreateAnswer(dispatch);
   onUpdateAnswer(dispatch);
   onRemoveAnswer(dispatch);
   onVoteUpdateAnswer(dispatch);

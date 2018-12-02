@@ -1,7 +1,7 @@
 import ioClient from 'socket.io-client';
 
-const url =
-  process.env.NODE_ENV === 'production'
+// eslint-disable-next-line no-undef
+const url = process.env.NODE_ENV === 'production'
     ? `${window.location.hostname}:${window.location.port}`
     : `${window.location.hostname}:3001`;
 

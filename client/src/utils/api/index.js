@@ -5,6 +5,7 @@ import { getTokenHeaderObject } from './authorization';
 import { switchLoader } from 'redux/loader/operations';
 import { handleError } from 'utils/error-handler';
 
+// eslint-disable-next-line no-undef
 const { NODE_ENV } = process.env;
 const rootUrl = NODE_ENV === 'production' ? '' : 'http://localhost:3001';
 
@@ -29,9 +30,7 @@ const makeRequest = async (type, url, data, dispatch) => {
   }
 };
 
-
 // Requests to server
-
 const get = (url, ...args) => makeRequest('get', url, null, ...args);
 const post = (url, ...args) => makeRequest('post', url, ...args);
 const put = (url, ...args) => makeRequest('put', url, ...args);

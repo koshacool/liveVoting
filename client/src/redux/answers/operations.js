@@ -26,6 +26,9 @@ export const removeAnswer = id => async (dispatch) => {
 };
 
 // Socket operations
+export const answerCreate = answer => async dispatch =>
+  dispatch(actions.createAnswer(answer));
+
 export const answerUpdateOnVote = answers => async dispatch =>
   dispatch(actions.updateAnswers(answers));
 
