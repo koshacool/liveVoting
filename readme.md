@@ -1,23 +1,25 @@
-# TODO List
+# Live voting
+It’s time to interact with other people. 
+Live voting lets you create live polls in an instant.
+Ask questions and visualize the answers as they come in, right here, right now.
 
-Todo list is a system for getting organized and staying productive. It may seem complicated on the outside, but the end goal is to spend less time doing the things you have to do so you have more time for the things you want to do.
-Todo list is a simple task manager for everyone. It helps you organized your time.
-
-[Demo](https://koshacool.github.io/ToDoList/)
+[Demo](https://reactvoting.herokuapp.com)
 
 ## Tech stack
 
- - Pure Javascript
+ - React 
+ - Redux 
+ - Express 
+ - SocketIO 
  - [Sass](https://sass-lang.com/)
  - [Webpack](https://webpack.js.org/)
  - [Jest](https://jestjs.io/)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get you a copy of the project up and running on your local machine 
+for development and testing purposes. 
 See deployment for notes on how to deploy the project on a live system.
-
-
 
 ### Installation and usage
 
@@ -26,8 +28,11 @@ Clone the repo
 ```
 $ git clone git@github.com:koshacool/ToDoList.git yourFolderName
 $ cd yourFolderName
-$ npm i
-$ npm run start
+```
+Then run [start.sh](https://github.com/koshacool/liveVoting/blob/master/start.sh) script
+
+```
+$ sh start.sh
 ```
 
 ### Running the tests
@@ -39,11 +44,11 @@ $ npm run test
 ```
 ### Deployment
 
-We use [Travis Ci](https://travis-ci.org/) for deployment. 
-After merge changes into master branch the app will be automatically deployed to server 
-([ToDoList Demo](https://koshacool.github.io/ToDoList/)).
-### Contributing
+To deploy run [deploy.sh](https://github.com/koshacool/liveVoting/blob/master/start.sh) script
+This script built the app and deploy it to [heroku](https://dashboard.heroku.com/)
+([Live Voting Demo](https://reactvoting.herokuapp.com)).
 
+### Contributing
 Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ### Authors
@@ -54,10 +59,6 @@ Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduc
 
 * **[Serhii Yakymuk](https://github.com/serhii-yakymuk)**
 
-### Mockups
-
-* **[Mockflow service](https://wireframepro.mockflow.com/view/M9d1625f8b26756fe401a6b8fa81b3d8a1539193727361#/page/477987137bbc45fb9c42e2f0a9fff10f)**
-
 ### Issue template
 
 * **[template](.github/ISSUE_TEMPLATE/bug.md)**
@@ -65,11 +66,6 @@ Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduc
 ### Pull Request
 
 * **[template](.github/PULL_REQUEST_TEMPLATE.md)**
-
-
-### Additional links
-
-[FRONT-CAMP “facebook” page](https://www.facebook.com/groups/270300106928894/)
 
 ### License
 

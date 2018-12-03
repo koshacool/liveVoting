@@ -3,16 +3,25 @@
 [Auth](#auth)
 - [Sign Up](#sign-up)
 - [Sign Out](#sign-out)
-- [User](#user)
+- [User](#user-profile)
 
-[Lessons](#lessons)
-- [Get Lessons](#get-lessons)
-- [Get Lessons statistic](#get-lessons-statistic)
-- [Get single Lesson](#get-single-lesson)
-- [Get statistic info for user](#get-statistic-info-for-user)
-- [Create lesson](#create-lesson)
-- [Make check-in for lesson](#make-check-in-for-lesson)
-- [Update Lesson](#update-lesson)
+[Polls](#polls)
+- [Create poll](#create-poll)
+- [Update poll](#update-poll)
+- [Remove poll](#remove-poll)
+- [Get poll](#get-poll)
+- [Get polls](#get-available-polls)
+
+[Questions](#questions)
+- [Create question](#create-question)
+- [Update question](#update-question)
+- [Remove question](#remove-question)
+
+[Answers](#answers)
+- [Create answer](#create-answer)
+- [Update answer](#update-answer)
+- [Update answer on vote](#update-answer-on-vote)
+- [Remove answer](#remove-answer)
 
 
 ## Start
