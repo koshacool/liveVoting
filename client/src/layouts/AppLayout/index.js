@@ -1,11 +1,11 @@
-import * as R from 'ramda';
+import { compose } from 'redux'
 import { element } from 'prop-types';
 
 import withLoader from 'utils/withLoader';
 import withUser from 'utils/withUser';
 
 
-const AppLayout = R.compose(
+const AppLayout = compose(
   withLoader,
   withUser
 );

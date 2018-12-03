@@ -53,7 +53,7 @@ class EditPoll extends React.Component {
     const poll = this.getCurrentPoll();
 
     return poll ? (
-      <Container className="mt-5">
+      <Container>
         <Form>
           <FormGroup row>
             <Label for="editTitle">TITLE</Label>

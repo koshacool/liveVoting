@@ -1,5 +1,5 @@
 import React from 'react';
-import * as R from 'ramda';
+import { compose } from 'redux'
 import { connect } from 'react-redux';
 import Vote from 'components/Vote';
 import { findOneByField } from 'utils/helpers';
@@ -8,7 +8,7 @@ import { getPollToEdit } from 'redux/polls/operations';
 
 const VotePage = props => <Vote {...props} />;
 
-export default R.compose(
+export default compose(
   connect(
     ({ polls }, { match }) => {
       const pollId = match.params.id;

@@ -20,7 +20,7 @@ const TogglePublicCheckbox = ({ poll, onPublicityToggle, name, className }) => (
 
 TogglePublicCheckbox.propTypes = {
   poll: PropTypes.object.isRequired,
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   className: PropTypes.string.isRequired,
   onPublicityToggle: PropTypes.func.isRequired,
 };
