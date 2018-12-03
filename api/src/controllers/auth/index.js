@@ -10,45 +10,14 @@ const get = require('./get');
 
  POST /api/v1/auth/sign-in - Sign In
  @params
-       email {string}
-       password {string}
-
- POST /api/v1/auth/sign-up - Sign Un
- @params
-       email {string}
-       password {string}
-       profile: {Object},
-       avatar: {File}
- Get /api/v1/auth/my - Get users info by token
- @header
-        Authorization: Bearer {token}
+       token (string)
  POST /api/v1/auth/sign-out - Sign Out
  @header
         Authorization: Bearer {token}
-
- POST /api/v1/auth/change-password - Change Password
- @header
-       Authorization: Bearer {token}
- @params
-       newPassword {string}
-       password {string}
- POST /api/v1/auth/restore-password - Restore Password
- @params
-       newPassword {string}
-       password {string}
- PATCH /api/v1/users/:_id - Update User details
+ GET /api/v1/user - Get user profile
  @header
         Authorization: Bearer {token}
- @params
-       email {string}
-       avatar {Image}
-       documentApproval {
-                personalId: Boolean
-                scanId: Boolean
-             }
-       profile: {Object}
  **/
-
 module.exports = (models, { config, socketIO }) => {
   const api = router();
 

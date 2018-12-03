@@ -1,4 +1,4 @@
-import { get, post, patch, remove, APIAddresses } from 'utils/api';
+import { post, patch, remove, APIAddresses } from 'utils/api';
 import * as actions from "./questionsActions";
 
 
@@ -16,3 +16,14 @@ export const removeQuestion = id => async dispatch => {
   await remove(`${APIAddresses.QUESTION_ITEM}/${id}`, {}, dispatch);
   dispatch(actions.removeQuestion(id));
 };
+
+
+// Socket operations
+export const questionCreate = question => async dispatch =>
+  dispatch(actions.createQuestion(question));
+
+export const questionUpdate = question => async dispatch =>
+  dispatch(actions.updateQuestion(question));
+
+export const questionRemove = id => async dispatch =>
+  dispatch(actions.removeQuestion(id));

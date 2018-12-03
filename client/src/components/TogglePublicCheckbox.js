@@ -20,6 +20,9 @@ const TogglePublicCheckbox = ({ poll, onPublicityToggle, name, className }) => (
 
 TogglePublicCheckbox.propTypes = {
   poll: PropTypes.object.isRequired,
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  onPublicityToggle: PropTypes.func.isRequired,
 };
 
 export default TogglePublicCheckbox;

@@ -31,22 +31,14 @@ app.use(bodyParser.json({
   limit: config.bodyLimit,
 }));
 
-
-// jade
-// this part of code not worked, have no idea why,
-// so need create folder views folder in root project
-app.set('views', path.join(__dirname, '../views'));
-app.set('view engine', 'jade');
-app.use(express.static(path.resolve(__dirname, './public/build')));
-
-// Authorization0
+// Authorization
 app.use(passport.initialize());
 
 // api routes v1
 app.use('/api/v1', api(config));
 //if (process.env.NODE_ENV === 'production') {
   app.get('*', nocache, (req, res) => {
-    res.sendFile(path.resolve(__dirname, './public/build', 'index.html'));
+    res.sendFile(path.resolve(__dirname, './public', 'index.html'));
   });
 //}
 

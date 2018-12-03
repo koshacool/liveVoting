@@ -2,9 +2,7 @@ const jwt = require('jsonwebtoken');
 const expressJwt = require('express-jwt');
 const { config } = require('../../config');
 
-
 const { SECRET_TOKEN } = process.env;
-
 const authenticate = expressJwt({ secret: SECRET_TOKEN });
 
 

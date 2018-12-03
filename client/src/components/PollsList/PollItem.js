@@ -11,12 +11,12 @@ import {
 } from 'reactstrap';
 import LinkButton from 'components/LinkButton';
 import TogglePublicCheckbox from 'components/TogglePublicCheckbox';
+import { VOTE } from 'routes';
 
-
-const getHumanizeDuration = date => moment.duration(new Date() - date).
-  humanize();
 
 const getTimeAgo = date => `${getHumanizeDuration(date)} ago`;
+const getHumanizeDuration = date =>
+  moment.duration(new Date() - date).humanize();
 
 const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
   const onPublicityToggleHandler = () => onPublicityToggle(poll, !poll.isPublic);
@@ -32,7 +32,7 @@ const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
           {(canEditPoll || poll.isPublic) && (
             <LinkButton
               outline
-              to={`vote/${poll._id}`}
+              to={VOTE.replace(/:id/, poll._id)}
               label="Open"
             />
           )}
@@ -65,14 +65,15 @@ const PollItem = ({ poll, onPublicityToggle, userId, onRemove }) => {
   );
 };
 
-PollItem.defaultProps = {
-  onPublicityToggle: () => true,
-};
-
 PollItem.propTypes = {
   poll: PropTypes.object.isRequired,
-
+  userId: PropTypes.string.isRequired,
+  onRemove: PropTypes.func.isRequired,
   onPublicityToggle: PropTypes.func,
+};
+
+PollItem.defaultProps = {
+  onPublicityToggle: () => true,
 };
 
 export default PollItem;
