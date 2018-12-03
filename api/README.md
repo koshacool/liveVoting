@@ -2,7 +2,6 @@
 
 [Auth](#auth)
 - [Sign Up](#sign-up)
-- [Sign In](#sign-in)
 - [Get profile by token](#get-profile-by-token)
 - [Sign Out](#sign-out)
 - [Change Password](#change-password)
