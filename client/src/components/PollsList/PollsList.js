@@ -16,12 +16,12 @@ class MyPolls extends React.Component {
   onPublicityToggle = async (poll, isPublic) => {
     const { updatePoll } = this.props;
     updatePoll(poll._id,  { isPublic });
-  }
+  };
 
    createPoll = async () => {
     const { createPoll, history } = this.props;
     createPoll(history);
-  }
+  };
 
   render() {
     const { polls, showPrivate, user, removePoll } = this.props;
@@ -62,7 +62,7 @@ MyPolls.propTypes = {
   polls: PropTypes.array.isRequired,
   getPolls: PropTypes.func.isRequired,
   removePoll: PropTypes.func.isRequired,
-  showPrivate: PropTypes.bool.isRequired,
+  showPrivate: PropTypes.bool,
 };
 
 export default MyPolls;

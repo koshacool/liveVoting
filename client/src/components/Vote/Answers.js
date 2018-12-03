@@ -1,5 +1,5 @@
 import React from 'react';
-import * as R from 'ramda';
+import { compose } from 'redux'
 import { array, object, func, bool } from 'prop-types';
 import { Button } from 'reactstrap';
 import { connect } from 'react-redux';
@@ -53,7 +53,7 @@ Answers.defaultProps = {
   answers: [],
 };
 
-export default R.compose(
+export default compose(
   withAnswers,
   connect(
     ({ auth }) => ({ user: auth.user }),
