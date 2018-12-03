@@ -1,4 +1,3 @@
-const _ = require('lodash');
 const { MethodNotAllowed } = require('rest-api-errors');
 const { sendOne } = require('../../middleware/index');
 const { ANSWERS_UPDATE_ON_VOTE } = require('../../sockets/events');

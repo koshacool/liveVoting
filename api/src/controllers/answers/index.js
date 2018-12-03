@@ -11,8 +11,8 @@ module.exports = (models, { socketIO }) => {
 
   api.post('/create', authenticate, create(models, { socketIO }));
   api.patch('/:_id', authenticate, update(models, { socketIO }));
-  api.delete('/:_id', authenticate, remove(models, { socketIO }));
   api.patch('/vote/:_id', authenticate, updateOnVote(models, { socketIO }));
+  api.delete('/:_id', authenticate, remove(models, { socketIO }));
 
   return api;
 };
