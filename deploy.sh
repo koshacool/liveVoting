@@ -2,6 +2,8 @@
 
 git checkout -b heroku
 git merge dev
+rm -Rf api/public
+
 ## Build client
 cd client
 npm i
