@@ -55,10 +55,6 @@ Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduc
 
 * **[Roman Kushytskyy](https://github.com/koshacool)** - *Initial work*
 
-### Teachers
-
-* **[Serhii Yakymuk](https://github.com/serhii-yakymuk)**
-
 ### Issue template
 
 * **[template](.github/ISSUE_TEMPLATE/bug.md)**
